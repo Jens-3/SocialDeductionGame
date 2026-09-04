@@ -1,0 +1,22 @@
+Social Deduction Game ist ein vollständig offline nutzbarer Assistent für die Spielleitung von Werwolf, Mafia und anderen Social-Deduction-Spielen.
+
+<b>Spiele vorbereiten</b>
+<ul>
+<li>Eigene Regelwerke, Teams, Rollen und Zustände verwalten</li>
+<li>Spieler und Sitzordnung vorbereiten</li>
+<li>Rollen zufällig, nach ausgewählten Rollen oder manuell verteilen</li>
+</ul>
+
+<b>Spiele leiten</b>
+<ul>
+<li>Sitzkreis mit Rollen, Teams und Spielerstatus im Blick behalten</li>
+<li>Rollen einzeln im Vollbild anzeigen</li>
+<li>Nachtaufrufe in der richtigen Reihenfolge durchführen</li>
+<li>Tag, Nacht, Leben, Tod und vorübergehende Zustände verwalten</li>
+</ul>
+
+Spielstände, Vorlagen und Regelwerke lassen sich speichern, laden, importieren und exportieren. Bibliothekssicherungen erleichtern den Umzug auf ein anderes Gerät.
+
+Alle Spiel- und Bibliotheksdaten bleiben lokal auf dem Gerät. Die App benötigt kein Konto und enthält weder Werbung noch Tracking.
+
+Social Deduction Game ist Freie Software unter der GNU Affero General Public License, Version 3.

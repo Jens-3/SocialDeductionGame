@@ -1,0 +1,6 @@
+Première publication sur F-Droid.
+
+• Assistance au maître de jeu entièrement hors ligne
+• Règles et attribution des rôles et des équipes
+• Cercle des places, affichage des rôles et liste de nuit
+• Interface localisée et accessible

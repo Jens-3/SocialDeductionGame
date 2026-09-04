@@ -1,0 +1,22 @@
+Social Deduction Game is a fully offline assistant for moderating Werewolf, Mafia, and other social deduction games.
+
+<b>Prepare games</b>
+<ul>
+<li>Manage custom rule sets, teams, roles, and statuses</li>
+<li>Prepare players and the seating order</li>
+<li>Assign roles randomly, from a selected set, or manually</li>
+</ul>
+
+<b>Run games</b>
+<ul>
+<li>Keep track of the seating circle, roles, teams, and player status</li>
+<li>Show each player their role in a dedicated full-screen view</li>
+<li>Work through night actions in the correct order</li>
+<li>Manage day, night, life, death, and temporary statuses</li>
+</ul>
+
+Games, templates, and rule sets can be saved, loaded, imported, and exported. Library backups make it easy to move your data to another device.
+
+All game and library data stays locally on the device. The app requires no account and contains no advertising or tracking.
+
+Social Deduction Game is free software licensed under the GNU Affero General Public License, version 3.

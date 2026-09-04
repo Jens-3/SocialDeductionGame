@@ -1,0 +1,6 @@
+Erste Veröffentlichung bei F-Droid.
+
+• Vollständig offline nutzbare Spielleitung
+• Regelwerke, Rollen- und Teamverteilung
+• Sitzkreis, Rollenanzeige und Nachtliste
+• Lokalisierte und barrierearme Oberfläche

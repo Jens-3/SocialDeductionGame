@@ -1,0 +1,104 @@
+{
+  "id": "game_golden_contract",
+  "name": "Golden Contract",
+  "isTemplate": false,
+  "createdAt": "2026-01-02T03:04:05.000Z",
+  "ruleSetSnapshot": {
+    "id": "ruleset_test_rules",
+    "name": "Test Rules",
+    "version": 1,
+    "teams": [
+      {
+        "id": "t_good",
+        "name": "Good",
+        "teamOrder": 10
+      },
+      {
+        "id": "t_evil",
+        "name": "Evil",
+        "teamOrder": 20
+      },
+      {
+        "id": "t_unknown",
+        "name": "Unknown",
+        "teamOrder": 999,
+        "isSystem": true
+      }
+    ],
+    "roles": [
+      {
+        "id": "r_seer",
+        "name": "Seer",
+        "teamId": "t_good",
+        "expectsVisual": false,
+        "isUnique": true
+      },
+      {
+        "id": "r_villager",
+        "name": "Villager",
+        "teamId": "t_good",
+        "expectsVisual": false,
+        "isUnique": false
+      },
+      {
+        "id": "r_wolf",
+        "name": "Wolf",
+        "teamId": "t_evil",
+        "expectsVisual": false,
+        "isUnique": true
+      }
+    ]
+  },
+  "names": {
+    "de": "Goldene Nacht",
+    "en": "Golden Night"
+  },
+  "players": [
+    {
+      "id": "p_player1",
+      "name": "Grüne Spielerin",
+      "names": {
+        "de": "Grüne Spielerin"
+      },
+      "lifeState": "alive",
+      "roles": {
+        "actualRoleId": "r_seer",
+        "shownRoleIds": [
+          "r_seer"
+        ],
+        "nightRoleId": "r_seer"
+      },
+      "statuses": []
+    }
+  ],
+  "seatOrder": [
+    "p_player1"
+  ],
+  "time": {
+    "currentNight": 2,
+    "phase": "day"
+  },
+  "log": [
+    {
+      "id": "log_golden_entry",
+      "night": 2,
+      "phase": "day",
+      "createdAt": "2026-01-02T04:05:06.000Z",
+      "type": "golden-contract",
+      "actor": "storyteller",
+      "text": "Vertragseintrag",
+      "payload": {
+        "playerId": "p_player1"
+      }
+    }
+  ],
+  "rolesForShowing": {
+    "roles": [
+      "r_seer"
+    ],
+    "notice": "Bitte zeigen",
+    "showRoleSymbols": true
+  },
+  "fileType": "social-deduction-game",
+  "schemaVersion": 1
+}

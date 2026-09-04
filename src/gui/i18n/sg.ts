@@ -1,0 +1,707 @@
+// Machine-translated Sango localization; native-speaker review recommended.
+import type { GuiTranslationKey } from "./de";
+import type { GuiTranslationMessage } from "./messages";
+
+export const sangoGuiMessages = {
+	"common.back": "Kiri na peko",
+	"common.cancel": "zi ni",
+	"common.close": "Akanga",
+	"common.later": "Ga na ngoi ti peko",
+	"common.import": "Yongo ye",
+	"common.export": "Toka na mbeni ndo",
+	"common.share": "Kangbi",
+	"common.rename": "Changé iri ni",
+	"common.duplicate": "Double",
+	"common.delete": "Zi ni",
+	"common.deletePermanently": "Effacé ni biani biani",
+	"common.name": "Iri",
+	"common.unknown": "hinga pepe",
+	"common.detailsParenthetical": "(Akete tene)",
+	"common.schemaVersion": "Version ti schéma",
+	"common.actionsFor": "Asarango ye ndali ti .",
+	"common.moreActionsFor": "A yeke sara ambeni ye mingi ndali ti . {name}",
+	"common.cancelImport": "Annulé importation",
+	"common.tryRepair": "Tara ti leke ni .",
+	"common.keepBoth": "Bata aye use so kue .",
+	"common.restored": "A kiri a leke ni {index}",
+	"common.ok": "EN-EN",
+	"common.next": "Ti peko",
+	"common.save": "Bata",
+	"common.saving": "Ti bata ...",
+	"common.select": "Soro ye …",
+	"common.overwrite": "Sû na ndo ni",
+	"common.retry": "Tara encore .",
+	"common.yes": "En",
+	"common.no": "En-en",
+
+	"home.eyebrow": "Modérateur ti jeu",
+	"home.mainMenu": "Kota menu",
+	"home.continueGame": "Ngbâ ti sara jeu .",
+	"home.latestSave": "Dernier jeu so a bata ni",
+	"home.noCurrentGame": "Mbeni jeu ti fadeso ayeke dä pëpe .",
+	"home.newGame": "Fini jeu .",
+	"home.loadGame": "Charge ti jeu .",
+	"home.manageScenarios": "Sara kua na a-événement",
+	"home.settings": "Paramètres",
+	"home.exitApp": "Sortie ti appli",
+	"home.exitQuestion": "Sortie ti appli?",
+	"home.exitConfirm": "Hon",
+	"home.exitAnyway": "Sortie en toute façon",
+	"home.activeWrites": {
+		plural: {
+			other: "{count} a-opération ti sauvegarde ni angbâ ti sara kua.",
+		},
+	},
+
+	"newGame.title": "Fini jeu .",
+	"newGame.startingPoint": "Ndo ti tongo nda ni .",
+	"newGame.useRuleSet": "Lo leke andia ({count})",
+	"newGame.ruleSetDetail": "Soro mbeni fini joueur na iri ti lo .",
+	"newGame.useTemplate": "Lo mû modèle ({count})",
+	"newGame.templateDetail": "Lo leke mbeni jeu so lo leke awe .",
+	"newGame.ruleSet": "Ndia so a zia",
+	"newGame.template": "Modèle",
+	"newGame.noEntries": "Azo ti lï na yâ ni ayeke dä pëpe .",
+	"newGame.noRuleSets": "A yeke wara pëpe ambeni ndia.",
+	"newGame.noTemplates": "A yeke wara pëpe a-modèle.",
+	"newGame.playerCount": "Joueur ti wungo",
+	"newGame.gameName": "Iri ti jeu",
+	"newGame.generatedName": "A sara ni automatiquement",
+	"newGame.prepare": "Leke jeu .",
+	"newGame.noRuleSetSelected": "A soro mbeni ndia pëpe.",
+	"newGame.noTemplateSelected": "A soro mbeni modèle pëpe.",
+
+	"loadGame.title": "Charge ti jeu .",
+	"loadGame.search": "Gi a-jeu so a bata ni .",
+	"loadGame.reading": "Dikongo angia so a bata ...",
+	"loadGame.repairImportQuestion": "A leke fichier ti importation ni?",
+	"loadGame.alreadyExists": "Jeu so a bata ni ayeke dä awe .",
+	"loadGame.existingFile": "Fichier so ayeke dä",
+	"loadGame.importedFile": "Fichier so a importé ni",
+	"loadGame.overwriteExisting": "Sû na ndo ti fichier so ayeke dä awe",
+	"loadGame.players": {
+		plural: {
+			other: "{count} azo ti jouer",
+		},
+	},
+	"loadGame.loading": "A yeke charge ...",
+	"loadGame.noMatches": "A wara pëpe ambeni jeu so alingbi na ni.",
+	"loadGame.deleteQuestion": "Vraiment supprimé “ .{name}”?",
+	"loadGame.setup": "Londo",
+	"loadGame.night": "Lakui {number}",
+	"loadGame.day": "Lango {number}",
+	"loadGame.readError": "A lingbi ti diko jeu so a bata ni pëpe.",
+
+	"scenarios.title": "Sara kua na a-événement",
+	"scenarios.filter": "Filtre scénario",
+	"scenarios.filter.all": "Kwe",
+	"scenarios.filter.ruleSets": "Abungbi ti andia",
+	"scenarios.filter.templates": "Modèle",
+	"scenarios.ruleSet": "Ndia so a zia",
+	"scenarios.template": "Modèle",
+	"scenarios.reading": "Dikongo scénario ...",
+	"scenarios.empty": "A yeke wara pëpe ambeni scénario.",
+	"scenarios.create": "Leke",
+	"scenarios.newRuleSet": "Afini ndia so a zia",
+	"scenarios.invalidRuleSet": "Ndia so ayeke na lege ni pëpe",
+	"scenarios.ruleSetMetadata":
+		"Mbeti {version} · · {teams} équipes · {roles} akua",
+	"scenarios.templateMetadata": {
+		plural: {
+			other: "{count} asiège · {ruleSet}",
+		},
+	},
+	"scenarios.savedAt": "A bata: {date}",
+	"scenarios.newWorkingCopy": "Fini copie ti kusala .",
+	"scenarios.duplicated": "A sara ni fani use",
+	"scenarios.detailsReading": "Dikongo anzene nzene ye ...",
+	"scenarios.loadError": "A lingbi ti sara scénario ni pëpe.",
+	"scenarios.exportUnsupported":
+		"Storage ti fadeso ayeke mû maboko pëpe na exportation.",
+	"scenarios.exported": "“ .{name}” a tokua ni.",
+	"scenarios.shared": "“ .{name}” a kangbi ni.",
+	"scenarios.copySaved": "A bata fini copie ni.",
+	"scenarios.changesSaved": "A changé achangement.",
+	"scenarios.justSaved": "A bata gi .",
+	"scenarios.detailExported": "Scénario ti exportation.",
+	"scenarios.detailShared": "Scénario so a kangbi ni.",
+	"scenarios.deleted": "“ .{name}” a supprimé ni.",
+	"scenarios.renamed": "A changé iri ni na “ .{name}”.",
+	"scenarios.duplicatedMessage": "“ .{name}” so a sû ni use.",
+	"scenarios.restoredRestriction":
+		"A lingbi ti sara gi copie ti mbeni modèle so a kiri a leke ni wala ti tokua ni na gigi.",
+	"scenarios.repairImportQuestion": "A leke fichier ti importation ni?",
+	"scenarios.ruleSetExists": "Mbeni ndia ayeke dä awe",
+	"scenarios.templateExists": "Modèle ni ayeke dä awe .",
+	"scenarios.existingObject": "Ye so ayeke dä awe",
+	"scenarios.importedObject": "Ye so alondo na kodoro wande",
+	"scenarios.overwriteExisting": "Sû na ndo ti aye so ayeke dä awe",
+	"scenarios.deleteQuestion": "Vraiment supprimé “ .{name}”?",
+
+	"settings.title": "Paramètres",
+	"settings.general": "Kota ye",
+	"settings.language": "Yanga",
+	"settings.language.system": "Ayanga ti kodoro ti système",
+	"settings.appearance": "Lo kpa ye",
+	"settings.theme.system": "Kode ti fango tene",
+	"settings.theme.light": "La",
+	"settings.theme.dark": "Voko ndo",
+	"settings.duringGame": "Na ngoi ti jeu ni .",
+	"settings.hideExpiredStatuses": "Honde a-état so ahon awe",
+	"settings.seatCircleNorthFirst":
+		"Zia kozo place ni na li ti tableau ti place ti duti so ayeke cercle.",
+	"settings.seatCircleNorthLast":
+		"Zia ndangba place ni na li ti tableau ti place ti duti so ayeke cercle.",
+	"settings.seatCircleClockwise": "Na mbage ti montre",
+	"settings.seatCircleCounterClockwise": "Counterclockwise", // This value isn't accurate translated, yet.
+	"settings.keepScreenAwake": "Zia écran ni angbâ na zingo .",
+	"settings.hapticFeedback": "Akiringo tënë ti haptique",
+	"settings.autoRotate": "Rotation automatiquement",
+	"settings.accessibility": "Azo alingbi ti wara ni",
+	"settings.textSize": "Kota ti mbeti",
+	"settings.textSize.small": "Kete",
+	"settings.textSize.standard": "Ngbere ye",
+	"settings.textSize.large": "Akono",
+	"settings.reduceMotion": "Mo yeke sara mouvement .",
+	"settings.data": "Asango",
+	"settings.createBackup": "Sara sauvegarde .",
+	"settings.exportLibrary": "Bibliothèque ti exportation",
+	"settings.shareBackup": "Partagé sauvegarde",
+	"settings.shareLibrary":
+		"Tokua bibliothèque ni na lege ti mbeni application nde .",
+	"settings.backupShared": "Sauvegarde ti kangbingo.",
+	"settings.restoreLibrary": "Kiri na bibliothèque .",
+	"settings.replaceLibrary": "Zia na place ti bibliothèque .",
+	"settings.deleteAllData": "Effacé asango kue",
+	"settings.about": "Na ndo ni",
+	"settings.version": "Mbeti",
+	"settings.licenseSummaryDisclaimer":
+		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
+	"settings.viewLicense": "Bâ licence ni",
+	"settings.copyrightHolder": "Zo so ayeke na droit ti sungo mbeti",
+	"settings.softwareLicense": "Licence ti logiciel",
+	"settings.openSourceLicenses": "A-licence ti source ouverte",
+	"settings.licenseNotice":
+		"A mû mbeni garanti pëpe. Mo lingbi ti sara kua na, ti changé nga ti kiri ti kangbi logiciel so na lege ti andia ti AGPL-3.0-only.",
+	"settings.backupCreated": "A leke sauvegarde ti bibliothèque.",
+	"settings.restoreComplete": "A kiri a leke bibliothèque ni kue.",
+	"settings.restoreDiscarded": {
+		plural: {
+			other:
+				"A kiri a leke bibliothèque ni. {count} a bi andia so ayeke na lege ni pëpe.",
+		},
+	},
+	"settings.replaceQuestion": "Ti mû place ti bibliothèque ni kue?",
+	"settings.replaceDescription":
+		"A yeke zia ande na place ti bibliothèque so ayeke dä fadeso “ .{fileName}”.",
+	"settings.currentStorageVersion": "Version ti batango ye ti fadeso",
+	"settings.importedStorageVersion": "Version ti batango ye so a ga na ni",
+	"settings.unknown": "hinga pepe",
+	"settings.validRuleSets": "Abungbi ti andia so ayeke na lege ni",
+	"settings.discardedRuleSets": "A leke andia ti bi .",
+	"settings.invalidRuleSetsDiscarded":
+		"A yeke bi ande andia so ayeke na lege ni pëpe: {ids}",
+	"settings.importValidOnly": "Importation ni ayeke gi oko",
+	"settings.tryRepair": "Tara ti leke ni .",
+	"settings.saveFailedTitle": "A lingbi ti bata a-paramètre ni pëpe.",
+	"settings.saveFailedQuestion": "Mo ye ti kiri ti tara ni?",
+
+	"error.unknown": "Faute so a hinga ni pëpe.",
+	"error.technicalDetails": "Akete kete ye ti technique",
+	"error.technicalInline": "Akete tënë ti technique: {details}",
+	"error.details.copy": "Copié anzene nzene ye ni .",
+	"error.details.copied": "A sara copie ni",
+	"error.details.source": "Ndo so alondo mbeni ye",
+	"error.details.operation": "Kua ti sarango ni",
+	"error.details.subject": "Tene ni",
+	"error.details.reason": "Nda ni",
+	"error.details.diagnostic": "Ti hinga kobela",
+	"error.details.type": "Mara ti faute",
+	"error.details.message": "Message ti erreur",
+	"error.details.cause": "Nda ni",
+	"error.details.stack": "Trace ti pile",
+	"error.unexpected":
+		"Faute ti application so zo aku tere ti lo na ni pëpe. Pardon, fa tënë ti faute so.",
+	"error.dataNotFound": "A lingbi ti wara asango so a bata ni pëpe.",
+	"error.dataUnreadable": "A lingbi ti diko pëpe asango so a bata ni.",
+	"error.storageUnavailable": "Storage ni ayeke fadeso dä pëpe.",
+	"error.diskFull":
+		"Storage ni asi singo na azo. Zia ambeni ndo na tara ni encore.",
+	"error.writeFailed": "A lingbi ti bata asango ni nzoni pëpe.",
+	"error.targetExists": "Data ayeke dä awe na ndo ti batango ye.",
+	"error.invalidFileReference":
+		"Référence ti fichier ni ayeke na lege ni pëpe.",
+	"error.incompleteRecovery": "Asango ti kiringo na ni ayeke nzoni pëpe.",
+	"error.invalidJson": "Fichier ni ayeke na JSON so ayeke na lege ni pëpe.",
+	"error.invalidDocument":
+		"Fichier ni ayeke na mbeni structure so ayeke na lege ni pëpe.",
+	"error.unsupportedVersion": "Version ti fichier ni ayeke dä pëpe.",
+	"error.encodingFailed": "A lingbi ti diko kode ti fichier ni pëpe.",
+	"error.invalidObject": "Ye so a bata ni ayeke na lege ni pëpe.",
+	"error.repairFailed": "A lingbi ti leke ye so a bata ni pëpe.",
+	"error.decisionExpired":
+		"Desizion so a hunda ni ayeke sala kusala mbeni pëpe.",
+	"error.decisionRequired":
+		"A hunda ti mû desizion kozoni si opération so angbâ ti gue na li ni.",
+	"error.invalidDecision": "Desizion so ayeke dä pëpe teti kusala ti fadeso.",
+	"error.wrongObjectKind":
+		"Fichier so a soro ni ayeke pëpe mara ti aye so a ku ti wara ni.",
+	"error.invalidValue": "Mbeni ngele ti entrée ayeke na lege ni pëpe.",
+	"error.preconditionNotMet":
+		"A lingbi ti sara opération ni na yâ ti kodoro ni pëpe.",
+	"error.protectedObject":
+		"A lingbi ti changé wala ti zi aye so ayeke na yâ ti kua ni fadeso pëpe.",
+	"error.entityNotFound": "A lingbi ti wara ye so a hunda ni pëpe.",
+	"error.unsupportedMediaType":
+		"A yeke wara mara ti fichier so a soro ni pëpe.",
+	"error.invalidResourceSource": "Image ni ayeke na lege ni pëpe.",
+	"error.unsafeResourceSource":
+		"A ke lingu ti image ni ndali ti ambeni raison ti sécurité.",
+	"error.ruleSetInvalid":
+		"Abungbi ti andia so a bata ni ayeke na mbeni structure so ayeke na lege ni pëpe.",
+	"error.fileNameInvalid": "Iri ti fichier ni ayeke na lege ni pëpe.",
+	"error.savedDataUnreadable": "A lingbi ti diko pëpe asango so a bata ni.",
+	"error.savedDataInvalidJson":
+		"Asango so a bata ni ayeke na JSON so ayeke na lege ni pëpe.",
+	"error.savedObjectInvalid":
+		"Ye so a bata ni ayeke na mbeni structure so ayeke na lege ni pëpe.",
+	"error.savedObjectUnsupportedVersion":
+		"Version ti aye so a bata ni ayeke dä pëpe.",
+	"error.savedObjectEncodingFailed":
+		"A lingbi ti diko kode ti ye so a bata ni pëpe.",
+	"error.savedObjectProcessingFailed":
+		"A lingbi ti sara kua na ye so a bata ni pëpe.",
+	"error.objectStoreMissing": "A lingbi ti wara ndo ti batango aye ni pëpe.",
+	"error.objectStoreUnreadable":
+		"A lingbi ti diko mbeti ti batango aye ni pëpe.",
+	"error.objectStoreInvalidJson":
+		"Magasin ti aye ni ayeke na JSON so ayeke na lege ni pëpe.",
+	"error.objectStoreInvalid":
+		"Magasin ti aye ni ayeke na mbeni nzoni structure pëpe.",
+	"error.objectStoreUnsupportedVersion":
+		"Version ti magasin ti aye ni ayeke dä pëpe.",
+	"error.objectStoreEncodingFailed":
+		"A lingbi ti diko kode ti batango aye ni pëpe.",
+	"error.objectStoreProcessingFailed":
+		"A lingbi ti sara kua na magazin ti aye ni pëpe.",
+	"error.newFileMissing": "Afini fichier ni ayeke dä pëpe.",
+	"error.incompleteWrite": "Opération ti sauvegarde ni ayeke hunzi pëpe.",
+	"error.ruleSetStoreInvalidJson":
+		"Magasin ti ndia ni ayeke na JSON so ayeke na lege ni pëpe.",
+	"error.ruleSetsUnreadable": "A lingbi ti diko andia so a bata ni pëpe.",
+	"error.ruleSetStoreInvalid":
+		"Magasin ti ndia ni ayeke na mbeni structure so ayeke na lege ni pëpe.",
+	"errorBoundary.eyebrow": "Faute ti application",
+	"errorBoundary.title": "A lingbi ti fa interface ni pëpe.",
+	"errorBoundary.retry": "Tara encore .",
+
+	"success.imported.game": "A bata jeu “ .{name}” a mû ni.",
+	"success.imported.template": "Modèle “ .{name}” a mû ni.",
+	"success.imported.ruleSet": "Ndia so a zia “ .{name}” a mû ni.",
+	"success.imported.library": "Bibliothèque ti kodoro ni.",
+	"success.recovered.game": "A bata jeu “ .{name}” a kiri a leke ni.",
+	"success.recovered.template": "Modèle “ .{name}” a kiri a leke ni.",
+	"success.recovered.ruleSet": "Ndia so a zia “ .{name}” a kiri a leke ni.",
+	"success.recovered.library": "Bibliothèque ni a kiri a leke ni.",
+	"success.restored.library": "Bibliothèque so a kiri na ni na sauvegarde.",
+	"success.repaired.game": "A bata jeu “ .{name}” a leke ni.",
+	"success.repaired.template": "Modèle “ .{name}” a leke ni.",
+	"success.repaired.ruleSet": "Ndia so a zia “ .{name}” a leke ni.",
+	"success.repaired.library": "A leke bibliothèque ni.",
+
+	"repairReport.title": "A leke bibliothèque ni .",
+	"repairReport.acceptedRuleSets": {
+		plural: {
+			other: "{count} a yeda na ambeni ndia.",
+		},
+	},
+	"repairReport.removedRuleSets": "A zi ambeni ndia .",
+	"repairReport.removed.notAnObject":
+		"Entrée ti ndia so a bata ni ayeke pëpe mbeni ye.",
+	"repairReport.removed.repairFailed":
+		"A lingbi ti leke andia so a zia na sese pëpe.",
+	"repairReport.change.missingStatusDefinitionAdded":
+		"Ndia so a zia {ruleSetLabel}: a zia na ndo ni nda ti tënë ti statut so amanke “ .{status}”.",
+	"repairReport.change.ruleSetUnknownFieldsRemoved":
+		"Ndia so a zia {ruleSetLabel}: a zi ambeni ye so a hinga ni pëpe ({fields}).",
+	"repairReport.change.teamUnknownFieldsRemoved":
+		"Kundu ti azo {index} na {ruleSetLabel}: a zi ambeni ye so a hinga ni pëpe ({fields}).",
+	"repairReport.change.roleUnknownFieldsRemoved":
+		"Kua {index} na {ruleSetLabel}: a zi ambeni ye so a hinga ni pëpe ({fields}).",
+	"repairReport.change.statusUnknownFieldsRemoved":
+		"Dutingo ti zo {index} na {ruleSetLabel}: a zi ambeni ye so a hinga ni pëpe ({fields}).",
+	"repairReport.change.ruleSetIdCollisionResolved":
+		"Ndia so a zia {storedId}: achangé ID ti collision na “ .{newId}”.",
+	"repairReport.change.ruleSetsContainerReplaced":
+		"A zia na place ti ruleSetsById so amanke wala so ayeke na lege ni pëpe mbeni bozo so ayeke senge.",
+	"repairReport.change.libraryUnknownFieldsRemoved":
+		"Bibliothèque: a zi ambeni ye so zo ahinga ni pëpe ({fields}).",
+	"repairReport.change.insertedMissingQuote":
+		"A zia mbeni guillemet so amanke na place ni . {position}.",
+	"repairReport.change.addedClosingBraces": {
+		plural: {
+			other: "A zia na ndo ni {count} manke a-appareil ti fermeture.",
+		},
+	},
+	"repairReport.change.addedOpeningBraces": {
+		plural: {
+			other: "A zia na ndo ni {count} manke a-ouverture ti bracelet.",
+		},
+	},
+
+	"game.menu.open": "Zi menu ti jeu .",
+	"game.menu.title": "Menu ti jeu",
+	"game.menu.actions": "Asarango ye ti jeu",
+	"game.menu.save": "Save jeu",
+	"game.menu.saveAs": "Sauvegarder jeu comme .",
+	"game.menu.saveAsTemplate": "Enregistrer jeu comme modèle .",
+	"game.menu.exit": "Sortie ti jeu",
+	"game.menu.manageEntities": "Sara kua na a-équipe, akua nga na a-état",
+	"game.menu.randomizeRoles": "Zia akua na azo na lege ti mbana .",
+	"game.menu.shufflePlayers": "Azo ti jouer ti Shuffle", // This value isn't accurate translated, yet.
+	"game.menu.rolesForShowing": "A-rôle so a lingbi a fa ni .",
+	"game.menu.showLog": "Fa log",
+	"game.menu.settings": "Paramètres",
+	"game.currentGame": "Jeu ti fadeso",
+	"game.unlockSeatOrder": "Zia commande ti place ti duti",
+	"game.lockSeatOrder": "Commande ti place ti duti",
+	"game.playerOverview": "Akota tënë ti joueur",
+	"game.seatOrder": "Ordre ti place ti duti",
+	"game.zoomControls": "Zoom ti cercle ti dutingo",
+	"game.zoomOut": "Zoom na ndo ti cercle ti dutingo",
+	"game.zoomIn": "Zoom na yâ ti cercle ti dutingo",
+	"game.zoomLevel": "Niveau ti zoom: {percent} 100",
+	"game.showSeatCircle": "Fa cercle ti dutingo",
+	"game.showPlayerOverview": "Fa bango ndo ti joueur ni",
+	"game.seatAccessible": "Ngbonda ti lo {seat}{marker}",
+	"game.sourceAndTargetSuffix": ", lingu na cible .",
+	"game.sourceSuffix": ", ndo so alondo mbeni ye",
+	"game.targetSuffix": ", aleke ni",
+	"game.deleteSeat": "Effacé place {seat}",
+	"game.addPlayerAfterSeat": "Ajouter joueur na peko ti place {seat}",
+	"game.flow": "Jeu courant",
+	"game.showRoles": "Fa akua .",
+	"game.nightList": "Liste ti bï",
+	"game.seat": "Ngbonda ti lo {seat}",
+	"game.details": "Akete tene",
+	"game.actionsForSeat": "Asarango ye ndali ti place ti duti {seat}",
+	"game.deleteSelectedSeat": "Effacé place so a soro ni {seat}",
+	"game.addPlayerAfterSelectedSeat":
+		"A zia joueur na peko ti place so a soro ni . {seat}",
+	"game.restoreSplitView": "Kiri na vukongo ndo",
+	"game.showDetailsFullscreen": "Fa anzene nzene ye na ndo ti écran ni kue .",
+	"game.manualSeat": "Numéro ti place ti duti",
+	"game.selectSeat": "Soro place ti duti .",
+	"game.lifeState": "Statut ti fini",
+	"game.life.alive": "Lo yeke na fini",
+	"game.life.deadVoteAvailable": "Kuâ – vote ni ayeke dä .",
+	"game.life.deadVoteSpent": "Kuâ – vote ti .",
+	"game.life.doubleDeadVoteAvailable": "Double kuâ – vote ayeke dä .",
+	"game.life.doubleDeadVoteSpent": "Double kuâ – vote ti .",
+	"game.life.aliveShort": "Lo yeke na fini",
+	"game.life.deadVoteAvailableShort": "Kuâ · vote ni ayeke dä",
+	"game.life.deadVoteSpentShort": "Kuâ · vote ti .",
+	"game.life.doubleDeadVoteAvailableShort": "Double kuâ · vote ayeke dä",
+	"game.life.doubleDeadVoteSpentShort": "Double kuâ · vote dépensé",
+	"game.noRole": "Role ayeke dä pëpe",
+	"game.team": "Kundu ti azo",
+	"game.rolesWithoutTeam": "Sans équipe .",
+	"game.role.actual": "Tâ kusala",
+	"game.role.shown": "A fa kusala ti lo .",
+	"game.role.night": "Role ti bï",
+	"game.role.claimed": "Role so a hunda",
+	"game.statuses": "Statut",
+	"game.status": "Dutingo ti zo",
+	"game.statusDuration": "Lakui {from}–{until}",
+	"game.openEnded": "zi",
+	"game.newStatus": "Fini statut .",
+	"game.deletePlayer": "Effacé joueur",
+	"game.player": "Joueur",
+	"game.selectPlayer": "Soro joueur ...",
+	"game.addPlayer": "+ Joueur",
+	"game.deleteEmptySeat": "Effacé place so ayeke senge",
+	"game.emptySeat": "Dutingo so ayeke senge.",
+	"game.selectSeatPrompt": "Soro mbeni ndo ti duti.",
+	"game.playerWithName": "Joueur: {name}",
+	"game.deleteQuestion": "zi ni?",
+	"game.newSeatAfter": "fini place na peko ti .",
+	"game.addQuestion": "za da?",
+	"game.seatActionCancel": "zi ni",
+	"game.unsavedTitle": "Jeu ni ayeke encore ape.",
+	"game.saveAndExit": "Sauvegarder na sortie jeu .",
+	"game.exitWithoutSaving": "Sortie jeu sans sauvegarder .",
+	"game.saveFailedTitle": "A lingbi ti bata fichier ni pëpe.",
+	"game.targetExists": "Mbeni fichier so ayeke na iri so ayeke dä awe.",
+	"game.saveRecoveryQuestion":
+		"Nyen la mo ye ti sara na kusala ti batango ye so ahon ndo ni?",
+	"game.storageCommandInactive":
+		"Komandema ti batango ye ni ayeke sala kusala mbeni pëpe.",
+	"game.decideLater": "Desizion na pekoni .",
+	"game.setup": "Londo",
+	"game.nightNumber": "Lakui {number}",
+	"game.dayNumber": "Lango {number}",
+	"game.backToGame": "Kiri na jeu .",
+	"game.log.title": "Li ni",
+	"game.log.empty": "A sû iri ti lo na mbeti pëpe.",
+	"game.log.timeAdvanced": "Ngoi so ahon: {oldTime} → {newTime}.",
+	"game.log.timeRewound": "Ngoi ni akiri na peko: {oldTime} → {newTime}.",
+	"game.log.lifeStateChanged":
+		"Statut ti fini ti . {player}: {oldState} → {newState}.",
+	"game.log.statusApplied": "Statut so a sara kua na ni {status} na {player}.",
+	"game.log.rolesDistributed": {
+		plural: {
+			other: "{count} a kangbi yâ ti akua ni na lege ti mbana.",
+		},
+	},
+	"game.log.selectedRolesDistributed": {
+		plural: {
+			other: "{count} a soro akua so a kangbi ni na lege ti mbana.",
+		},
+	},
+	"game.log.seatMoved":
+		"Joueur so a gue {playerName} ti londo na ndo ti duti {fromSeat} ti duti {toSeat}.",
+	"game.log.seatsSwapped":
+		"A changé place ti duti {seatA} na place ti duti . {seatB}.",
+	"game.log.playerAppended":
+		"Placé joueur {playerName} na place ti duti {toSeat}.",
+	"game.log.playerInserted":
+		"A zia joueur na yâ ni {playerName} na place ti duti {toSeat}.",
+	"game.log.playerRemoved":
+		"A zi joueur ni {playerName} ti londo na ndo ti duti {fromSeat}.",
+	"game.log.seatOrderChanged": "A changé ordre ti ando ti duti.",
+	"game.roleReveal.navigation": "Role ti fango",
+	"game.roleReveal.prompt":
+		"Fa {player} (ngbonda ti lo {seat}) kusala ti ala. Tap ti fa ni.",
+	"game.overview.seat": "Ngbonda ti lo",
+	"game.overview.role": "Kua",
+	"game.sourceAndTarget": "Source/cible",
+	"game.source": "Ndo so alondo mbeni ye",
+	"game.target": "Aleke ni",
+	"game.overview.playerAccessible": "{name}, ngbonda ti lo {seat}{marker}",
+	"game.overview.shownRole": "A fa ni: {role}",
+	"game.overview.nightRole": "Lakui: {role}",
+	"game.night.noActiveRoles":
+		"A yeke wara pëpe ambeni kusala ti bï teti bï so.",
+	"game.night.actionFor": "Kusala teti . {player}",
+	"game.night.action": "Sara aye",
+	"game.night.on": "na nduzu",
+	"game.night.targetPlayer": "Joueur ti cible",
+	"game.night.noEffect": "Sarango ye ni so asara ye oko pëpe.",
+	"game.night.execute": "Sara kua",
+	"game.night.kill": "A fâ zo",
+	"game.night.resurrect": "Azo so azingo na kuâ",
+	"game.action.kill": "fa",
+	"game.action.resurrect": "zingo na kuâ",
+	"game.action.applyStatus": "sara kua na statut",
+	"game.action.unknown": "kusala so a hinga ni pëpe (kode ti yâ ni: {action})",
+	"game.life.dead": "Akui",
+	"game.warning.playerNotFound": "Joueur “ .{playerId}” ayeke dä pëpe.",
+	"game.warning.statusNotFound": 'Dutingo ti zo "{statusId}” ayeke dä pëpe.',
+	"game.warning.actorNotFound": "Joueur “ .{playerId}” ayeke dä pëpe.",
+	"game.warning.targetNotFound":
+		"Joueur ti cible “ .{playerId}” ayeke dä pëpe.",
+	"game.warning.actualRoleNotFound":
+		"A wara pëpe mbeni tâ kusala teti joueur “ .{playerId}”.",
+	"game.warning.abilityAmbiguous":
+		"Ngangu ti kusala “ .{roleName}” ayeke polele pëpe.",
+	"game.warning.statusAmbiguous":
+		"Statut ti sala kusala na ni ayeke polele pëpe.",
+	"game.warning.voteAlreadySpent": "Vote ti fantôme ni ayeke dä awe.",
+	"game.warning.abilityNotAllowed":
+		'Kua "{roleName}” amû lege pëpe na kusala “ .{action}”.',
+	"game.warning.statusNotAllowed":
+		'Kua "{roleName}” alingbi ti sara kua pëpe na statut “ .{statusId}”.',
+	"game.statusEditor.title": "Éditer statut",
+	"game.statusEditor.status": "Dutingo ti zo",
+	"game.statusEditor.fromNight": "Ti londo na bï .",
+	"game.statusEditor.untilNight": "Juska na bï .",
+	"game.statusEditor.note": "Mbeti",
+	"game.playerName": "Iri ti joueur",
+	"recovery.kind.game": "jeu so a bata",
+	"recovery.kind.template": "modèle",
+	"recovery.kind.ruleSet": "ndia so a zia",
+	"recovery.backupFile": "fichier ti sauvegarde",
+	"recovery.temporaryFile": "fichier ti kiringo na ni na place ni",
+	"recovery.incompleteSave": "Opération ti batango ye so ahunzi pëpe",
+	"recovery.openCount": " ({count} zi)",
+	"recovery.orphanedFile":
+		"TI {recoveryFile} a wara ni, me fichier so alingbi na ni ayeke ti . {kind} ayeke manke.",
+	"recovery.twoFiles":
+		"A wara mbeni ngbene fichier nga na mbeni fichier so alingbi ti ga fini fichier teti . {kind} “ .{id}”.",
+	"recovery.keepOld": "Bata ngbene fichier .",
+	"recovery.keepNew": "Bata fini fichier .",
+	"recovery.keepBothFiles": "Bata afichier use so kue .",
+	"recovery.exportBrokenFile": "Exporté fichier so abuba .",
+	"recovery.decideLater": "Desizion na pekoni .",
+	"recovery.invalidObjectTitle": "A wara mbeni ye so a bata ni nzoni pëpe",
+	"recovery.affectedObject":
+		"Ye so a sara ngangu na ndo ni ({kind}): “ .{reference}”",
+	"recovery.file": "Mbeti",
+	"recovery.suggestedFileName": "Iri ti fichier so a fa",
+	"recovery.repairObject": "Leke ye",
+	"recovery.repairFileName": "Iri ti fichier ni",
+	"recovery.exportObject": "Exporté ye",
+	"recovery.deleteObject": "Effacé ye",
+	"recovery.reason.invalidRuleSet":
+		"Abungbi ti andia so a bata ni ayeke na mbeni structure so ayeke na lege ni pëpe.",
+	"recovery.reason.invalidFileName":
+		"Fichier JSON ni ayeke mû peko ti akode ti mungo iri pëpe.",
+	"recovery.reason.decodeFailed": "A lingbi ti décodé fichier ni pëpe.",
+	"recovery.reason.invalidJson":
+		"Fichier ni ayeke na JSON so ayeke na lege ni pëpe.",
+	"recovery.reason.invalidTemplate":
+		"JSON ayeke pëpe mbeni modèle so ayeke na lege ni.",
+	"recovery.reason.invalidGame":
+		"JSON ayeke pëpe mbeni jeu so a bata ni nzoni.",
+	"recovery.rememberDecision":
+		"Dabe ti mo na desizion so na sara kua na ni na ndö ti afaute kue so ayeke mara oko .",
+	"recovery.library.missing": "A lingbi ti wara bibliothèque ni pëpe.",
+	"recovery.library.orphanedTemporary":
+		"A wara mbeni fichier ti kiringo na ni na place ni teti kete ngoi, me bibliothèque so alingbi na ni ayeke dä pëpe.",
+	"recovery.library.orphanedBackup":
+		"A wara mbeni fichier ti sauvegarde, me bibliothèque so alingbi na ni ayeke dä pëpe.",
+	"recovery.library.decodeFailed":
+		"A lingbi ti décodé fichier ti bibliothèque ni pëpe.",
+	"recovery.library.invalidJson":
+		"Fichier ti bibliothèque ni ayeke na JSON so ayeke na lege ni pëpe.",
+	"recovery.library.invalidRuleSet":
+		"Bibliothèque ni ayeke na mbeni bungbi ti andia so ayeke na lege ni pëpe.",
+	"recovery.library.invalidDocument":
+		"JSON ayeke pëpe mbeni bibliothèque so ayeke na lege ni.",
+	"recovery.library.title": "A lingbi ti diko mbeti ti bibliothèque pëpe .",
+	"recovery.library.restoreBackup": "Kiri na sauvegarde .",
+	"recovery.library.repair": "Leke bibliothèque",
+	"recovery.library.createEmpty":
+		"Sara mbeni fini bibliothèque so ayeke senge .",
+	"recovery.library.export": "Bibliothèque ti exportation",
+	"rolesForShowing.title": "A-rôle so a lingbi a fa ni .",
+	"rolesForShowing.closePreview": "Fermé aperçu",
+	"rolesForShowing.freeText": "Mbeti ti libre",
+	"rolesForShowing.roles": "Roles",
+	"rolesForShowing.removeRole": "Zi ya ni {name}",
+	"rolesForShowing.empty": "A soro ambeni kua pëpe.",
+	"rolesForShowing.addRole": "+ Role",
+	"rolesForShowing.showSymbol": "Fa fä ti kusala ni",
+	"rolesForShowing.preview": "Aperçu",
+	"rolesForShowing.addRoleTitle": "A zia rôle",
+	"roleDistribution.title": "Zia akua na azo na lege ti mbana .",
+	"roleDistribution.teamDistribution": "Kango yâ ti équipe",
+	"roleDistribution.roleSelection": "Sorongo kusala",
+	"roleDistribution.type": "Kode ti kangbingo yâ ti akua",
+	"roleDistribution.random.title": "Kasa akua ti mbana na lege ti mbana .",
+	"roleDistribution.random.detail": "Zia akota ti équipe na fa akua .",
+	"roleDistribution.selected.title": "Kasa akua so mo soro na lege ti mbana .",
+	"roleDistribution.selected.detail":
+		"Soro ambeni mbilimbili kua na mû ni na azo gi tongaso .",
+	"roleDistribution.manual.title": "Zia akua na maboko",
+	"roleDistribution.manual.detail":
+		"A mû na ala akua na pekoni na ndo ti écran ti jeu ni .",
+	"roleDistribution.overwriteRunning":
+		"Jeu ni ayeke gue na li ni awe. A yeke sû ande na ndo ti akua so ayeke dä awe, so a fa ni nga na akua ti bï.",
+	"roleDistribution.overwriteAssigned":
+		"A yeke sû ande na ndo ti akua so a mû na ala awe.",
+	"roleDistribution.redistribute": "Kiri kangbi yâ ti akua .",
+	"roleDistribution.uniqueRoleMultiple":
+		"A soro mbeni kua so ayeke nde fani mingi .",
+	"roleDistribution.decrease": "Kiri kete {name}",
+	"roleDistribution.count": "Diko wungo ti . {name}",
+	"roleDistribution.increase": "Mai {name}",
+	"roleDistribution.freePlayers": "Azo so a mû ala pëpe",
+	"roleDistribution.distribute": "Kaïngo akua",
+	"roleDistribution.error.teamHasNoRoles": {
+		plural: {
+			other:
+				"Role distribution failed: {count} players were requested for team “{teamName}”, but the team has no roles.",
+		},
+	}, // This value isn't accurate translated, yet.
+	"roleDistribution.error.insufficientDistinctRoles": {
+		plural: {
+			other:
+				"Role distribution failed: {requestedCount} players were requested for team “{teamName}”, but there are only {count} distinct roles and no repeatable role.",
+		},
+	}, // This value isn't accurate translated, yet.
+	"scenarioEditor.objectType": "Mara ti ye",
+	"scenarioEditor.teams": "A-équipe",
+	"scenarioEditor.roles": "Roles",
+	"scenarioEditor.players": "Azo ti jouer",
+	"scenarioEditor.statuses": "Statut",
+	"scenarioEditor.readingDetails": "Dikongo anzene nzene ye ...",
+	"scenarioEditor.create": "+ Créer",
+	"scenarioEditor.new.teams": "Fini équipe .",
+	"scenarioEditor.new.roles": "Fini kusala .",
+	"scenarioEditor.new.players": "Fini joueur .",
+	"scenarioEditor.new.statuses": "Fini statut .",
+	"scenarioEditor.saveChange": "Bata achangement ni",
+	"scenarioEditor.saveAsNewRuleSet":
+		"Bata achangement ni tongana mbeni fini ndia .",
+	"scenarioEditor.saveAsNewTemplate":
+		"Bata achangement ni tongana mbeni fini modèle .",
+	"scenarioEditor.newGameWithRuleSet": "Fini jeu na ndia so a zia na sese .",
+	"scenarioEditor.newGameFromTemplate": "Fini jeu ti modèle so .",
+	"scenarioEditor.saveCopy": "Bata ni tongana copie",
+	"scenarioEditor.unsavedChanges": "A changé achangement ni awe.",
+	"scenarioEditor.unsavedRuleSet": "Rule set ni ayeke dä pëpe.",
+	"scenarioEditor.unsavedTemplate": "Modèle ni ayeke dä pëpe.",
+	"scenarioEditor.saveAndContinue": "Sauvegarde ti ndia ni & gue na li ni .", // This value isn't accurate translated, yet.
+	"scenarioEditor.continueWithoutSaving": "Continue without saving", // This value isn't accurate translated, yet.
+	"scenarioEditor.saveAndExit": "Enve na sortie .",
+	"scenarioEditor.exitWithoutSaving": "Sortie sân ti bata .",
+	"scenarioEditor.editDetails": "Mo leke anzene nzene ye ni",
+	"scenarioEditor.closeDetails": "Vungo anzene nzene ye",
+	"scenarioEditor.displayName": "Fa iri ti ({language})",
+	"scenarioEditor.teamOrder": "Commande ti équipe",
+	"scenarioEditor.defaultDuration":
+		"Durée so a fa ni na bï (0 = so ayeke na nda ni pëpe)",
+	"scenarioEditor.team": "Kundu ti azo",
+	"scenarioEditor.firstNightOrder": "Commande na kozo bï ni .",
+	"scenarioEditor.otherNightOrder": "Commande ti use bï ni .",
+	"scenarioEditor.unique": "Gi oko?",
+	"scenarioEditor.activeAbilities": "Akode ti kusala",
+	"scenarioEditor.canKill": "Peut-être a fâ zo .",
+	"scenarioEditor.canResurrect": "Peut-être a zingo .",
+	"scenarioEditor.canApplyStatuses": "Peut-être ti sara kua na a-état .",
+	"scenarioEditor.noStatuses": "A fa nda ti ambeni statut pëpe.",
+	"scenarioEditor.unicodeSymbol": "A yeke fä ti Unicode",
+	"scenarioEditor.unicodePreview": "A-aperçu ti Unicode",
+	"scenarioEditor.useColor": "Lo couleur .",
+	"scenarioEditor.editColor": "Modifier couleur .",
+	"scenarioEditor.colorPickerTitle": "Soro couleur .",
+	"scenarioEditor.colorCode": "Kode hexadecimal RGB",
+	"scenarioEditor.colorPreview": "Aperçu ti couleur",
+	"scenarioEditor.apply": "Sara kua ni",
+	"scenarioEditor.deleteQuestion": "Vraiment supprimé “ .{name}”?",
+	"scenarioEditor.workingCopy": "Copie ti kusala .",
+	"app.closeError": "Message ti erreur",
+	"app.exited": "App ti sigigi.",
+	"app.restart": "Redémarrer application",
+	"appError.checkFiles": "A lingbi ti bâ afichier ni pëpe.",
+	"appError.settingsUpdate": "A lingbi ti changé a-paramètre ni pëpe.",
+	"appError.settingsOpen": "A lingbi ti zi a-paramètre ni pëpe.",
+	"appError.continueLastGame": "A lingbi ti ngbâ ti sara ndangba jeu ni pëpe.",
+	"appError.continueGame": "A lingbi ti ngbâ ti sara jeu ni pëpe.",
+	"appError.openPreparedGame": "A lingbi ti zi jeu so a leke ni awe pëpe.",
+	"appError.restoreOldFile": "A lingbi ti kiri na ngbene fichier ni pëpe.",
+	"appError.retryStorageCommand":
+		"A lingbi ti kiri ti tara komandema ti batango ye pëpe.",
+	"appError.finishStorageCommand":
+		"Komandema ti batango ye alingbi ti hunzi pëpe.",
+	"appError.continueStorageCommand":
+		"Komandema ti batango ye alingbi ti ngbâ pëpe.",
+	"appError.saveGamesUnavailable": "A lingbi ti bata angia so a bata ni pëpe.",
+	"appError.saveTemplatesUnavailable": "A lingbi ti bata a-modèle ni pëpe.",
+	"appError.changeSeatOrder":
+		"A lingbi ti changé molongo ti ando ti duti ni pëpe.",
+	"appError.savePlayer": "A lingbi ti sö zo ti jouer ni pëpe.",
+	"appError.deleteEmptySeat": "A lingbi ti zi place so ayeke senge pëpe.",
+	"appError.deletePlayer": "A lingbi ti supprimé joueur ni pëpe.",
+	"appError.advanceTime": "Ngoi ti jeu ni alingbi ti gue na li ni pëpe.",
+	"appError.rewindTime": "A lingbi ti kiri na ngoi ti jeu ni pëpe.",
+	"appError.applyGameChanges":
+		"A lingbi ti sara kua na achangement ti jeu ni pëpe.",
+	"appError.distributeRoles": "A lingbi ti kangbi yâ ti akua ni pëpe.",
+	"startup.initializeFiles": "A lingbi ti sara kua na a-application ni pëpe.",
+	"startup.repairFileNames": "A lingbi ti leke iri ti afichier ti yâ ni pëpe.",
+	"startup.loadSettings":
+		"A lingbi ti zia paramètre ni pëpe. A yeke sara kua na a-valeur ti defaut.",
+	"startup.rootMissing": "A yeke wara na yâ ti HTML ni ID “root”.",
+} satisfies Record<GuiTranslationKey, GuiTranslationMessage>;

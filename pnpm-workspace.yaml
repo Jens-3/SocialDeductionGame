@@ -1,0 +1,5 @@
+allowBuilds:
+  protobufjs: false
+  sharp: true
+minimumReleaseAgeExclude:
+  - '@capacitor/filesystem@8.1.3'

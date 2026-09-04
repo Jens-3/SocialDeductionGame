@@ -1,0 +1,6 @@
+Initial F-Droid release.
+
+• Fully offline game-master assistance
+• Rule sets and role and team assignment
+• Seating circle, role display, and night list
+• Localized and accessible interface

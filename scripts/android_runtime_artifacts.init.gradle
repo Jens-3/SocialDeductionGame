@@ -1,0 +1,73 @@
+import groovy.json.JsonOutput
+import org.gradle.api.artifacts.component.ModuleComponentIdentifier
+import java.nio.charset.StandardCharsets
+import java.util.zip.ZipInputStream
+
+gradle.projectsEvaluated {
+    def appProject = gradle.rootProject.findProject(":app")
+    if (appProject == null) {
+        throw new GradleException("Android app project ':app' not found")
+    }
+
+    gradle.rootProject.tasks.register("thirdPartyRuntimeArtifactReport") {
+        group = "help"
+        description = "Prints the resolved Android release-runtime artifacts as JSON lines."
+
+        doLast {
+            def configuration = appProject.configurations.getByName("releaseRuntimeClasspath")
+            def noticeName = ~/(?i)(^|\/)(license|licence|copying|notice)(?:[._-].*)?$/
+            def scanArchive
+            scanArchive = { byte[] archiveBytes, String archivePrefix, int depth ->
+                def notices = []
+                def zip = new ZipInputStream(new ByteArrayInputStream(archiveBytes))
+                try {
+                    def entry
+                    while ((entry = zip.nextEntry) != null) {
+                        if (entry.directory) {
+                            continue
+                        }
+                        def entryBytes = zip.readAllBytes()
+                        if (entry.name ==~ noticeName && entryBytes.length <= 2 * 1024 * 1024) {
+                            notices.add([
+                                path: archivePrefix + entry.name,
+                                text: new String(entryBytes, StandardCharsets.UTF_8),
+                            ])
+                        } else if (
+                            depth < 2 &&
+                            entryBytes.length <= 32 * 1024 * 1024 &&
+                            entry.name.toLowerCase(Locale.ROOT) ==~ /.*\.(jar|zip)$/
+                        ) {
+                            notices.addAll(scanArchive(
+                                entryBytes,
+                                archivePrefix + entry.name + "!/",
+                                depth + 1,
+                            ))
+                        }
+                    }
+                } finally {
+                    zip.close()
+                }
+                notices
+            }
+            def artifacts = configuration.incoming.artifactView {
+                componentFilter { identifier ->
+                    identifier instanceof ModuleComponentIdentifier
+                }
+                lenient = true
+            }.artifacts.artifacts
+            artifacts
+                .sort { left, right ->
+                    left.id.componentIdentifier.displayName <=>(right.id.componentIdentifier.displayName)
+                }
+                .each { artifact ->
+                    def id = artifact.id.componentIdentifier
+                    def notices = scanArchive(artifact.file.bytes, "", 0)
+                    println("THIRD_PARTY_ANDROID_ARTIFACT\t" + JsonOutput.toJson([
+                        coordinate: "${id.group}:${id.module}:${id.version}",
+                        file: artifact.file.absolutePath,
+                        notices: notices,
+                    ]))
+                }
+        }
+    }
+}

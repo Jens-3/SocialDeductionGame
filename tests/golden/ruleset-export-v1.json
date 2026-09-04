@@ -1,0 +1,52 @@
+{
+  "fileType": "social-deduction-ruleset",
+  "schemaVersion": 1,
+  "id": "ruleset_golden",
+  "name": "Golden Rules",
+  "names": {
+    "de": "Goldene Regeln"
+  },
+  "version": 2,
+  "teams": [
+    {
+      "id": "t_good",
+      "name": "Good",
+      "teamOrder": 10
+    },
+    {
+      "id": "t_unknown",
+      "name": "Unknown",
+      "teamOrder": 99,
+      "isSystem": true
+    }
+  ],
+  "roles": [
+    {
+      "id": "r_seer",
+      "name": "Seer",
+      "teamId": "t_good",
+      "night": {
+        "first": {
+          "order": 10,
+          "note": "Show a token."
+        }
+      },
+      "expectsVisual": true,
+      "isUnique": true,
+      "unicodeSymbol": "👁",
+      "unicodeEscaped": "\\u{1F441}",
+      "kills_someone": false,
+      "resurrect_someone": true,
+      "apply_status_effect": [
+        "d_poisoned"
+      ]
+    }
+  ],
+  "statuses": [
+    {
+      "id": "d_poisoned",
+      "name": "Poisoned",
+      "defaultDuration": 0
+    }
+  ]
+}

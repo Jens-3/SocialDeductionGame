@@ -1,0 +1,11 @@
+{
+	"files": [
+		"library.json"
+	],
+	"assets": [
+		"assets/backgrounds/bg_game_dark.png",
+		"assets/backgrounds/bg_game_light.png",
+		"assets/backgrounds/bg_main_menu_dark.png",
+		"assets/backgrounds/bg_main_menu_light.png"
+	]
+}

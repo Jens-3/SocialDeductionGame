@@ -1,0 +1,22 @@
+Social Deduction Game est un assistant entièrement hors ligne destiné aux maîtres de jeu pour Loup-Garou, Mafia et autres jeux de déduction sociale.
+
+<b>Préparer les parties</b>
+<ul>
+<li>Gérer ses propres règles, équipes, rôles et statuts</li>
+<li>Préparer les joueurs et l’ordre des places</li>
+<li>Attribuer les rôles aléatoirement, parmi une sélection ou manuellement</li>
+</ul>
+
+<b>Mener les parties</b>
+<ul>
+<li>Suivre le cercle des places, les rôles, les équipes et l’état des joueurs</li>
+<li>Afficher chaque rôle individuellement en plein écran</li>
+<li>Parcourir les actions nocturnes dans le bon ordre</li>
+<li>Gérer le jour, la nuit, la vie, la mort et les statuts temporaires</li>
+</ul>
+
+Les parties, modèles et ensembles de règles peuvent être enregistrés, chargés, importés et exportés. Les sauvegardes de la bibliothèque facilitent le transfert vers un autre appareil.
+
+Toutes les données restent stockées localement sur l’appareil. L’application ne nécessite aucun compte et ne contient ni publicité ni suivi.
+
+Social Deduction Game est un logiciel libre distribué sous la GNU Affero General Public License, version 3.

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+	<!-- Capacitor regenerates this Cordova compatibility resource on every sync.
+	     Cordova resolves it dynamically by name, which Android Lint cannot see. -->
+	<issue id="UnusedResources">
+		<ignore path="src/main/res/xml/config.xml" />
+	</issue>
+</lint>

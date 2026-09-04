@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "ES2022",
+		"module": "CommonJS",
+		"moduleResolution": "Bundler",
+		"types": ["node"],
+		"resolveJsonModule": true,
+		"strict": true,
+		"noEmit": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true
+	},
+	"include": ["src/**/*.ts"]
+}

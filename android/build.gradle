@@ -1,0 +1,60 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:9.3.0'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+apply from: "variables.gradle"
+
+// Capacitor's generated Gradle scripts currently read these shared values as
+// unqualified project properties. Gradle 9.7 deprecates resolving such a
+// property implicitly from the root project. Declare the supported values on
+// every Android subproject until the generated scripts use rootProject.ext
+// explicitly. A matching -P property still takes precedence.
+def sharedAndroidPropertyNames = [
+    'minSdkVersion',
+    'compileSdkVersion',
+    'targetSdkVersion',
+    'androidxActivityVersion',
+    'androidxAppCompatVersion',
+    'androidxCoordinatorLayoutVersion',
+    'androidxCoreVersion',
+    'androidxFragmentVersion',
+    'coreSplashScreenVersion',
+    'androidxWebkitVersion',
+    'junitVersion',
+    'androidxJunitVersion',
+    'androidxEspressoCoreVersion',
+    'cordovaAndroidVersion',
+]
+
+subprojects { subproject ->
+    sharedAndroidPropertyNames.each { propertyName ->
+        def overrideValue = subproject.providers.gradleProperty(propertyName).orNull
+        subproject.ext.set(
+            propertyName,
+            overrideValue != null ? overrideValue : rootProject.ext.get(propertyName)
+        )
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

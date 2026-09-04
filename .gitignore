@@ -1,0 +1,10 @@
+node_modules/
+dist/
+coverage/
+release-artifacts/
+archive/
+__pycache__/
+
+# Temporäre Dateien der Entwicklungs-Speicherung
+dev-data/*.tmp.json
+dev-data/games/*.tmp.json

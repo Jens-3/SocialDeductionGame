@@ -1,0 +1,114 @@
+import groovy.json.JsonSlurper
+
+apply plugin: 'com.android.application'
+
+def packageMetadata = new JsonSlurper().parse(file('../../package.json'))
+def fdroidBuild = providers.gradleProperty('fdroidBuild')
+    .map { value -> value.toBoolean() }
+    .orElse(false)
+    .get()
+def releaseSigningPropertyNames = [
+    'socialDeductionUploadStoreFile',
+    'socialDeductionUploadStorePassword',
+    'socialDeductionUploadKeyAlias',
+    'socialDeductionUploadKeyPassword',
+]
+def releaseSigningProperties = releaseSigningPropertyNames.collectEntries { propertyName ->
+    [(propertyName): providers.gradleProperty(propertyName).orNull]
+}
+def missingReleaseSigningProperties = releaseSigningPropertyNames.findAll { propertyName ->
+    !releaseSigningProperties[propertyName]?.trim()
+}
+def releaseSigningConfigured = !fdroidBuild && missingReleaseSigningProperties.isEmpty()
+def releaseStoreFile = releaseSigningConfigured
+    ? file(releaseSigningProperties.socialDeductionUploadStoreFile)
+    : null
+
+android {
+    namespace = "io.github.jens_3.socialdeductiongame"
+    compileSdk = rootProject.ext.compileSdkVersion
+    testBuildType = "releaseSmoke"
+    signingConfigs {
+        if (releaseSigningConfigured) {
+            release {
+                storeFile releaseStoreFile
+                storePassword releaseSigningProperties.socialDeductionUploadStorePassword
+                keyAlias releaseSigningProperties.socialDeductionUploadKeyAlias
+                keyPassword releaseSigningProperties.socialDeductionUploadKeyPassword
+            }
+        }
+    }
+    defaultConfig {
+        applicationId "io.github.jens_3.socialdeductiongame"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+		versionName packageMetadata.version
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        aaptOptions {
+             // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.
+             // Default: https://android.googlesource.com/platform/frameworks/base/+/282e181b58cf72b6ca770dc7ca5f91f135444502/tools/aapt/AaptAssets.cpp#61
+            ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
+        }
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled true
+            shrinkResources = true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            testProguardFiles 'proguard-test-rules.pro'
+            if (releaseSigningConfigured) {
+                signingConfig = signingConfigs.release
+            }
+        }
+        releaseSmoke {
+            initWith release
+            matchingFallbacks = ['release']
+            proguardFiles 'proguard-smoke-rules.pro'
+        }
+    }
+}
+
+def validateReleaseSigning = tasks.register('validateReleaseSigning') {
+    group = 'verification'
+    description = 'Fails release packaging when the upload signing configuration is unavailable.'
+    doLast {
+        if (!releaseSigningConfigured) {
+            throw new GradleException(
+                "Missing release-signing properties in the user Gradle configuration: ${missingReleaseSigningProperties.join(', ')}"
+            )
+        }
+        if (!releaseStoreFile.isFile()) {
+            throw new GradleException("Release keystore does not exist: ${releaseStoreFile}")
+        }
+    }
+}
+
+tasks.matching { task ->
+    !fdroidBuild && (task.name == 'bundleRelease' || task.name == 'assembleRelease')
+}.configureEach {
+    dependsOn validateReleaseSigning
+}
+
+repositories {
+    flatDir{
+        dirs '../capacitor-cordova-android-plugins/src/main/libs', 'libs'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
+    implementation "androidx.coordinatorlayout:coordinatorlayout:$androidxCoordinatorLayoutVersion"
+    implementation "androidx.core:core-splashscreen:$coreSplashScreenVersion"
+    implementation project(':capacitor-android')
+    testImplementation "junit:junit:$junitVersion"
+    androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
+    implementation project(':capacitor-cordova-android-plugins')
+}
+
+apply from: 'capacitor.build.gradle'

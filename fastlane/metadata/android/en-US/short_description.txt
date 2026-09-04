@@ -1,0 +1,1 @@
+Offline game-master assistant for Werewolf, Mafia and social deduction games
