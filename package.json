@@ -54,7 +54,7 @@
 	},
 	"devDependencies": {
 		"@babel/parser": "7.29.8",
-		"@biomejs/biome": "2.5.11",
+		"@biomejs/biome": "2.5.12",
 		"@capacitor/cli": "^8.5.1",
 		"@eslint-react/eslint-plugin": "^5.18.7",
 		"@eslint/css": "^2.0.0",
@@ -66,7 +66,7 @@
 		"@testing-library/user-event": "^14.6.7",
 		"@types/node": "^24.13.3",
 		"@types/react": "^19.2.18",
-		"@types/react-dom": "^19.2.5",
+		"@types/react-dom": "^19.2.7",
 		"@typescript/native": "npm:typescript@7.0.2",
 		"@vitejs/plugin-react": "^6.1.1",
 		"@vitest/coverage-v8": "^4.1.11",

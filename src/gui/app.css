@@ -725,7 +725,7 @@ button {
 	gap: 0.75rem;
 }
 
-.save-copy-dialog form > div {
+.save-copy-dialog :where(form > div) {
 	display: flex;
 	justify-content: flex-end;
 	gap: 0.5rem;
@@ -978,7 +978,7 @@ button {
 	padding-bottom: 1rem;
 }
 
-.action-sheet header small {
+.action-sheet :where(header small) {
 	color: var(--text-tertiary);
 }
 
@@ -1309,7 +1309,7 @@ button {
 	background: var(--prominent-background);
 }
 
-.language-picker__option[aria-selected="true"] small {
+.language-picker__option:where([aria-selected="true"]) small {
 	color: inherit;
 }
 
@@ -2216,13 +2216,13 @@ button {
 	background: rgb(255 255 255 / 7%);
 }
 
-.player-overview-table td > small,
-.player-overview-table td > span,
+.player-overview-table :where(td > small),
+.player-overview-table :where(td > span),
 .player-overview-row-action small {
 	display: block;
 }
 
-.player-overview-table td > small,
+.player-overview-table :where(td > small),
 .player-overview-row-action small {
 	margin-top: 0.16rem;
 	font-size: 0.68rem;
@@ -2574,7 +2574,7 @@ button {
 	margin: 0;
 }
 
-.role-reveal-value > p + p {
+.role-reveal-value > :where(p + p) {
 	margin-top: 1rem;
 }
 
