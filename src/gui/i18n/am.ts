@@ -175,8 +175,10 @@ export const amharicGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "የሶፍትዌር ፈቃዱን ይክፈቱ",
 	"settings.copyrightHolder": "የቅጂ መብት ያዥ",
+	"settings.feedback": "ግብረ መልስ",
 	"settings.softwareLicense": "የሶፍትዌር ፈቃድ",
 	"settings.openSourceLicenses": "የክፍት ምንጭ ፈቃዶች",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"ምንም ዋስትና አይሰጥም. ይህንን ሶፍትዌር በAGPL-3.0-only ውል መሠረት ሊጠቀሙበት፣ ሊቀይሩት እና እንደገና ማሰራጨት ይችላሉ።",
 	"settings.backupCreated": "የቤተ-መጻሕፍት ምትኬ ተፈጥሯል።",

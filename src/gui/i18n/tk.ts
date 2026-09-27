@@ -180,8 +180,10 @@ export const turkmenGuiMessages = {
 		"Bu bildiriş diňe gysgaça mazmun bolup, ygtyýarnamanyň doly tekstini çalyşmaýar. Diňe ygtyýarnamanyň doly teksti abraýly.",
 	"settings.viewLicense": "Ygtyýarnamany görüň",
 	"settings.copyrightHolder": "Awtorlyk hukugy eýesi",
+	"settings.feedback": "Seslenme",
 	"settings.softwareLicense": "Programma üpjünçiligi ygtyýarnamasy",
 	"settings.openSourceLicenses": "Açyk çeşme ygtyýarnamalary",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Kepillik berilmeýär. Bu programma üpjünçiligini AGPL-3.0-only şertlerinde ulanyp, üýtgedip we paýlap bilersiňiz.",
 	"settings.backupCreated": "Kitaphananyň ätiýaçlyk nusgasy döredildi.",

@@ -175,8 +175,10 @@ export const burmeseGuiMessages = {
 		"ဤသည်မှာ အကျဉ်းချုပ်မျှသာဖြစ်ပြီး လိုင်စင်စာသားအပြည့်အစုံကို အစားထိုးခြင်းမဟုတ်ပါ။ လိုင်စင်စာသားအပြည့်အစုံသည် အုပ်ချုပ်သည်။",
 	"settings.viewLicense": "လိုင်စင်ကိုကြည့်ပါ။",
 	"settings.copyrightHolder": "မူပိုင်ခွင့်ကိုင်ဆောင်ထားသူ",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "ဆော့ဖ်ဝဲလိုင်စင်",
 	"settings.openSourceLicenses": "Open-source လိုင်စင်များ",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"အာမခံပေးမထားဘူး။ AGPL-3.0-only ၏ စည်းကမ်းချက်များအောက်တွင် ဤဆော့ဖ်ဝဲကို အသုံးပြုခြင်း၊ ပြင်ဆင်ခြင်းနှင့် ပြန်လည်ဖြန့်ဝေခြင်းတို့ ပြုလုပ်နိုင်ပါသည်။",
 	"settings.backupCreated": "စာကြည့်တိုက် အရန်သိမ်းဆည်းမှု ဖန်တီးပြီးပါပြီ။",

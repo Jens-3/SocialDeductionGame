@@ -178,8 +178,10 @@ export const tigrinyaGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "ዝብል ቃል ንረክብ\nነቲ ናይ ሶፍትዌር ፍቓድ ክፈቶ",
 	"settings.copyrightHolder": "ዝብል ቃል ንረክብ\nወናኒ መሰል ቅዳሕ",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "ዝብል ቃል ንረክብ\nፍቓድ ሶፍትዌር",
 	"settings.openSourceLicenses": "ክፉት ምንጪ ፍቓድ",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"ዝብል ቃል ንረክብ\nዝኾነ ዋሕስ ኣይወሃብን እዩ። ነዚ ሶፍትዌር ብመሰረት ውዕል AGPL-3.0-only ክትጥቀመሉ፡ ክትቅይሮን ዳግማይ ክትዝርግሖን ትኽእል ኢኻ።",
 	"settings.backupCreated": "ናይ ቤተ መጻሕፍቲ ምትሕብባር ተፈጢሩ።",

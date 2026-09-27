@@ -175,8 +175,11 @@ export const germanGuiMessages = {
 		"Diese Kurzinfo ist nur eine Zusammenfassung und ersetzt nicht den vollständigen Lizenztext. Maßgeblich ist ausschließlich der vollständige Lizenztext.",
 	"settings.viewLicense": "Lizenz anzeigen",
 	"settings.copyrightHolder": "Rechteinhaber",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Softwarelizenz",
-	"settings.openSourceLicenses": "Open-Source-Lizenzen",
+	"settings.openSourceLicenses": "Drittanbieter-Lizenzen",
+	"settings.thirdPartyLicensesDescription":
+		"Lizenzen der verwendeten Bibliotheken",
 	"settings.licenseNotice":
 		"Es besteht keine Gewährleistung. Sie dürfen diese Software unter den Bedingungen der AGPL-3.0-only verwenden, verändern und weitergeben.",
 	"settings.backupCreated": "Bibliotheks-Backup erstellt.",

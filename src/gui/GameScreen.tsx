@@ -310,6 +310,7 @@ export function GameScreen({
 	>(undefined);
 	const suppressSeatClickRef = useRef(false);
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
+	const [isGameTitleExpanded, setIsGameTitleExpanded] = useState(false);
 	const [isShuffleConfirmationOpen, setIsShuffleConfirmationOpen] =
 		useState(false);
 	const [isLogOpen, setIsLogOpen] = useState(false);
@@ -945,7 +946,9 @@ export function GameScreen({
 			<section
 				className={`game-screen${isDetailsFullscreen ? " game-screen--details-fullscreen" : ""}`}
 			>
-				<header className="screen-header game-header">
+				<header
+					className={`screen-header game-header${isGameTitleExpanded ? " game-header--title-expanded" : ""}`}
+				>
 					<button
 						data-testid="game-back"
 						type="button"
@@ -955,7 +958,17 @@ export function GameScreen({
 					>
 						‹
 					</button>
-					<div>
+					<button
+						type="button"
+						className="icon-button interactive-surface game-header__title-toggle"
+						aria-label={t("game.currentGame")}
+						aria-expanded={isGameTitleExpanded}
+						aria-controls="game-header-title"
+						onClick={() => setIsGameTitleExpanded((expanded) => !expanded)}
+					>
+						<span aria-hidden="true">{isGameTitleExpanded ? "⌃" : "⌄"}</span>
+					</button>
+					<div id="game-header-title">
 						<p className="eyebrow">{t("game.currentGame")}</p>
 						<h1>{game.displayName}</h1>
 					</div>

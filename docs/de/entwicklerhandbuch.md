@@ -71,8 +71,8 @@ pnpm run serialization:check
 ### 3.1 Voraussetzungen
 
 Die Engine-Anforderungen des Lockfiles unterstützen derzeit Node.js
-`^22.22.2`, `^24.15.0` oder `>=26.0.0`. Das Projekt verwendet pnpm
-`11.24.0`; `package.json` fixiert diese Version im Feld `packageManager`.
+`^24.19.0` oder `>=26.0.0`. Das Projekt verwendet pnpm
+`12.6.0`; `package.json` fixiert diese Version im Feld `packageManager`.
 `pnpm-lock.yaml` ist das maßgebliche Lockfile.
 
 Abhängigkeiten und Entwicklungswerkzeuge werden lokal im Projekt installiert:

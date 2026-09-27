@@ -180,8 +180,11 @@ export const norwegianBokmalGuiMessages = {
 		"Denne merknaden er kun et sammendrag og erstatter ikke hele lisensteksten. Bare hele lisensteksten er autoritativ.",
 	"settings.viewLicense": "Åpne programvarelisensen",
 	"settings.copyrightHolder": "Opphavsrettsinnehaver",
+	"settings.feedback": "Tilbakemelding",
 	"settings.softwareLicense": "Programvarelisens",
-	"settings.openSourceLicenses": "Lisenser for åpen kildekode",
+	"settings.openSourceLicenses": "Tredjepartslisenser",
+	"settings.thirdPartyLicensesDescription":
+		"Lisenser for bibliotekene som brukes",
 	"settings.licenseNotice":
 		"Det gis ingen garanti. Du kan bruke, modifisere og omdistribuere denne programvaren i henhold til vilkårene i AGPL-3.0-only.",
 	"settings.backupCreated": "Sikkerhetskopi av biblioteket opprettet.",

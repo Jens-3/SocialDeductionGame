@@ -187,8 +187,10 @@ export const maoriGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Whakatuwheratia te raihana rorohiko",
 	"settings.copyrightHolder": "Te kaipupuri mana pupuri",
+	"settings.feedback": "Urupare",
 	"settings.softwareLicense": "Raihana Pūmanawa",
 	"settings.openSourceLicenses": "Raihana tuwhera-puna",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Karekau he whakamana. Ka taea e koe te whakamahi, te whakarereke, me te tohatoha ano i tenei rorohiko i raro i nga tikanga o AGPL-3.0-only.",
 	"settings.backupCreated": "Hangaia te taapiri whare pukapuka.",

@@ -182,8 +182,10 @@ export const sesothoGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Bula laesense ea software",
 	"settings.copyrightHolder": "Mong'a litokelo tsa molao",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Laesense ea software",
 	"settings.openSourceLicenses": "Lilaesense tsa mohloli o bulehileng",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Ha ho na waranti e fanoeng. U ka sebelisa, ua fetola, le ho aba botjha software ena tlasa dipehelo tsa AGPL-3.0-only.",
 	"settings.backupCreated": "bekapo ea laebrari e entsoe.",

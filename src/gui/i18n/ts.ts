@@ -182,8 +182,10 @@ export const tsongaGuiMessages = {
 		"Xitiviso lexi i nkatsakanyo ntsena naswona a xi sivi tsalwa ra layisense leri heleleke. I tsalwa ra layisense leri heleleke ntsena leri nga ni vulawuri.",
 	"settings.viewLicense": "Languta layisense",
 	"settings.copyrightHolder": "Mukhomi wa mfanelo ya vutshila",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Layisense ya software",
 	"settings.openSourceLicenses": "Tilayisense ta xihlovo lexi pfulekeke",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Ku hava waranti leyi nyikiwaka. U nga tirhisa, u cinca, na ku hangalasa nakambe software leyi ehansi ka swipimelo swa AGPL-3.0-only.",
 	"settings.backupCreated": "Vuhlayiselo bya layiburari byi endliwile.",

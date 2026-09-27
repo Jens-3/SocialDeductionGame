@@ -176,8 +176,10 @@ export const kalaallisutGuiMessages = {
 		"Nalunaarusiaq una naatsumik allaaserineqarpoq akuersissummillu allaaserisaq tamakkerlugu taarserneqanngilaq. Akuersissummi allaaserisaq tamakkerlugu kisimi oqartussaassuseqarpoq.",
 	"settings.viewLicense": "Software-imut akuersissut ammaruk",
 	"settings.copyrightHolder": "Pisinnaatitaaffimmik piginnittuusoq",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Softwaremut akuersissut",
 	"settings.openSourceLicenses": "Avammut akuersissutit",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Qularnaveeqquteqanngilaq. Software una AGPL-3.0-only-imi malittarisassat malillugit atorsinnaavat, allanngortissinnaavat aammalu siammartersinnaavat.",
 	"settings.backupCreated":

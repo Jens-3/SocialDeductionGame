@@ -178,8 +178,10 @@ export const pashtoGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "د سافټویر جواز خلاص کړئ",
 	"settings.copyrightHolder": "د چاپ حق لرونکی",
+	"settings.feedback": "فیډبیک",
 	"settings.softwareLicense": "د سافټویر جواز",
 	"settings.openSourceLicenses": "د خلاصې سرچينې جوازونه",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"هیڅ تضمین ندی ورکړل شوی. تاسو کولی شئ دا سافټویر د AGPL-3.0-only شرایطو لاندې وکاروئ، بدل کړئ او بیا توزیع کړئ.",
 	"settings.backupCreated": "د کتابتون شاتړ جوړ شو.",

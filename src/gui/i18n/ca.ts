@@ -178,8 +178,11 @@ export const catalanGuiMessages = {
 		"Aquest és només un resum, no un substitut del text complet de la llicència. El text complet de la llicència regeix.",
 	"settings.viewLicense": "Obriu la llicència de programari",
 	"settings.copyrightHolder": "Titular dels drets d'autor",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Llicència de programari",
-	"settings.openSourceLicenses": "Llicències de codi obert",
+	"settings.openSourceLicenses": "Llicències de tercers",
+	"settings.thirdPartyLicensesDescription":
+		"Llicències de les biblioteques utilitzades",
 	"settings.licenseNotice":
 		"No s'ofereix cap garantia. Podeu utilitzar, modificar i redistribuir aquest programari sota els termes de AGPL-3.0-only.",
 	"settings.backupCreated":

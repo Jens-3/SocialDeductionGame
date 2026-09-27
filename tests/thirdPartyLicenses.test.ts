@@ -112,9 +112,29 @@ describe("Drittanbieter-Lizenzverzeichnis", () => {
 	});
 
 	it("gruppiert inhaltlich gleiche Lizenztexte unabhängig vom Rand-Whitespace", () => {
-		expect(notices).toContain(
-			"Components: @capacitor/app@8.1.1, @capacitor/device@8.0.3, @capacitor/haptics@8.0.2, @capacitor/preferences@8.0.1, @capacitor/screen-orientation@8.0.1, @capacitor/share@8.0.1",
-		);
+		const components = [
+			"app",
+			"device",
+			"haptics",
+			"preferences",
+			"screen-orientation",
+			"share",
+		].map((name) => {
+			const metadata = JSON.parse(
+				readFileSync(
+					path.join(
+						projectRoot,
+						"node_modules",
+						"@capacitor",
+						name,
+						"package.json",
+					),
+					"utf8",
+				),
+			) as { version: string };
+			return `@capacitor/${name}@${metadata.version}`;
+		});
+		expect(notices).toContain(`Components: ${components.join(", ")}`);
 	});
 
 	it("trennt die beiden Lizenztextabschnitte durch eine zusätzliche Leerzeile", () => {

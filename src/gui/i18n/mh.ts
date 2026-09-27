@@ -190,8 +190,10 @@ export const marshalleseGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Lale laijen",
 	"settings.copyrightHolder": "Ri-kōmman copyright eo",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Laijen in software",
 	"settings.openSourceLicenses": "Open-source license ko",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Ejelok warranty ej letok. Kwomaroñ kōjerbal, ukōt, im bar leto letak software in iumin kakien ko an AGPL-3.0-only.",
 	"settings.backupCreated": "Library backup emoj kōmmane.",

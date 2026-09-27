@@ -179,8 +179,11 @@ export const swedishGuiMessages = {
 		"Detta meddelande är endast en sammanfattning och ersätter inte hela licenstexten. Endast den fullständiga licenstexten är auktoritativ.",
 	"settings.viewLicense": "Visa licens",
 	"settings.copyrightHolder": "Upphovsrättsinnehavare",
+	"settings.feedback": "Feed-back",
 	"settings.softwareLicense": "Programvarulicens",
-	"settings.openSourceLicenses": "Licenser för öppen källkod",
+	"settings.openSourceLicenses": "Tredjepartslicenser",
+	"settings.thirdPartyLicensesDescription":
+		"Licenser för de bibliotek som används",
 	"settings.licenseNotice":
 		"Ingen garanti ges. Du får använda, modifiera och omdistribuera denna programvara enligt villkoren i AGPL-3.0-only.",
 	"settings.backupCreated": "Säkerhetskopia av biblioteket skapad.",

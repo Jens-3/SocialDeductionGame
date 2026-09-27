@@ -185,8 +185,10 @@ export const bretonGuiMessages = {
 		"N'eo nemet un diverradenn, n'eo ket un erlec'hiad evit an destenn aotre klok. An destenn aotre klok a ren.",
 	"settings.viewLicense": "Gwelet an aotre",
 	"settings.copyrightHolder": "Perc'henn ar gwirioù eilañ",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Aotre-implijout ar meziantoù",
 	"settings.openSourceLicenses": "Aotreoù tarzh digor",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"N'eus gwarant ebet. Gallout a rit implijout, kemmañ hag adskignañ ar meziant-mañ dindan termenoù AGPL-3.0-only.",
 	"settings.backupCreated": "Krouet eo bet un enrolladenn eus al levraoueg.",

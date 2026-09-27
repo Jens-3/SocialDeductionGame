@@ -175,8 +175,10 @@ export const kannadaGuiMessages = {
 		"ಇದು ಕೇವಲ ಸಾರಾಂಶವಾಗಿದೆ, ಸಂಪೂರ್ಣ ಪರವಾನಗಿ ಪಠ್ಯಕ್ಕೆ ಬದಲಿಯಾಗಿಲ್ಲ. ಸಂಪೂರ್ಣ ಪರವಾನಗಿ ಪಠ್ಯವು ನಿಯಂತ್ರಿಸುತ್ತದೆ.",
 	"settings.viewLicense": "ಪರವಾನಗಿಯನ್ನು ವೀಕ್ಷಿಸಿ",
 	"settings.copyrightHolder": "ಹಕ್ಕುಸ್ವಾಮ್ಯ ಹೊಂದಿರುವವರು",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "ಸಾಫ್ಟ್ವೇರ್ ಪರವಾನಗಿ",
 	"settings.openSourceLicenses": "ಓಪನ್ ಸೋರ್ಸ್ ಪರವಾನಗಿಗಳು",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"ಯಾವುದೇ ಖಾತರಿ ನೀಡಲಾಗಿಲ್ಲ. ನೀವು AGPL-3.0-only ನಿಯಮಗಳ ಅಡಿಯಲ್ಲಿ ಈ ಸಾಫ್ಟ್‌ವೇರ್ ಅನ್ನು ಬಳಸಬಹುದು, ಮಾರ್ಪಡಿಸಬಹುದು ಮತ್ತು ಮರುಹಂಚಿಕೆ ಮಾಡಬಹುದು.",
 	"settings.backupCreated": "ಲೈಬ್ರರಿ ಬ್ಯಾಕಪ್ ರಚಿಸಲಾಗಿದೆ.",

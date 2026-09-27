@@ -180,8 +180,10 @@ export const tajikGuiMessages = {
 		"Ин танҳо як хулоса аст, на ивазкунандаи матни пурраи иҷозатнома. Матни пурраи иҷозатнома идора мекунад.",
 	"settings.viewLicense": "Дидани иҷозатнома",
 	"settings.copyrightHolder": "Дорандаи ҳуқуқи муаллиф",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Иҷозатномаи нармафзор",
 	"settings.openSourceLicenses": "Иҷозатномаҳои манбаи кушода",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Ҳеҷ гуна кафолат дода намешавад. Шумо метавонед ин нармафзорро тибқи шартҳои AGPL-3.0-only истифода, тағир диҳед ва аз нав паҳн кунед.",
 	"settings.backupCreated": "Нусхаи эҳтиётии китобхона сохта шуд.",

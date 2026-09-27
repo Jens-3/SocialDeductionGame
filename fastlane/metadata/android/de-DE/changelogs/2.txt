@@ -1,0 +1,13 @@
+Hinzugefügt:
+
+* Open-Source-Lizenzen enthalten eine aufklappbare Offline-HTML-Übersicht.
+
+Geändert:
+
+* Lokalisierung aktualisiert.
+
+Behoben:
+
+* Regelwerkkarten zeigen aktualisierte Team- und Rollenzahlen jetzt sofort an.
+* Vorlagennamen verwenden jetzt die aktuelle Sprache der Benutzeroberfläche.
+* Gespeicherte Detailfelder lösen nicht mehr fälschlicherweise eine Warnung über ungespeicherte Änderungen aus.

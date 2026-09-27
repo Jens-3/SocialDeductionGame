@@ -184,8 +184,11 @@ export const brazilianPortugueseGuiMessages = {
 		"Este é apenas um resumo e não substitui o texto completo da licença. O texto completo da licença rege.",
 	"settings.viewLicense": "Ver licença",
 	"settings.copyrightHolder": "Detentor dos direitos autorais",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Licença de software",
-	"settings.openSourceLicenses": "Licenças de código aberto",
+	"settings.openSourceLicenses": "Licenças de terceiros",
+	"settings.thirdPartyLicensesDescription":
+		"Licenças das bibliotecas utilizadas",
 	"settings.licenseNotice":
 		"Nenhuma garantia é fornecida. Você pode usar, modificar e redistribuir este software sob os termos de AGPL-3.0-only.",
 	"settings.backupCreated": "Backup da biblioteca criado.",

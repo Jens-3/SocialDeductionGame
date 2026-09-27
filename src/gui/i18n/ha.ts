@@ -180,8 +180,10 @@ export const hausaGuiMessages = {
 		"Wannan taƙaitaccen bayani ne kawai, ba madadin cikakken rubutun lasisi ba. Cikakken rubutun lasisi yana mulki.",
 	"settings.viewLicense": "Bude lasisin software",
 	"settings.copyrightHolder": "Mai riƙe haƙƙin mallaka",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "lasisin software",
 	"settings.openSourceLicenses": "Lasisi na buɗaɗɗen tushe",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Ba a bayar da garanti ba. Kuna iya amfani da, gyara, da sake rarraba wannan software a ƙarƙashin sharuɗɗan AGPL-3.0-only.",
 	"settings.backupCreated": "An ƙirƙiri ajiyar madadin ɗakin karatu.",

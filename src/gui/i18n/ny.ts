@@ -182,8 +182,10 @@ export const chichewaGuiMessages = {
 		"Ichi ndi chidule chabe, osati choloweza m'malo mwa chiphaso chonse. Mawu athunthu alayisensi amalamulira.",
 	"settings.viewLicense": "Tsegulani chilolezo cha mapulogalamu",
 	"settings.copyrightHolder": "Mwini copyright",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Chilolezo cha mapulogalamu",
 	"settings.openSourceLicenses": "Ziphatso za Open source",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Palibe chitsimikizo choperekedwa. Mutha kugwiritsa ntchito, kusintha, ndi kugawanso pulogalamuyo malinga ndi AGPL-3.0-only.",
 	"settings.backupCreated": "Zosunga zobwezeretsera laibulale zidapangidwa.",

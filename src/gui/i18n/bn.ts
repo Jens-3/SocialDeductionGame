@@ -176,8 +176,10 @@ export const bengaliGuiMessages = {
 		"এটি শুধুমাত্র একটি সারাংশ, সম্পূর্ণ লাইসেন্স পাঠ্যের বিকল্প নয়। সম্পূর্ণ লাইসেন্স টেক্সট নিয়ন্ত্রণ করে।",
 	"settings.viewLicense": "সফটওয়্যার লাইসেন্স খুলুন",
 	"settings.copyrightHolder": "কপিরাইট ধারক",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "সফটওয়্যার লাইসেন্স",
 	"settings.openSourceLicenses": "ওপেন-সোর্স লাইসেন্স",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"কোন ওয়ারেন্টি প্রদান করা হয় না. আপনি AGPL-3.0-only এর শর্তাবলীর অধীনে এই সফ্টওয়্যারটি ব্যবহার, সংশোধন এবং পুনরায় বিতরণ করতে পারেন৷",
 	"settings.backupCreated": "লাইব্রেরির ব্যাকআপ তৈরি হয়েছে।",

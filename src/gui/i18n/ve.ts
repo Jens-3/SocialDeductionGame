@@ -183,8 +183,10 @@ export const vendaGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Vhonani ḽaisentsi",
 	"settings.copyrightHolder": "Mufari wa pfanelo dza u ṅwala",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Laisentsi ya sofuthiwee",
 	"settings.openSourceLicenses": "Ḽaisentsi dza tshisima tsho vuleaho",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Ahuna warranty yo ṋetshedzwaho. Ni nga shumisa, u shandula, na u phaḓaladza hafhu sofuthiwee iyi nga fhasi ha milayo ya AGPL-3.0-only.",
 	"settings.backupCreated": "Bekhaphu ya ḽaiburari yo sikwa.",

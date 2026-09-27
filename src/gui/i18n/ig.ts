@@ -175,8 +175,10 @@ export const igboGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Mepee ikike ngwanrọ",
 	"settings.copyrightHolder": "Onye nwe ikike nwebiisinka",
+	"settings.feedback": "Nzaghachi",
 	"settings.softwareLicense": "Ikikere ngwanrọ",
 	"settings.openSourceLicenses": "Ikikere mepere emepe",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Enweghị akwụkwọ ikike enyere. Ị nwere ike iji, gbanwee, ma kesaa ngwanro a n'okpuru usoro AGPL-3.0-only.",
 	"settings.backupCreated": "Emepụtara ndabere ọba akwụkwọ.",

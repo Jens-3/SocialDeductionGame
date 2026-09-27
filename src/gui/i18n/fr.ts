@@ -184,8 +184,11 @@ export const frenchGuiMessages = {
 		"Ceci n'est qu'un résumé et ne remplace pas le texte complet de la licence. Le texte complet de la licence fait foi.",
 	"settings.viewLicense": "Afficher la licence",
 	"settings.copyrightHolder": "Titulaire du droit d'auteur",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Licence du logiciel",
-	"settings.openSourceLicenses": "Licences open source",
+	"settings.openSourceLicenses": "Licences de tiers",
+	"settings.thirdPartyLicensesDescription":
+		"Licences des bibliothèques utilisées",
 	"settings.licenseNotice":
 		"Aucune garantie n'est fournie. Vous pouvez utiliser, modifier et redistribuer ce logiciel selon les termes de AGPL-3.0-only.",
 	"settings.backupCreated": "Sauvegarde de la bibliothèque créée.",

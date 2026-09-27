@@ -181,8 +181,10 @@ export const afrikaansGuiMessages = {
 		"Hierdie kennisgewing is slegs 'n opsomming en vervang nie die volledige lisensieteks nie. Slegs die volledige lisensieteks is gesaghebbend.",
 	"settings.viewLicense": "Bekyk lisensie",
 	"settings.copyrightHolder": "Kopiereghouer",
+	"settings.feedback": "Terugvoer",
 	"settings.softwareLicense": "Sagteware lisensie",
 	"settings.openSourceLicenses": "Oopbron-lisensies",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Geen waarborg word verskaf nie. Jy mag hierdie sagteware gebruik, wysig en herverdeel onder die bepalings van AGPL-3.0-only.",
 	"settings.backupCreated": "Biblioteek-rugsteun geskep.",

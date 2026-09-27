@@ -175,8 +175,10 @@ export const malayalamGuiMessages = {
 		"ഈ അറിയിപ്പ് ഒരു സംഗ്രഹം മാത്രമാണ്, പൂർണ്ണമായ ലൈസൻസ് വാചകം മാറ്റിസ്ഥാപിക്കുന്നില്ല. മുഴുവൻ ലൈസൻസ് വാചകം മാത്രമേ ആധികാരികമായിട്ടുള്ളൂ.",
 	"settings.viewLicense": "സോഫ്റ്റ്വെയർ ലൈസൻസ് തുറക്കുക",
 	"settings.copyrightHolder": "പകർപ്പവകാശ ഉടമ",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "സോഫ്റ്റ്വെയർ ലൈസൻസ്",
 	"settings.openSourceLicenses": "ഓപ്പൺ സോഴ്സ് ലൈസൻസുകൾ",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"വാറൻ്റി നൽകിയിട്ടില്ല. AGPL-3.0-only നിബന്ധനകൾക്ക് കീഴിൽ നിങ്ങൾക്ക് ഈ സോഫ്‌റ്റ്‌വെയർ ഉപയോഗിക്കുകയും പരിഷ്‌ക്കരിക്കുകയും പുനർവിതരണം ചെയ്യുകയും ചെയ്യാം.",
 	"settings.backupCreated": "ലൈബ്രറി ബാക്കപ്പ് സൃഷ്ടിച്ചു.",

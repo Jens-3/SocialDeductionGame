@@ -175,8 +175,10 @@ export const yiddishGuiMessages = {
 		"דער אָנזאָג איז בלויז אַ קיצער און טוט נישט פאַרבייַטן די פול דערלויבעניש טעקסט. בלויז די פול דערלויבעניש טעקסט איז אַטאָראַטייטיוו.",
 	"settings.viewLicense": "View דערלויבעניש",
 	"settings.copyrightHolder": "קאַפּירייט האָלדער",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "ווייכווארג דערלויבעניש",
 	"settings.openSourceLicenses": "אָפֿן מקור לייסאַנסיז",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"קיין וואָראַנטי איז צוגעשטעלט. איר קענט נוצן, מאָדיפיצירן און רידיסטריביוטינג דעם ווייכווארג אונטער די טערמינען פון AGPL-3.0-only.",
 	"settings.backupCreated": "ביבליאָטעק באַקאַפּ באשאפן.",

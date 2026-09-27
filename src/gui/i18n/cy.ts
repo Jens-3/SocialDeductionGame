@@ -188,8 +188,10 @@ export const welshGuiMessages = {
 		"Crynodeb yn unig yw'r hysbysiad hwn ac nid yw'n disodli testun llawn y drwydded. Dim ond testun y drwydded lawn sy'n awdurdodol.",
 	"settings.viewLicense": "Gweld trwydded",
 	"settings.copyrightHolder": "Deiliad hawlfraint",
+	"settings.feedback": "Adborth",
 	"settings.softwareLicense": "Trwydded meddalwedd",
 	"settings.openSourceLicenses": "Trwyddedau ffynhonnell agored",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Ni ddarperir gwarant. Gallwch ddefnyddio, addasu ac ailddosbarthu'r feddalwedd hon o dan delerau AGPL-3.0-only.",
 	"settings.backupCreated": "Crëwyd copi wrth gefn o'r llyfrgell.",

@@ -21,14 +21,14 @@ export class DefaultGameTemplateService {
 		private readonly operations: PersistenceOperationRegistry,
 	) {}
 
-	async suggestLoadedGameTemplateName(): Promise<string> {
+	async suggestLoadedGameTemplateName(templateLabel: string): Promise<string> {
 		const snapshot = this.session.captureSaveSnapshot();
 		return this.operations.run(
-			`suggest-template:${snapshot.sessionGeneration}:${snapshot.documentRevision}`,
+			`suggest-template:${snapshot.sessionGeneration}:${snapshot.documentRevision}:${templateLabel}`,
 			async () => {
 				const usedIds = await this.catalog.getStoredDocumentIds();
 				return createUniqueNameAndId(
-					`${snapshot.game.name} Vorlage`,
+					`${snapshot.game.name} ${templateLabel}`,
 					"template",
 					usedIds,
 				).name;

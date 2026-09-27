@@ -182,8 +182,10 @@ export const georgianGuiMessages = {
 		"ეს შეტყობინება მხოლოდ შეჯამებაა და არ ცვლის ლიცენზიის სრულ ტექსტს. ავტორიტეტულია მხოლოდ სრული ლიცენზიის ტექსტი.",
 	"settings.viewLicense": "ლიცენზიის ნახვა",
 	"settings.copyrightHolder": "საავტორო უფლებების მფლობელი",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "პროგრამული უზრუნველყოფის ლიცენზია",
 	"settings.openSourceLicenses": "ღია კოდის ლიცენზიები",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"გარანტია არ არის გათვალისწინებული. თქვენ შეგიძლიათ გამოიყენოთ, შეცვალოთ და გადაანაწილოთ ეს პროგრამული უზრუნველყოფა AGPL-3.0-only-ის პირობებით.",
 	"settings.backupCreated": "ბიბლიოთეკის სარეზერვო საშუალება შეიქმნა.",

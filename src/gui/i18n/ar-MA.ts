@@ -189,8 +189,10 @@ export const moroccanDarijaGuiMessages = {
 		"هذا مجرد ملخص، وليس بديلاً عن نص الترخيص الكامل. يحكم نص الترخيص الكامل.",
 	"settings.viewLicense": "عرض الترخيص",
 	"settings.copyrightHolder": "صاحب حقوق الطبع والنشر",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "ترخيص البرمجيات",
-	"settings.openSourceLicenses": "رخص المصادر المفتوحة",
+	"settings.openSourceLicenses": "تراخيص الجهات الخارجية",
+	"settings.thirdPartyLicensesDescription": "تراخيص المكتبات المستخدمة",
 	"settings.licenseNotice":
 		"لا يتم توفير أي ضمان. يجوز لك استخدام هذا البرنامج وتعديله وإعادة توزيعه بموجب شروط AGPL-3.0-only.",
 	"settings.backupCreated": "تم دير نسخة احتياطية للمكتبة.",

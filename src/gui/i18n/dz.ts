@@ -176,8 +176,10 @@ export const dzongkhaGuiMessages = {
 		"བརྡ་དོན་འདི་ བཅུད་བསྡུས་རྐྱངམ་ཅིག་ཨིནམ་ལས་ ཆོག་ཐམ་གྱི་ཚིག་ཡིག་ཆ་ཚང་གི་ཚབ་མ་བཙུགས། ཆོག་ཐམ་གྱི་ཚིག་ཡིག་ཆ་ཚང་རྐྱངམ་ཅིག་ དབང་ཚད་ཅན་ཨིན།",
 	"settings.viewLicense": "མཉེན་ཆས་ཆོག་ཐམ་ཁ་ཕྱེ།",
 	"settings.copyrightHolder": "པར་དབང་འཛིན་མཁན།",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "མཉེན་ཆས་ཆོག་མཆན།",
 	"settings.openSourceLicenses": "ཁ་ཕྱེ་ཡོད་པའི་ཐོན་ཁུངས་ཆོག་ཐམ།",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"མཉེན་ཆས་འདི་འགན་ལེན་མེད་པར་འོང་། AGPL-3.0-only གིས་ ཁྱོད་ལུ་ལག་ལེན་འཐབ་ནི་དང་བསྒྱུར་བཅོས་འབད་ནི་ དེ་ལས་ལོག་བཀྲམ་སྤེལ་འབད་བཅུགཔ་ཨིན།",
 	"settings.backupCreated": "དཔེ་མཛོད་རྒྱབ་ཐག་གསར་བསྐྲུན་འབད་ཡོདཔ།",

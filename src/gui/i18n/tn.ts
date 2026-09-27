@@ -182,8 +182,10 @@ export const tswanaGuiMessages = {
 		"Kitsiso eno ke tshoboko fela mme ga e tseye sebaka sa mokwalo o o feletseng wa laesense. Ke fela sekwalwa se se feletseng sa laesense se se nang le taolo.",
 	"settings.viewLicense": "Leba laesense",
 	"settings.copyrightHolder": "Motshodi wa tetlokhopi",
+	"settings.feedback": "Pegelo",
 	"settings.softwareLicense": "Laesense ya serweboleta",
 	"settings.openSourceLicenses": "Dilaesense tsa motswedi o o bulegileng",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Ga go na netefaletso e e neetsweng. O ka nna wa dirisa, wa fetola, le go anamisa gape serweboleta seno ka fa tlase ga melawana ya AGPL-3.0-only.",
 	"settings.backupCreated": "Bekapo ya laeborari e tlhamilwe.",

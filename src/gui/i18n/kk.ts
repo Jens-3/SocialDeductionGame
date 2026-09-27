@@ -181,8 +181,10 @@ export const kazakhGuiMessages = {
 		"Бұл лицензияның толық мәтінін алмастырмайды, тек қысқаша мәлімет. Толық лицензия мәтіні басқарады.",
 	"settings.viewLicense": "Лицензияны көру",
 	"settings.copyrightHolder": "Авторлық құқық иесі",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Бағдарламалық қамтамасыз ету лицензиясы",
 	"settings.openSourceLicenses": "Ашық бастапқы код лицензиялары",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Ешқандай кепілдік берілмейді. Сіз бұл бағдарламалық құралды AGPL-3.0-only шарттары бойынша пайдалана аласыз, өзгерте аласыз және қайта тарата аласыз.",
 	"settings.backupCreated": "Кітапхананың сақтық көшірмесі жасалды.",

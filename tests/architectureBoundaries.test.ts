@@ -1433,7 +1433,8 @@ describe("harte Architekturgrenzen", () => {
 					!entry.specifier.startsWith("../application/") &&
 					!entry.specifier.startsWith("../shared/") &&
 					entry.specifier !== "../../LICENSE?raw" &&
-					entry.specifier !== "../../THIRD_PARTY_LICENSES.txt?raw") ||
+					entry.specifier !== "../../THIRD_PARTY_LICENSES.txt?raw" &&
+					entry.specifier !== "../../THIRD_PARTY_LICENSES.html?raw") ||
 					entry.specifier.startsWith("@capacitor/")),
 		);
 		expect(formatImports(forbidden)).toEqual([]);

@@ -181,8 +181,10 @@ export const haitianCreoleGuiMessages = {
 		"Avi sa a se sèlman yon rezime epi li pa ranplase tèks lisans konplè a. Se sèlman tèks lisans konplè a ki autorité.",
 	"settings.viewLicense": "Louvri lisans lojisyèl an",
 	"settings.copyrightHolder": "Detantè Copyright",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Lisans lojisyèl",
 	"settings.openSourceLicenses": "Lisans louvri sous",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Pa gen okenn garanti yo bay. Ou ka itilize, modifye, ak redistribiye lojisyèl sa a dapre kondisyon AGPL-3.0-only.",
 	"settings.backupCreated": "Sovgad bibliyotèk kreye.",

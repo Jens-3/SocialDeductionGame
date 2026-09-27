@@ -173,8 +173,10 @@ export const simplifiedChineseGuiMessages = {
 		"本通知只是摘要，并不取代完整的许可文本。只有完整的许可文本才是权威的。",
 	"settings.viewLicense": "查看许可证",
 	"settings.copyrightHolder": "版权所有者",
+	"settings.feedback": "反馈",
 	"settings.softwareLicense": "软件许可",
-	"settings.openSourceLicenses": "开源许可证",
+	"settings.openSourceLicenses": "第三方许可证",
+	"settings.thirdPartyLicensesDescription": "所用库的许可证",
 	"settings.licenseNotice":
 		"不提供保修。您可以根据 AGPL-3.0-only 的条款使用、修改和重新分发本软件。",
 	"settings.backupCreated": "库备份已创建。",

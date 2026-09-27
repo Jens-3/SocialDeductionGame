@@ -174,8 +174,10 @@ export const galicianGuiMessages = {
 		"Este é só un resumo, non un substituto do texto completo da licenza. O texto completo da licenza rexe.",
 	"settings.viewLicense": "Abra a licenza do software",
 	"settings.copyrightHolder": "Titular dos dereitos de autor",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Licenza de software",
 	"settings.openSourceLicenses": "Licenzas de código aberto",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Non se ofrece ningunha garantía. Podes usar, modificar e redistribuír este software baixo os termos de AGPL-3.0-only.",
 	"settings.backupCreated": "Copia de seguridade da biblioteca creada.",

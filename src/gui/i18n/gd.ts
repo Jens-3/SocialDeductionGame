@@ -188,8 +188,10 @@ export const scottishGaelicGuiMessages = {
 		"Chan eil an seo ach geàrr-chunntas, chan ann an àite teacsa iomlan a’ cheadachais. Bidh teacsa iomlan a’ cheadachais a’ riaghladh.",
 	"settings.viewLicense": "Fosgail an cead bathar-bog",
 	"settings.copyrightHolder": "Neach-seilbh an dlighe-sgrìobhaidh",
+	"settings.feedback": "Fios air ais",
 	"settings.softwareLicense": "Cead bathar-bog",
 	"settings.openSourceLicenses": "Ceadachasan còd fosgailte",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Chan eil barantas sam bith air a thoirt seachad. Faodaidh tu am bathar-bog seo a chleachdadh, atharrachadh agus ath-riarachadh fo chumhachan AGPL-3.0-only.",
 	"settings.backupCreated": "Chaidh cùl-taic na leabharlainn a chruthachadh.",

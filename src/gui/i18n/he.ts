@@ -181,8 +181,10 @@ export const hebrewGuiMessages = {
 		"הודעה זו היא רק תקציר ואינה מחליפה את טקסט הרישיון המלא. רק טקסט הרישיון המלא הוא סמכותי.",
 	"settings.viewLicense": "צפה ברישיון",
 	"settings.copyrightHolder": "בעל זכויות יוצרים",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "רישיון תוכנה",
-	"settings.openSourceLicenses": "רישיונות קוד פתוח",
+	"settings.openSourceLicenses": "רישיונות צד שלישי",
+	"settings.thirdPartyLicensesDescription": "רישיונות הספריות שבשימוש",
 	"settings.licenseNotice":
 		"לא ניתנת אחריות. אתה רשאי להשתמש, לשנות ולהפיץ מחדש תוכנה זו תחת התנאים של AGPL-3.0-only.",
 	"settings.backupCreated": "נוצר גיבוי של הספרייה.",

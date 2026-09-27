@@ -1210,7 +1210,9 @@ export function App({
 								throw new GuiDisplayError(
 									t("appError.saveTemplatesUnavailable"),
 								);
-							return await gamePersistenceService.suggestLoadedGameTemplateName();
+							return await gamePersistenceService.suggestLoadedGameTemplateName(
+								t("scenarios.template"),
+							);
 						}}
 						onSaveAsTemplate={async (name) => {
 							if (!gamePersistenceService)

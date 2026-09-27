@@ -177,8 +177,10 @@ export const malayGuiMessages = {
 		"Notis ini hanyalah ringkasan dan tidak menggantikan teks lesen penuh. Hanya teks lesen penuh yang berwibawa.",
 	"settings.viewLicense": "Buka lesen perisian",
 	"settings.copyrightHolder": "pemegang hak cipta",
+	"settings.feedback": "Maklum balas",
 	"settings.softwareLicense": "Lesen perisian",
-	"settings.openSourceLicenses": "Lesen sumber terbuka",
+	"settings.openSourceLicenses": "Lesen pihak ketiga",
+	"settings.thirdPartyLicensesDescription": "Lesen pustaka yang digunakan",
 	"settings.licenseNotice":
 		"Tiada jaminan diberikan. Anda boleh menggunakan, mengubah suai dan mengedarkan semula perisian ini di bawah syarat AGPL-3.0-only.",
 	"settings.backupCreated": "Sandaran pustaka dicipta.",

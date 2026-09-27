@@ -180,8 +180,10 @@ export const armenianGuiMessages = {
 		"Այս ծանուցումը միայն ամփոփագիր է և չի փոխարինում լիցենզիայի ամբողջական տեքստին: Միայն լիցենզիայի ամբողջական տեքստն է հեղինակավոր:",
 	"settings.viewLicense": "Դիտել լիցենզիան",
 	"settings.copyrightHolder": "Հեղինակային իրավունքի սեփականատեր",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Ծրագրային ապահովման լիցենզիա",
 	"settings.openSourceLicenses": "Բաց կոդով լիցենզիաներ",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Երաշխիք չի տրվում։ Դուք կարող եք օգտագործել, փոփոխել և վերաբաշխել այս ծրագրաշարը AGPL-3.0-only-ի պայմաններով:",
 	"settings.backupCreated": "Ստեղծվել է գրադարանի կրկնօրինակը:",

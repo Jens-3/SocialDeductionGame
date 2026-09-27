@@ -181,8 +181,10 @@ export const seychelloisCreoleGuiMessages = {
 		"sa notis i zis en rezimen e i pa ranplas teks laysenns konplet. zis teks laysenns konplet ki otoriter.",
 	"settings.viewLicense": "ouver laysenns lozisyel",
 	"settings.copyrightHolder": "Detenter drwa doter",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "laysenns lozisyel",
 	"settings.openSourceLicenses": "bann laysenns open-source",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"napa okenn garanti ki ganny donnen. ou kapab servi, modifye, e redistribye sa lozisyel anba bann term AGPL-3.0-only.",
 	"settings.backupCreated": "Library backup in ganny kree.",

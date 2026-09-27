@@ -180,8 +180,10 @@ export const kongoGuiMessages = {
 		"Yai kele kaka nsangu ya nkufi, kansi ve na kisika ya masonama ya mvimba ya nswa. Masonama ya mvimba ya nswa ke twadisaka.",
 	"settings.viewLicense": "Kangula nswa ya logiciel",
 	"settings.copyrightHolder": "Muntu ya kele ti nswa ya bansoniki",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Nswa ya logiciel",
 	"settings.openSourceLicenses": "Nswa ya kukangula",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Ke vena nsimbi ko zivewanga. Nge lenda sadila, kusoba mpi kukabula diaka logiciel yai na kutadila bansiku ya AGPL-3.0-only.",
 	"settings.backupCreated": "Ba nsangu ya biblioteke me salama.",

@@ -174,8 +174,10 @@ export const basqueGuiMessages = {
 		"Ohar hau laburpena baino ez da eta ez du lizentziaren testu osoa ordezkatzen. Lizentziaren testu osoa baino ez da agingarria.",
 	"settings.viewLicense": "Ikusi lizentzia",
 	"settings.copyrightHolder": "Copyright titularra",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Software lizentzia",
 	"settings.openSourceLicenses": "Iturburu irekiko lizentziak",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Ez da bermerik ematen. Software hau erabili, aldatu eta birbana dezakezu AGPL-3.0-only baldintzapean.",
 	"settings.backupCreated": "Liburutegiaren babeskopia sortu da.",

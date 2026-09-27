@@ -174,8 +174,10 @@ export const marathiGuiMessages = {
 		"हा केवळ सारांश आहे, संपूर्ण परवाना मजकूराचा पर्याय नाही. संपूर्ण परवाना मजकूर नियंत्रित करतो.",
 	"settings.viewLicense": "सॉफ्टवेअर परवाना उघडा",
 	"settings.copyrightHolder": "कॉपीराइट धारक",
+	"settings.feedback": "अभिप्राय",
 	"settings.softwareLicense": "सॉफ्टवेअर परवाना",
 	"settings.openSourceLicenses": "मुक्त-स्रोत परवाने",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"कोणतीही हमी दिली जात नाही. तुम्ही AGPL-3.0-only च्या अटींनुसार हे सॉफ्टवेअर वापरू शकता, सुधारू शकता आणि पुनर्वितरित करू शकता.",
 	"settings.backupCreated": "लायब्ररी बॅकअप तयार केला.",

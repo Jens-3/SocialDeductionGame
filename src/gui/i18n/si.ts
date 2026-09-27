@@ -178,8 +178,10 @@ export const sinhalaGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "මෘදුකාංග බලපත්රය විවෘත කරන්න",
 	"settings.copyrightHolder": "ප්‍රකාශන හිමිකම් දරන්නා",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "මෘදුකාංග බලපත්රය",
 	"settings.openSourceLicenses": "විවෘත මූලාශ්‍ර බලපත්‍ර",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"වගකීමක් ලබා නොදේ. ඔබට AGPL-3.0-only හි කොන්දේසි යටතේ මෙම මෘදුකාංගය භාවිතා කිරීමට, වෙනස් කිරීමට සහ නැවත බෙදා හැරීමට හැකිය.",
 	"settings.backupCreated": "පුස්තකාල උපස්ථය සාදන ලදී.",

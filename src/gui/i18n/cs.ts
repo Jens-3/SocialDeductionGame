@@ -184,8 +184,10 @@ export const czechGuiMessages = {
 		"Toto oznámení je pouze souhrn a nenahrazuje úplný text licence. Směrodatný je pouze úplný text licence.",
 	"settings.viewLicense": "Zobrazit licenci",
 	"settings.copyrightHolder": "Držitel autorských práv",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Softwarová licence",
-	"settings.openSourceLicenses": "Licence open-source softwaru",
+	"settings.openSourceLicenses": "Licence třetích stran",
+	"settings.thirdPartyLicensesDescription": "Licence použitých knihoven",
 	"settings.licenseNotice":
 		"Není poskytována žádná záruka. Tento software můžete používat, upravovat a dále distribuovat za podmínek AGPL-3.0-only.",
 	"settings.backupCreated": "Záloha knihovny vytvořena.",

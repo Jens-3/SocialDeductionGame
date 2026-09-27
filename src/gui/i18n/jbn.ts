@@ -177,8 +177,10 @@ export const nafusiGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "View license", // This value isn't accurate translated, yet.
 	"settings.copyrightHolder": "Copyright holder", // This value isn't accurate translated, yet.
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Software license", // This value isn't accurate translated, yet.
 	"settings.openSourceLicenses": "وپەن-سوورشە توراگين",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"No warranty is provided. You may use, modify, and redistribute this software under the terms of AGPL-3.0-only.", // This value isn't accurate translated, yet.
 	"settings.backupCreated": "تامكارضيت انغال ن وحراز يەتتوسنولفا.",

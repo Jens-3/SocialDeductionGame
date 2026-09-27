@@ -5,6 +5,13 @@ import { createRequire } from "node:module";
 import path from "node:path";
 import { promisify } from "node:util";
 import {
+	compactContactLines,
+	escapeHtml,
+	normalizeContact,
+	npmContacts,
+	renderHtmlDocument,
+} from "./license_presentation.mjs";
+import {
 	convertToAndroidLineEndings,
 	ensureTrailingLineBreak,
 	isCompleteApache20License,
@@ -207,10 +214,7 @@ function renderPackageLegalFiles(files) {
 		.join("\n\n");
 }
 
-async function readCanonicalPackageLicenseNotices(
-	dependency,
-	expectedLicense,
-) {
+async function readCanonicalPackageLicenseNotices(dependency, expectedLicense) {
 	const dependencyPackageJson = await findPackageJson(
 		dependency,
 		packageJsonPath,
@@ -249,7 +253,9 @@ async function readCanonicalLicenseText(licenseIdentifier) {
 	const sourceUrl = source.source;
 	const expectedHash = source.sha256.toLowerCase();
 	if (path.basename(fileName) !== fileName) {
-		throw new Error(`${licenseIdentifier} source file must be a plain file name`);
+		throw new Error(
+			`${licenseIdentifier} source file must be a plain file name`,
+		);
 	}
 	if (!URL.canParse(sourceUrl)) {
 		throw new Error(`${licenseIdentifier} source URL is invalid: ${sourceUrl}`);
@@ -415,6 +421,7 @@ async function collectNpmRuntimePackages(canonicalApacheFile) {
 			key,
 			name: metadata.name,
 			version: metadata.version,
+			contacts: npmContacts(metadata),
 			license,
 			includedLicenses,
 			licenseConflict,
@@ -510,7 +517,32 @@ function parsePomLicenseMetadata(xml) {
 				version: xmlTag(parentBlock, "version"),
 			}
 		: undefined;
-	return { licenses, parent };
+	const organization = xmlTag(xml, "organization");
+	const developers = xmlTag(xml, "developers");
+	const contacts = [
+		organization
+			? normalizeContact(
+					{
+						name: xmlTag(organization, "name"),
+						email: xmlTag(organization, "email"),
+					},
+					"Publisher",
+					"Maven POM: organization",
+				)
+			: undefined,
+		...[
+			...(developers ?? "").matchAll(
+				/<developer(?:\s[^>]*)?>([\s\S]*?)<\/developer>/giu,
+			),
+		].map((match) =>
+			normalizeContact(
+				{ name: xmlTag(match[1], "name"), email: xmlTag(match[1], "email") },
+				"Developer",
+				"Maven POM: developers",
+			),
+		),
+	].filter(Boolean);
+	return { licenses, parent, contacts };
 }
 
 function normalizedMavenLicense(licenses, fallback) {
@@ -551,17 +583,27 @@ async function fetchPomLicenseMetadata(
 	if (!response.ok) {
 		throw new Error(`Maven POM request failed (${response.status}): ${url}`);
 	}
-	const { licenses, parent } = parsePomLicenseMetadata(await response.text());
-	if (licenses.length > 0) return { licenses, pomUrl: url };
+	const { licenses, parent, contacts } = parsePomLicenseMetadata(
+		await response.text(),
+	);
+	const sourcedContacts = contacts.map((contact) => ({
+		...contact,
+		source: `${url} (${contact.source})`,
+	}));
+	if (licenses.length > 0)
+		return { licenses, pomUrl: url, contacts: sourcedContacts };
 	if (parent?.group && parent.artifact && parent.version) {
-		return fetchPomLicenseMetadata(
+		const inherited = await fetchPomLicenseMetadata(
 			parent.group,
 			parent.artifact,
 			parent.version,
 			seen,
 		);
+		// Contact metadata is taken from the artifact's own POM; a parent
+		// supplying license terms does not establish the artifact's publisher.
+		return { ...inherited, contacts: sourcedContacts };
 	}
-	return { licenses: [], pomUrl: url };
+	return { licenses: [], pomUrl: url, contacts: sourcedContacts };
 }
 
 function formatEmbeddedAndroidNotices(notices) {
@@ -663,6 +705,7 @@ async function collectAndroidRuntimeArtifacts(canonicalApacheFile) {
 				license,
 				pomUrl: metadata.pomUrl,
 				pomLicenses: metadata.licenses,
+				contacts: metadata.contacts,
 				licenseNotices,
 				embeddedNotices,
 				embeddedNoticeFiles: report.notices ?? [],
@@ -860,6 +903,9 @@ function renderDocument(npmPackages, androidArtifacts) {
 			);
 		}
 		if (packageInfo.homepage) lines.push(`  Homepage: ${packageInfo.homepage}`);
+		lines.push(
+			...compactContactLines(packageInfo.contacts).map((line) => `  ${line}`),
+		);
 		if (packageInfo.repository) {
 			lines.push(`  Repository: ${packageInfo.repository}`);
 		}
@@ -889,6 +935,9 @@ function renderDocument(npmPackages, androidArtifacts) {
 	for (const artifact of androidArtifacts) {
 		lines.push(`${artifact.coordinate} — ${artifact.license}`);
 		lines.push(`  Maven POM: ${artifact.pomUrl}`);
+		lines.push(
+			...compactContactLines(artifact.contacts).map((line) => `  ${line}`),
+		);
 		for (const { name, url } of artifact.pomLicenses) {
 			lines.push(
 				`  Declared: ${name ?? "unnamed license"}${url ? ` (${url})` : ""}`,
@@ -1009,21 +1058,46 @@ const [npmPackages, androidArtifacts] = await Promise.all([
 validateCollectedRuntimeData(npmPackages, androidArtifacts);
 const { document, audit } = renderDocument(npmPackages, androidArtifacts);
 validateRenderedDocument(document, npmPackages, androidArtifacts, audit);
+const html = renderHtmlDocument(npmPackages, androidArtifacts);
+for (const component of [...npmPackages, ...androidArtifacts]) {
+	const key = component.key ?? component.coordinate;
+	const marker = `<details data-component="${escapeHtml(key)}">`;
+	if (html.split(marker).length !== 2)
+		throw new Error(`HTML component coverage mismatch: ${key}`);
+	const section = html.split(marker)[1].split("</details>")[0];
+	const texts = component.legalFiles?.map(({ text }) => text) ?? [
+		component.licenseNotices,
+		...component.embeddedNoticeFiles.map(({ text }) => text),
+	];
+	for (const text of texts) {
+		if (!section.includes(`<pre>${escapeHtml(text)}</pre>`))
+			throw new Error(`HTML legal text missing: ${key}`);
+	}
+}
 
-if (mode === "check") {
-	let existing;
-	try {
-		existing = await fs.readFile(outputPath, "utf8");
-	} catch {
-		throw new Error("THIRD_PARTY_LICENSES.txt is missing; run the generator");
+for (const [filePath, renderedContent] of [
+	[outputPath, document],
+	[path.join(projectRoot, "THIRD_PARTY_LICENSES.html"), html],
+]) {
+	// Normalize both outputs, including embedded third-party texts, before checking or writing.
+	const content = convertToAndroidLineEndings(renderedContent);
+	if (mode === "check") {
+		let existing;
+		try {
+			existing = await fs.readFile(filePath, "utf8");
+		} catch {
+			throw new Error(
+				`${path.basename(filePath)} is missing; run the generator`,
+			);
+		}
+		if (existing !== content) {
+			throw new Error(
+				`${path.basename(filePath)} does not match the runtime dependencies (entries may be missing, superfluous, or outdated); run .\\update-third-party-licenses.ps1`,
+			);
+		}
+	} else {
+		await fs.writeFile(filePath, content, "utf8");
 	}
-	if (existing !== document) {
-		throw new Error(
-			"THIRD_PARTY_LICENSES.txt does not match the runtime dependencies (entries may be missing, superfluous, or outdated); run .\\update-third-party-licenses.ps1",
-		);
-	}
-} else {
-	await fs.writeFile(outputPath, document, "utf8");
 }
 
 console.log(

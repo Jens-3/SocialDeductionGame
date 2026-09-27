@@ -180,8 +180,10 @@ export const uzbekGuiMessages = {
 		"Bu faqat xulosa, litsenziyaning toʻliq matni oʻrnini bosmaydi. To'liq litsenziya matni boshqaradi.",
 	"settings.viewLicense": "Litsenziyani ko'rish",
 	"settings.copyrightHolder": "Mualliflik huquqi egasi",
+	"settings.feedback": "Fikr-mulohaza",
 	"settings.softwareLicense": "Dasturiy ta'minot litsenziyasi",
 	"settings.openSourceLicenses": "Ochiq manba litsenziyalari",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Hech qanday kafolat berilmaydi. Siz ushbu dasturni AGPL-3.0-only shartlariga muvofiq ishlatishingiz, o'zgartirishingiz va qayta tarqatishingiz mumkin.",
 	"settings.backupCreated": "Kutubxonaning zaxira nusxasi yaratildi.",

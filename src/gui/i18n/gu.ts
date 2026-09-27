@@ -173,8 +173,10 @@ export const gujaratiGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "સોફ્ટવેર લાઇસન્સ ખોલો",
 	"settings.copyrightHolder": "કૉપિરાઇટ ધારક",
+	"settings.feedback": "પ્રતિસાદ",
 	"settings.softwareLicense": "સોફ્ટવેર લાઇસન્સ",
 	"settings.openSourceLicenses": "ઓપન સોર્સ લાઇસન્સ",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"કોઈ વોરંટી આપવામાં આવતી નથી. તમે AGPL-3.0-only ની શરતો હેઠળ આ સૉફ્ટવેરનો ઉપયોગ, સંશોધિત અને પુનઃવિતરિત કરી શકો છો.",
 	"settings.backupCreated": "લાઇબ્રેરી બેકઅપ બનાવ્યું.",

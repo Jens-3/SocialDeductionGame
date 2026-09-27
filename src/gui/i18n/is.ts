@@ -179,8 +179,10 @@ export const icelandicGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Skoða leyfi",
 	"settings.copyrightHolder": "Höfundaréttarhafi",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Hugbúnaðarleyfi",
 	"settings.openSourceLicenses": "Leyfi opins hugbúnaðar",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Engin ábyrgð er veitt. Þú mátt nota, breyta og endurdreifa þessum hugbúnaði samkvæmt skilmálum AGPL-3.0-only.",
 	"settings.backupCreated": "Öryggisafrit af safninu búið til.",

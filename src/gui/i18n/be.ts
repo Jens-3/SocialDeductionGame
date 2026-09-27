@@ -186,8 +186,10 @@ export const belarusianGuiMessages = {
 		"Гэта паведамленне з'яўляецца толькі кароткім выкладам і не замяняе поўны тэкст ліцэнзіі. Аўтарытэтным з'яўляецца толькі поўны тэкст ліцэнзіі.",
 	"settings.viewLicense": "Паглядзець ліцэнзію",
 	"settings.copyrightHolder": "Уладальнік аўтарскіх правоў",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Ліцэнзія на праграмнае забеспячэнне",
-	"settings.openSourceLicenses": "Ліцэнзіі адкрытага ПЗ",
+	"settings.openSourceLicenses": "Ліцэнзіі трэціх бакоў",
+	"settings.thirdPartyLicensesDescription": "Ліцэнзіі выкарыстаных бібліятэк",
 	"settings.licenseNotice":
 		"Гарантыя не прадастаўляецца. Вы можаце выкарыстоўваць, змяняць і распаўсюджваць гэта праграмнае забеспячэнне ў адпаведнасці з умовамі AGPL-3.0-only.",
 	"settings.backupCreated": "Рэзервовая копія бібліятэкі створана.",

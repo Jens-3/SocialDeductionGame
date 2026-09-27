@@ -190,8 +190,10 @@ export const malteseGuiMessages = {
 		"Dan l-avviż huwa biss sommarju u ma jissostitwixxix it-test sħiħ tal-liċenzja. It-test sħiħ tal-liċenzja biss huwa awtorevoli.",
 	"settings.viewLicense": "Iftaħ il-liċenzja tas-softwer",
 	"settings.copyrightHolder": "Detentur tad-drittijiet tal-awtur",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Liċenzja tas-softwer",
 	"settings.openSourceLicenses": "Liċenzji open source",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"L-ebda garanzija ma hija pprovduta. Tista' tuża, timmodifika, u tqassam mill-ġdid dan is-software taħt it-termini ta' AGPL-3.0-only.",
 	"settings.backupCreated": "Inħoloq backup tal-librerija.",

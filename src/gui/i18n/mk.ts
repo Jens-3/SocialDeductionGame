@@ -181,8 +181,10 @@ export const macedonianGuiMessages = {
 		"Ова известување е само резиме и не го заменува целосниот текст на лиценцата. Само целосниот текст на лиценцата е авторитетен.",
 	"settings.viewLicense": "Прикажи лиценца",
 	"settings.copyrightHolder": "Носител на авторски права",
+	"settings.feedback": "Повратни информации",
 	"settings.softwareLicense": "Софтверска лиценца",
 	"settings.openSourceLicenses": "Лиценци со отворен код",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Не е обезбедена гаранција. Можете да го користите, менувате и прераспределувате овој софтвер според условите на AGPL-3.0-only.",
 	"settings.backupCreated": "Библиотеката е поддржана.",

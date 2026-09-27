@@ -186,8 +186,10 @@ export const slovakGuiMessages = {
 		"Toto oznámenie je len zhrnutím a nenahrádza úplný text licencie. Smerodajný je len úplný text licencie.",
 	"settings.viewLicense": "Zobraziť licenciu",
 	"settings.copyrightHolder": "Držiteľ autorských práv",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Softvérová licencia",
-	"settings.openSourceLicenses": "Licencie open-source softvéru",
+	"settings.openSourceLicenses": "Licencie tretích strán",
+	"settings.thirdPartyLicensesDescription": "Licencie použitých knižníc",
 	"settings.licenseNotice":
 		"Nie je poskytovaná žiadna záruka. Tento softvér môžete používať, upravovať a ďalej distribuovať podľa podmienok AGPL-3.0-only.",
 	"settings.backupCreated": "Záloha knižnice vytvorená.",

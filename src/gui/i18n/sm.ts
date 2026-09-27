@@ -185,8 +185,10 @@ export const samoanGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Tatala le laisene software",
 	"settings.copyrightHolder": "Le e ona le puletaofia",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Laisene polokalame",
 	"settings.openSourceLicenses": "Laisene avanoa tatala",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"E leai se fa'amaonia e tu'uina atu. E mafai ona e fa'aogaina, suia, ma toe tufatufa atu lenei polokalame i lalo o aiaiga a le AGPL-3.0-only.",
 	"settings.backupCreated": "Fa'asao le faletusi.",

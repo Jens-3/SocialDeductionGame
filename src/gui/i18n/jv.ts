@@ -171,8 +171,10 @@ export const javaneseGuiMessages = {
 		"Kabar iki mung ringkesan lan ora ngganti teks lisensi lengkap. Mung teks lisensi lengkap sing nduweni wewenang.",
 	"settings.viewLicense": "Ndeleng lisensi",
 	"settings.copyrightHolder": "Sing nduweni hak cipta",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Lisensi piranti lunak",
 	"settings.openSourceLicenses": "Lisensi sumber terbuka",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Ora ana garansi. Sampeyan bisa nggunakake, ngowahi, lan nyebarake piranti lunak iki miturut syarat AGPL-3.0-only.",
 	"settings.backupCreated": "Gawe serep perpustakaan.",

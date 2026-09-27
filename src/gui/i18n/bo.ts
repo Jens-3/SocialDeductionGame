@@ -1,4 +1,4 @@
-﻿import type { GuiTranslationKey } from "./de";
+import type { GuiTranslationKey } from "./de";
 import type { GuiTranslationMessage } from "./messages";
 
 export const tibetanGuiMessages = {
@@ -176,8 +176,10 @@ export const tibetanGuiMessages = {
 		"གསལ་བསྒྲགས་འདི་སྙིང་བསྡུས་ཙམ་ཡིན་པ་དང་ཆོག་མཆན་གྱི་ཡིག་ཆ་ཆ་ཚང་གི་ཚབ་བྱེད་ཀྱི་མེད། ཆོག་མཆན་གྱི་ཡིག་ཆ་ཆ་ཚང་ཁོ་ན་དབང་ཆ་ཡོད།",
 	"settings.viewLicense": "ཆོག་མཆན་ལྟ་བ།",
 	"settings.copyrightHolder": "བདག་དབང་གི་བདག་པོ།",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "མཉེན་ཆས་ཆོག་མཆན།",
 	"settings.openSourceLicenses": "Open-source ཆོག་ཐམ་ཚུ།",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"འགན་ལེན་གང་ཡང་མ་བྱས། ཁྱེད་ཀྱིས་མཉེན་ཆས་འདི་AGPL-3.0-onlyཡི་ཆ་རྐྱེན་འོག་བེད་སྤྱོད་དང་། བསྒྱུར་བཅོས། བསྐྱར་དུ་བཀྲམ་སྤེལ་བྱེད་ཆོག",
 	"settings.backupCreated": "དཔེ་མཛོད་རྒྱབ་ཐག་འདྲ་བཤུས་བཟོ་ཡི།",

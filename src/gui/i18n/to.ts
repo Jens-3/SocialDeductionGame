@@ -181,9 +181,11 @@ export const tonganGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Vakai ki he laiseni",
 	"settings.copyrightHolder": "Tokotaha ma'u totonu pulusi",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Laiseni polokalama fakakomipiuta",
 	"settings.openSourceLicenses":
 		"Ngaahi laiseni ma'u'anga fakamatala 'oku fakaava",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"'Oku 'ikai ha fakapapau'i 'oku 'oatu. 'E lava ke ke faka'aonga'i, fakalelei'i, mo toe tufaki 'a e polokalama ko 'eni 'i he malumalu 'o e ngaahi tu'utu'uni 'o e AGPL-3.0-only.",
 	"settings.backupCreated": "Na'e fa'u 'a e backup 'o e laipeli.",

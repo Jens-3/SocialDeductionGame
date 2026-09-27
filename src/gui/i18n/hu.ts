@@ -180,8 +180,10 @@ export const hungarianGuiMessages = {
 		"Ez a közlemény csak egy összefoglaló, és nem helyettesíti a teljes licencszöveget. Csak a teljes licencszöveg a mérvadó.",
 	"settings.viewLicense": "Licenc megtekintése",
 	"settings.copyrightHolder": "A szerzői jog tulajdonosa",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Szoftver licenc",
-	"settings.openSourceLicenses": "Nyílt forráskódú licencek",
+	"settings.openSourceLicenses": "Harmadik felek licencei",
+	"settings.thirdPartyLicensesDescription": "A felhasznált könyvtárak licencei",
 	"settings.licenseNotice":
 		"Garanciát nem vállalunk. Ezt a szoftvert a AGPL-3.0-only feltételei szerint használhatja, módosíthatja és terjesztheti.",
 	"settings.backupCreated": "A könyvtár biztonsági mentése létrejött.",

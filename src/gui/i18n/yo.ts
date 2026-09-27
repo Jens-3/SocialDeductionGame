@@ -178,8 +178,10 @@ export const yorubaGuiMessages = {
 		"Eyi jẹ akopọ nikan, kii ṣe aropo fun ọrọ iwe-aṣẹ pipe. Ọrọ iwe-aṣẹ ni kikun n ṣakoso.",
 	"settings.viewLicense": "Ṣii iwe-aṣẹ sọfitiwia naa",
 	"settings.copyrightHolder": "Dimu aṣẹ lori ara",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Iwe-aṣẹ software",
 	"settings.openSourceLicenses": "Àwọn ìwé-àṣẹ orísun ṣíṣi",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Ko si atilẹyin ọja ti pese. O le lo, ṣe atunṣe, ati tun pin sọfitiwia yii labẹ awọn ofin AGPL-3.0-only.",
 	"settings.backupCreated": "A ti ṣẹ̀dá ẹ̀dà àfẹ́yinti ibi-ìkàwé.",

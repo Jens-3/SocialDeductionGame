@@ -182,8 +182,10 @@ export const latvianGuiMessages = {
 		"Šis paziņojums ir tikai kopsavilkums un neaizstāj pilnu licences tekstu. Autoritatīvs ir tikai pilns licences teksts.",
 	"settings.viewLicense": "Atveriet programmatūras licenci",
 	"settings.copyrightHolder": "Autortiesību īpašnieks",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Programmatūras licence",
 	"settings.openSourceLicenses": "Atvērtā pirmkoda licences",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Garantija netiek sniegta. Jūs varat izmantot, modificēt un izplatīt šo programmatūru saskaņā ar AGPL-3.0-only noteikumiem.",
 	"settings.backupCreated": "Bibliotēkas dublējums izveidots.",

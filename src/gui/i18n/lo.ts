@@ -173,8 +173,10 @@ export const laoGuiMessages = {
 		"ແຈ້ງການນີ້ເປັນພຽງບົດສະຫຼຸບເທົ່ານັ້ນ ແລະບໍ່ໄດ້ປ່ຽນແທນຂໍ້ຄວາມໃບອະນຸຍາດສະບັບເຕັມ. ພຽງແຕ່ຂໍ້ຄວາມໃບອະນຸຍາດເຕັມແມ່ນມີສິດອໍານາດ.",
 	"settings.viewLicense": "ເປີດໃບອະນຸຍາດຊອບແວ",
 	"settings.copyrightHolder": "ຜູ້ຖືລິຂະສິດ",
+	"settings.feedback": "ຄໍາຕິຊົມ",
 	"settings.softwareLicense": "ໃບອະນຸຍາດຊອບແວ",
 	"settings.openSourceLicenses": "ໃບອະນຸຍາດແຫຼ່ງເປີດ",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"ບໍ່ມີການຮັບປະກັນໃຫ້. ເຈົ້າອາດຈະໃຊ້, ແກ້ໄຂ, ແລະແຈກຢາຍຊອບແວນີ້ຄືນໃໝ່ພາຍໃຕ້ເງື່ອນໄຂຂອງ AGPL-3.0-only.",
 	"settings.backupCreated": "ສ້າງການສຳຮອງຂໍ້ມູນຫ້ອງສະໝຸດ.",

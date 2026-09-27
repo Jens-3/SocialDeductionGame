@@ -181,8 +181,10 @@ export const filipinoGuiMessages = {
 		"Ang abisong ito ay isang buod lamang at hindi pinapalitan ang buong teksto ng lisensya. Tanging ang buong teksto ng lisensya ang may awtoridad.",
 	"settings.viewLicense": "Tingnan ang lisensya",
 	"settings.copyrightHolder": "May hawak ng copyright",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Lisensya ng software",
 	"settings.openSourceLicenses": "Mga lisensyang open-source",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Walang ibinigay na warranty. Maaari mong gamitin, baguhin, at muling ipamahagi ang software na ito sa ilalim ng mga tuntunin ng AGPL-3.0-only.",
 	"settings.backupCreated": "Nagawa ang backup ng library.",

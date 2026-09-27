@@ -181,8 +181,10 @@ export const swatiGuiMessages = {
 		"Lesatiso sifinyeto nje futsi asitsatsi sikhundla sembhalo welayisensi lephelele. Umbhalo welayisensi lophelele kuphela loneligunya.",
 	"settings.viewLicense": "Buka ilayisensi",
 	"settings.copyrightHolder": "Umnikati welilungelo lekushicilela",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Ilayisensi yesofthiwe",
 	"settings.openSourceLicenses": "Emalayisensi lavulekile",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Kute iwaranti leniketwako. Ungasebentisa, ugucule, futsi usabalalise kabusha le-software ngaphansi kwemigomo ye-AGPL-3.0-only.",
 	"settings.backupCreated": "Kudalwe isipele semtapolwati.",

@@ -179,8 +179,10 @@ export const azerbaijaniGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Proqram lisenziyasını açın",
 	"settings.copyrightHolder": "Müəllif hüququ sahibi",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Proqram təminatı lisenziyası",
 	"settings.openSourceLicenses": "Açıq mənbə lisenziyaları",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Heç bir zəmanət verilmir. Siz AGPL-3.0-only şərtlərinə uyğun olaraq bu proqram təminatından istifadə edə, dəyişdirə və yenidən paylaya bilərsiniz.",
 	"settings.backupCreated": "Kitabxananın ehtiyat nüsxəsi yaradılıb.",

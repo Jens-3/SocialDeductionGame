@@ -179,8 +179,10 @@ export const lingalaGuiMessages = {
 		"Liyebisi oyo ezali kaka bokuse mpe ezali kozwa esika ya makomi mobimba ya ndingisa te. Kaka makomi mobimba ya licence nde ezali na bokonzi.",
 	"settings.viewLicense": "Fungola licence ya logiciel",
 	"settings.copyrightHolder": "Moto oyo azali na lotomo ya kosala mikanda",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Licence ya logiciel",
 	"settings.openSourceLicenses": "Mikanda ya ndingisa ya liziba ya polele",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Garantie moko te epesami. Okoki kosalela, kobongola, mpe kokabola lisusu logiciel oyo na nzela ya mibeko ya AGPL-3.0-only.",
 	"settings.backupCreated": "Bobateli ya bibliotɛkɛ esalemi.",

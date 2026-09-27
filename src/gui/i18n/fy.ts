@@ -174,8 +174,10 @@ export const westFrisianGuiMessages = {
 		"Dizze meidieling is mar in gearfetting en ferfangt net de folsleine lisinsjetekst. Allinich de folsleine lisinsjetekst is autoritatyf.",
 	"settings.viewLicense": "Iepenje de software lisinsje",
 	"settings.copyrightHolder": "Eigner fan it auteursrjocht",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Software lisinsje",
 	"settings.openSourceLicenses": "Opensourcelisinsjes",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Gjin garânsje wurdt levere. Jo meie dizze software brûke, wizigje en fersprieden ûnder de betingsten fan AGPL-3.0-only.",
 	"settings.backupCreated": "Backup fan de bibleteek makke.",

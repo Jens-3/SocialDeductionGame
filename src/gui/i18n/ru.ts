@@ -185,8 +185,10 @@ export const russianGuiMessages = {
 		"Данное уведомление является лишь кратким изложением и не заменяет полный текст лицензии. Только полный текст лицензии является авторитетным.",
 	"settings.viewLicense": "Посмотреть лицензию",
 	"settings.copyrightHolder": "Правообладатель",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Лицензия на программное обеспечение",
-	"settings.openSourceLicenses": "Лицензии открытого ПО",
+	"settings.openSourceLicenses": "Лицензии сторонних разработчиков",
+	"settings.thirdPartyLicensesDescription": "Лицензии используемых библиотек",
 	"settings.licenseNotice":
 		"Гарантия не предоставляется. Вы можете использовать, изменять и распространять это программное обеспечение на условиях AGPL-3.0-only.",
 	"settings.backupCreated": "Резервная копия библиотеки создана.",

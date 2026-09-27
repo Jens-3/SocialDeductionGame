@@ -183,8 +183,10 @@ export const sepediGuiMessages = {
 		"Tsebišo ye ke kakaretšo fela gomme ga e tšeele sengwalwa sa laesense ka botlalo legato. Ke fela sengwalwa sa laesense ka botlalo seo se nago le taolo.",
 	"settings.viewLicense": "Bula laesense ya software",
 	"settings.copyrightHolder": "Moswari wa tokelo ya ngwalollo",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Laesense ya software",
 	"settings.openSourceLicenses": "Dilaesense tša mohlodi wo o bulegilego",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Ga go na tiisetšo yeo e filwego. O ka šomiša, wa fetoša, le go aba gape softwere ye ka fase ga dipeelano tša AGPL-3.0-only.",
 	"settings.backupCreated": "Bekapo ya bokgobapuku e hlotšwe.",

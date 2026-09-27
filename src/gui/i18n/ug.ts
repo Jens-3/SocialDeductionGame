@@ -176,8 +176,10 @@ export const uyghurGuiMessages = {
 		"بۇ پەقەت خۇلاسە ، تولۇق ئىجازەت تېكىستىنىڭ ئورنىنى ئالمايدۇ. تولۇق ئىجازەت تېكىستى باشقۇرىدۇ.",
 	"settings.viewLicense": "ئىجازەتنامىنى كۆرۈش",
 	"settings.copyrightHolder": "نەشر ھوقۇقى ئىگىسى",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "يۇمشاق دېتال ئىجازەتنامىسى",
 	"settings.openSourceLicenses": "ئوچۇق كودلۇق ئىجازەتنامە",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"ھېچقانداق كاپالەت تەمىنلەنمىگەن. سىز بۇ يۇمشاق دېتالنى AGPL-3.0-only شەرتى ئاستىدا ئىشلىتەلەيسىز ، ئۆزگەرتەلەيسىز ۋە قايتا تارقاتسىڭىز بولىدۇ.",
 	"settings.backupCreated": "كۈتۈپخانىنى زاپاسلاش قۇرۇلدى.",

@@ -180,8 +180,10 @@ export const fulfuldeGuiMessages = {
 		"Ɗum ko ciimtol tan, wonaa lomto binndol laylaytol timmungol. Binndol laylaytol timmungol ina laami.",
 	"settings.viewLicense": "View license", // This value isn't accurate translated, yet.
 	"settings.copyrightHolder": "Jogiiɗo hakke copyright",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Lislaam lowre",
 	"settings.openSourceLicenses": "Jamirooje open source",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Alaa ko garanti rokkaa. Aɗa waawi huutoraade, waylude, e renndinde ndee lowre e nder sarɗiiji AGPL-3.0-only.",
 	"settings.backupCreated": "Duppi kisal deftere sosaama.",

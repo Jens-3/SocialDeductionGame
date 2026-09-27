@@ -1,0 +1,13 @@
+Added:
+
+* Open-source licenses now include an expandable offline HTML overview.
+
+Changed:
+
+* Updated localization.
+
+Fixed:
+
+* Rule set cards now immediately show updated team and role counts.
+* Template names now use the current interface language.
+* Saved detail fields no longer incorrectly trigger an unsaved-changes warning.

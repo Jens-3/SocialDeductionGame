@@ -180,8 +180,10 @@ export const zuluGuiMessages = {
 		"Lesi isifinyezo kuphela, hhayi esikhundleni sombhalo welayisensi ophelele. Umbhalo welayisensi ophelele uyabusa.",
 	"settings.viewLicense": "Buka ilayisensi",
 	"settings.copyrightHolder": "Umnikazi we-copyright",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Ilayisensi yesofthiwe",
 	"settings.openSourceLicenses": "Amalayisense omthombo ovulekile",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Asikho iwaranti enikeziwe. Ungasebenzisa, uguqule, futhi usabalalise kabusha le softhiwe ngaphansi kwemibandela ye-AGPL-3.0-only.",
 	"settings.backupCreated": "Isipele somtapo wolwazi senziwe.",

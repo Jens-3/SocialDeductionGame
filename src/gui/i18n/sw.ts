@@ -179,8 +179,10 @@ export const swahiliGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Fungua leseni ya programu",
 	"settings.copyrightHolder": "Mwenye hakimiliki",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Leseni ya programu",
 	"settings.openSourceLicenses": "Leseni za chanzo huria",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Hakuna udhamini unaotolewa. Unaweza kutumia, kurekebisha, na kusambaza upya programu hii chini ya masharti ya AGPL-3.0-only.",
 	"settings.backupCreated": "Nakala rudufu ya maktaba imeundwa.",

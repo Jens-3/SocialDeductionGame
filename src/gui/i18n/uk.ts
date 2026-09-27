@@ -185,8 +185,10 @@ export const ukrainianGuiMessages = {
 		"Це лише короткий виклад, який не замінює повний текст ліцензії. Повний текст ліцензії регулює.",
 	"settings.viewLicense": "Переглянути ліцензію",
 	"settings.copyrightHolder": "Власник авторських прав",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Ліцензія на програмне забезпечення",
-	"settings.openSourceLicenses": "Ліцензії відкритого ПЗ",
+	"settings.openSourceLicenses": "Ліцензії сторонніх розробників",
+	"settings.thirdPartyLicensesDescription": "Ліцензії використаних бібліотек",
 	"settings.licenseNotice":
 		"Гарантія не надається. Ви можете використовувати, змінювати та поширювати це програмне забезпечення відповідно до умов AGPL-3.0-only.",
 	"settings.backupCreated": "Резервну копію бібліотеки створено.",

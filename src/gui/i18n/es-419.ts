@@ -186,8 +186,11 @@ export const latinAmericanSpanishGuiMessages = {
 		"Este aviso es sólo un resumen y no reemplaza el texto completo de la licencia. Sólo el texto completo de la licencia tiene autoridad.",
 	"settings.viewLicense": "Abra la licencia del software",
 	"settings.copyrightHolder": "Titular de los derechos de autor",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "licencia de software",
-	"settings.openSourceLicenses": "Licencias de código abierto",
+	"settings.openSourceLicenses": "Licencias de terceros",
+	"settings.thirdPartyLicensesDescription":
+		"Licencias de las bibliotecas utilizadas",
 	"settings.licenseNotice":
 		"No se proporciona garantía. Puede utilizar, modificar y redistribuir este software según los términos de AGPL-3.0-only.",
 	"settings.backupCreated":

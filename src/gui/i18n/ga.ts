@@ -191,8 +191,10 @@ export const irishGuiMessages = {
 		"Níl san fhógra seo ach achoimre agus ní thagann sé in ionad théacs iomlán an cheadúnais. Níl ach téacs iomlán an cheadúnais údarásach.",
 	"settings.viewLicense": "Oscail an ceadúnas bogearraí",
 	"settings.copyrightHolder": "Sealbhóir cóipchirt",
+	"settings.feedback": "Aiseolas",
 	"settings.softwareLicense": "Ceadúnas bogearraí",
 	"settings.openSourceLicenses": "Ceadúnais foinse oscailte",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Ní sholáthraítear aon bharántas. Is féidir leat na bogearraí seo a úsáid, a mhodhnú agus a athdháileadh faoi théarmaí AGPL-3.0-only.",
 	"settings.backupCreated": "Cruthaíodh cúltaca den leabharlann.",

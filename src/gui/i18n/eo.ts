@@ -175,8 +175,10 @@ export const esperantoGuiMessages = {
 		"Ĉi tiu avizo estas nur resumo kaj ne anstataŭigas la plenan licencan tekston. Nur la plena licenca teksto estas aŭtoritata.",
 	"settings.viewLicense": "Malfermu la programlicencon",
 	"settings.copyrightHolder": "Kopirajtoposedanto",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Licenco de programaro",
-	"settings.openSourceLicenses": "Malfermfontaj permesiloj",
+	"settings.openSourceLicenses": "Licencoj de triaj partoj",
+	"settings.thirdPartyLicensesDescription": "Licencoj de la uzataj bibliotekoj",
 	"settings.licenseNotice":
 		"Neniu garantio estas provizita. Vi povas uzi, modifi kaj redistribui ĉi tiun programon laŭ la kondiĉoj de AGPL-3.0-only.",
 	"settings.backupCreated": "Biblioteko sekurkopio kreita.",

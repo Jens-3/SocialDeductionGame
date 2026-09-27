@@ -176,8 +176,10 @@ export const indonesianGuiMessages = {
 		"Pemberitahuan ini hanyalah ringkasan dan tidak menggantikan teks lisensi lengkap. Hanya teks lisensi lengkap yang otoritatif.",
 	"settings.viewLicense": "Lihat lisensi",
 	"settings.copyrightHolder": "Pemegang hak cipta",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Lisensi perangkat lunak",
-	"settings.openSourceLicenses": "Lisensi sumber terbuka",
+	"settings.openSourceLicenses": "Lisensi pihak ketiga",
+	"settings.thirdPartyLicensesDescription": "Lisensi pustaka yang digunakan",
 	"settings.licenseNotice":
 		"Tidak ada jaminan yang diberikan. Anda dapat menggunakan, memodifikasi, dan mendistribusikan ulang perangkat lunak ini berdasarkan ketentuan AGPL-3.0-only.",
 	"settings.backupCreated": "Cadangan pustaka dibuat.",

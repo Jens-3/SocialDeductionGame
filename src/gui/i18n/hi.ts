@@ -178,8 +178,10 @@ export const hindiGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "लाइसेंस देखें",
 	"settings.copyrightHolder": "कॉपीराइट धारक",
+	"settings.feedback": "प्रतिक्रिया",
 	"settings.softwareLicense": "सॉफ्टवेयर लाइसेंस",
 	"settings.openSourceLicenses": "ओपन-सोर्स लाइसेंस",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"कोई वारंटी प्रदान नहीं की जाती है. आप AGPL-3.0-only की शर्तों के तहत इस सॉफ़्टवेयर का उपयोग, संशोधन और पुनर्वितरण कर सकते हैं।",
 	"settings.backupCreated": "लाइब्रेरी बैकअप बनाया गया।",

@@ -181,8 +181,10 @@ export const malagasyGuiMessages = {
 		"Ity fampandrenesana ity dia famintinana fotsiny ary tsy manolo ny lahatsoratra momba ny fahazoan-dàlana feno. Ny lahatsoratra momba ny lisansa feno ihany no manana fahefana.",
 	"settings.viewLicense": "Sokafy ny lisansa rindrambaiko",
 	"settings.copyrightHolder": "Tompon'ny zon'ny mpamorona",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Fahazoan-dàlana rindrambaiko",
 	"settings.openSourceLicenses": "Fahazoan-dàlana misokatra",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Tsy misy fiantohana omena. Azonao atao ny mampiasa, manova, ary mizara indray ity rindrambaiko ity araka ny fepetran'ny AGPL-3.0-only.",
 	"settings.backupCreated": "Noforonina ny backup library.",

@@ -180,8 +180,10 @@ export const twiGuiMessages = {
 		"Eyi yɛ nsɛm a wɔaboaboa ano kɛkɛ, ɛnyɛ nea wɔde besi tumi krataa no mu nsɛm a edi mũ no ananmu. Tumi krataa nkyerɛwee a edi mũ no na ɛkyerɛ kwan.",
 	"settings.viewLicense": "Bue software tumi krataa no",
 	"settings.copyrightHolder": "Owura a ɔwɔ hokwan a ɔde yɛ adwuma no",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Software tumi krataa",
 	"settings.openSourceLicenses": "Tumi krataa a wɔabue ano",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Wɔmfa warranty biara mma. Wubetumi de saa softwea yi adi dwuma, asesa, na woasan akyekyɛ wɔ AGPL-3.0-only mmara ase.",
 	"settings.backupCreated": "Wɔayɛ nhomakorabea no nsiei-nsɛso.",

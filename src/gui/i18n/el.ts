@@ -182,8 +182,11 @@ export const greekGuiMessages = {
 		"Αυτή είναι μόνο μια περίληψη, όχι ένα υποκατάστατο για το πλήρες κείμενο της άδειας. Το πλήρες κείμενο της άδειας διέπει.",
 	"settings.viewLicense": "Προβολή άδειας",
 	"settings.copyrightHolder": "Κάτοχος πνευματικών δικαιωμάτων",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Άδεια χρήσης λογισμικού",
-	"settings.openSourceLicenses": "Άδειες ανοικτού κώδικα",
+	"settings.openSourceLicenses": "Άδειες τρίτων",
+	"settings.thirdPartyLicensesDescription":
+		"Άδειες των βιβλιοθηκών που χρησιμοποιούνται",
 	"settings.licenseNotice":
 		"Δεν παρέχεται καμία εγγύηση. Μπορείτε να χρησιμοποιήσετε, να τροποποιήσετε και να αναδιανείμετε αυτό το λογισμικό σύμφωνα με τους όρους του AGPL-3.0-only.",
 	"settings.backupCreated":

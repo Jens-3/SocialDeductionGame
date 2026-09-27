@@ -171,8 +171,10 @@ export const sintiRomaniGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "View license", // This value isn't accurate translated, yet.
 	"settings.copyrightHolder": "Copyright holder", // This value isn't accurate translated, yet.
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Software license", // This value isn't accurate translated, yet.
 	"settings.openSourceLicenses": "Licencie putarde-źanglimaske",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"No warranty is provided. You may use, modify, and redistribute this software under the terms of AGPL-3.0-only.", // This value isn't accurate translated, yet.
 	"settings.backupCreated": "Bibliotekaqo backup kerdo.",

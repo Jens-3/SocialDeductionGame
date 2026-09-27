@@ -184,8 +184,10 @@ export const slovenianGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Ogled licence",
 	"settings.copyrightHolder": "Imetnik avtorskih pravic",
+	"settings.feedback": "Povratne informacije",
 	"settings.softwareLicense": "Licenca programske opreme",
-	"settings.openSourceLicenses": "Odprtokodne licence",
+	"settings.openSourceLicenses": "Licence tretjih oseb",
+	"settings.thirdPartyLicensesDescription": "Licence uporabljenih knjižnic",
 	"settings.licenseNotice":
 		"Garancija ni zagotovljena. To programsko opremo lahko uporabljate, spreminjate in naprej distribuirate pod pogoji AGPL-3.0-only.",
 	"settings.backupCreated": "Varnostna kopija knjižnice ustvarjena.",

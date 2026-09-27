@@ -177,8 +177,10 @@ export const dhivehiGuiMessages = {
 		"މިއީ ހަމައެކަނި ޚުލާޞާއެއް، ފުރިހަމަ ލައިސަންސް ޓެކްސްޓްގެ ބަދަލުގައި ލިޔެފައިވާ ލިޔުމެއް ނޫނެވެ. ފުރިހަމަ ލައިސަންސް ޓެކްސްޓުން ވެރިކަން ކުރެއެވެ.",
 	"settings.viewLicense": "ސޮފްޓްވެއާ ލައިސަންސް ހުޅުވާލާށެވެ",
 	"settings.copyrightHolder": "ކޮޕީރައިޓް ހޯލްޑަރ",
+	"settings.feedback": "ފީޑްބެކް",
 	"settings.softwareLicense": "ސޮފްޓްވެއާ ލައިސަންސް",
 	"settings.openSourceLicenses": "އޮޕަން-ސޯސް ލައިސަންސް",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"No warranty is provided. You may use, modify, and redistribute this software under the terms of AGPL-3.0-only.", // This value isn't accurate translated, yet.
 	"settings.backupCreated": "ލައިބްރަރީ ބެކަޕް އުފެއްދިއެވެ.",

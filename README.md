@@ -41,8 +41,8 @@ Alle ausführlichen Handbücher befinden sich im Verzeichnis `docs`:
 
 ### Voraussetzungen
 
-- Node.js `^22.22.2`, `^24.15.0` oder `>=26.0.0`;
-- pnpm `11.24.0`.
+- Node.js `^24.19.0` oder `>=26.0.0`;
+- pnpm `12.6.0`.
 
 Abhängigkeiten installieren:
 
@@ -131,8 +131,7 @@ pnpm run test:watch
 
 Copyright (C) 2026 Jens Aßmus
 
-Diese Software ist ausschließlich unter der
-[GNU Affero General Public License, Version 3](./LICENSE) veröffentlicht.
+Diese Software ist ausschließlich unter der [GNU Affero General Public License, Version 3](./LICENSE) veröffentlicht. Die Gewährleistung ist ausgeschlossen.
 
 SPDX-License-Identifier: `AGPL-3.0-only`
 
@@ -157,7 +156,23 @@ Prüfen, ob die eingecheckte Datei aktuell ist:
 pnpm run licenses:check
 ```
 
+## License
+
+Copyright (C) 2026 Jens Aßmus
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the [GNU Affero General Public License, version 3](./LICENSE)
+as published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/agpl-3.0.html>.
+
 ---
 
 **Navigation:**
-Projektübersicht | [Benutzerhandbuch](./docs/benutzerhandbuch.md) | [Entwicklerhandbuch](./docs/entwicklerhandbuch.md) | [Modulübersicht](./docs/moduluebersicht.md)
+Projektübersicht | [Benutzerhandbuch](./docs/de/benutzerhandbuch.md) | [Entwicklerhandbuch](./docs/de/entwicklerhandbuch.md) | [Modulübersicht](./docs/de/moduluebersicht.md)

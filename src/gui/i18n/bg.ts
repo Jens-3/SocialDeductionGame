@@ -180,8 +180,11 @@ export const bulgarianGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Вижте лиценза",
 	"settings.copyrightHolder": "Носител на авторските права",
+	"settings.feedback": "Обратна връзка",
 	"settings.softwareLicense": "Софтуерен лиценз",
-	"settings.openSourceLicenses": "Лицензи за отворен код",
+	"settings.openSourceLicenses": "Лицензи на трети страни",
+	"settings.thirdPartyLicensesDescription":
+		"Лицензи на използваните библиотеки",
 	"settings.licenseNotice":
 		"Не се предоставя гаранция. Можете да използвате, модифицирате и разпространявате този софтуер съгласно условията на AGPL-3.0-only.",
 	"settings.backupCreated": "Създадено е резервно копие на библиотеката.",

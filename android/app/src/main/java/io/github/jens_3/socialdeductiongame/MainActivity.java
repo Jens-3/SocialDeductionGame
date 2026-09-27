@@ -14,6 +14,7 @@ public class MainActivity extends BridgeActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         registerPlugin(NativeDataFilePlugin.class);
+        registerPlugin(AppSystemBarsPlugin.class);
         SplashScreen.installSplashScreen(this);
         super.onCreate(savedInstanceState);
     }

@@ -183,8 +183,10 @@ export const italianGuiMessages = {
 		"Questo avviso è solo un riepilogo e non sostituisce il testo completo della licenza. Solo il testo completo della licenza è autorevole.",
 	"settings.viewLicense": "Visualizza licenza",
 	"settings.copyrightHolder": "Titolare del copyright",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Licenza software",
-	"settings.openSourceLicenses": "Licenze open source",
+	"settings.openSourceLicenses": "Licenze di terze parti",
+	"settings.thirdPartyLicensesDescription": "Licenze delle librerie utilizzate",
 	"settings.licenseNotice":
 		"Non viene fornita alcuna garanzia. È possibile utilizzare, modificare e ridistribuire questo software secondo i termini di AGPL-3.0-only.",
 	"settings.backupCreated": "Backup della libreria creato.",

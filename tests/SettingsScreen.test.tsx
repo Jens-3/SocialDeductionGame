@@ -34,47 +34,132 @@ function SettingsScreen({
 	);
 }
 
-it("zeigt Version, Rechteinhaber sowie lokale Software- und Drittanbieterlizenzen", () => {
-	render(
-		<SettingsScreen
-			onBack={() => undefined}
-			settings={defaultAppSettings}
-			onSettingsChange={() => undefined}
-		/>,
-	);
-
-	expect(screen.getByText("0.9.0")).toBeDefined();
-	expect(screen.getByText("GNU AGPL v3.0 only")).toBeDefined();
-	expect(screen.getByText("Jens Aßmus")).toBeDefined();
-	expect(
-		screen.getByText(
+const licenseLocales = [
+	{
+		language: "de",
+		viewLicense: "Lizenz anzeigen",
+		close: "Schließen",
+		thirdPartyLicenses: "Drittanbieter-Lizenzen",
+		licenseNotice:
 			"Es besteht keine Gewährleistung. Sie dürfen diese Software unter den Bedingungen der AGPL-3.0-only verwenden, verändern und weitergeben.",
-		),
-	).toBeDefined();
-	expect(screen.queryByText("Alle Daten löschen")).toBeNull();
+		licenseSummaryDisclaimer:
+			"Diese Kurzinfo ist nur eine Zusammenfassung und ersetzt nicht den vollständigen Lizenztext. Maßgeblich ist ausschließlich der vollständige Lizenztext.",
+	},
+	{
+		language: "en",
+		viewLicense: "View license",
+		close: "Close",
+		thirdPartyLicenses: "Third-party licenses",
+		licenseNotice:
+			"No warranty is provided. You may use, modify, and redistribute this software under the terms of AGPL-3.0-only.",
+		licenseSummaryDisclaimer:
+			"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.",
+	},
+] as const;
 
-	fireEvent.click(screen.getByRole("button", { name: /Lizenz anzeigen/u }));
-	const dialog = screen.getByRole("dialog", { name: "Lizenz anzeigen" });
-	expect(within(dialog).getByText("Copyright © 2026 Jens Aßmus")).toBeDefined();
-	expect(dialog.textContent).toContain("GNU AFFERO GENERAL PUBLIC LICENSE");
-	expect(dialog.textContent).toContain("END OF TERMS AND CONDITIONS");
+it.each(licenseLocales)(
+	"zeigt Version, Rechteinhaber sowie lokale Software- und Drittanbieterlizenzen auf $language",
+	({
+		language,
+		viewLicense,
+		close,
+		thirdPartyLicenses,
+		licenseNotice,
+		licenseSummaryDisclaimer,
+	}) => {
+		render(
+			<SettingsScreen
+				translationLanguage={language}
+				onBack={() => undefined}
+				settings={defaultAppSettings}
+				onSettingsChange={() => undefined}
+			/>,
+		);
 
-	fireEvent.click(within(dialog).getByRole("button", { name: "Schließen" }));
-	fireEvent.click(
-		screen.getByRole("button", { name: /Open-Source-Lizenzen/u }),
-	);
-	const thirdPartyDialog = screen.getByRole("dialog", {
-		name: "Open-Source-Lizenzen",
-	});
-	expect(thirdPartyDialog.textContent).toContain(
-		"THIRD-PARTY SOFTWARE NOTICES",
-	);
-	expect(thirdPartyDialog.textContent).toContain("react@19.2.8 — MIT");
-	expect(thirdPartyDialog.textContent).toContain(
-		"ANDROID RELEASE-RUNTIME ARTIFACT INDEX",
-	);
-	expect(thirdPartyDialog.textContent).toContain("Apache License");
-});
+		expect(screen.getByText("1.0.0")).toBeDefined();
+		expect(screen.getByText("GNU AGPL v3.0 only")).toBeDefined();
+		expect(screen.getByText("Jens Aßmus")).toBeDefined();
+		expect(screen.getByText(licenseNotice)).toBeDefined();
+		expect(screen.getByText(licenseSummaryDisclaimer)).toBeDefined();
+
+		fireEvent.click(
+			screen.getByRole("button", {
+				name: new RegExp(viewLicense, "u"),
+			}),
+		);
+
+		const dialog = screen.getByRole("dialog", {
+			name: viewLicense,
+		});
+
+		expect(dialog.textContent).toContain("GNU AFFERO GENERAL PUBLIC LICENSE");
+		expect(dialog.textContent).toContain("END OF TERMS AND CONDITIONS");
+
+		fireEvent.click(
+			within(dialog).getByRole("button", {
+				name: close,
+			}),
+		);
+
+		fireEvent.click(
+			screen.getByRole("button", {
+				name: new RegExp(thirdPartyLicenses, "u"),
+			}),
+		);
+
+		const thirdPartyDialog = screen.getByRole("dialog", {
+			name: thirdPartyLicenses,
+		});
+
+		expect(screen.queryByText("Alle Daten löschen")).toBeNull();
+
+		expect(
+			within(dialog).getByText("Copyright © 2026 Jens Aßmus"),
+		).toBeDefined();
+		expect(dialog.textContent).toContain("GNU AFFERO GENERAL PUBLIC LICENSE");
+		expect(dialog.textContent).toContain("END OF TERMS AND CONDITIONS");
+
+		const htmlButton = within(thirdPartyDialog).getByRole("button", {
+			name: "HTML",
+		});
+		const txtButton = within(thirdPartyDialog).getByRole("button", {
+			name: "TXT",
+		});
+		expect(htmlButton.getAttribute("aria-pressed")).toBe("true");
+		const htmlView = thirdPartyDialog.querySelector<HTMLElement>(
+			".license-dialog__html",
+		);
+		const textView = thirdPartyDialog.querySelector<HTMLElement>(
+			".license-dialog__text",
+		);
+		expect(htmlView?.hidden).toBe(false);
+		expect(textView?.hidden).toBe(true);
+		const details = htmlView?.querySelector("details");
+		if (!details || !htmlView)
+			throw new Error("HTML license content is missing");
+		details.open = true;
+		htmlView.scrollTop = 100;
+		fireEvent.click(txtButton);
+		expect(htmlView.hidden).toBe(true);
+		expect(textView?.hidden).toBe(false);
+		expect(txtButton.getAttribute("aria-pressed")).toBe("true");
+		fireEvent.click(htmlButton);
+		expect(htmlView.hidden).toBe(false);
+		expect(details.open).toBe(true);
+		expect(htmlView.scrollTop).toBe(100);
+		expect(thirdPartyDialog.textContent).toContain(
+			"THIRD-PARTY SOFTWARE NOTICES",
+		);
+		expect(thirdPartyDialog.textContent).toContain("NPM RUNTIME PACKAGE INDEX");
+		expect(thirdPartyDialog.textContent).toContain("react@19.3.0 — MIT");
+		expect(thirdPartyDialog.textContent).toContain(
+			"ANDROID RELEASE-RUNTIME ARTIFACT INDEX",
+		);
+		expect(thirdPartyDialog.textContent).toContain("LICENSE AND NOTICE TEXTS");
+		expect(thirdPartyDialog.textContent).toContain("ANDROID LICENSE TEXTS");
+		expect(thirdPartyDialog.textContent).toContain("Apache License");
+	},
+);
 
 it("bietet die Systemsprache als Sprachoption an", async () => {
 	render(

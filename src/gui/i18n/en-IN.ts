@@ -177,8 +177,10 @@ export const indianEnglishGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.",
 	"settings.viewLicense": "View license",
 	"settings.copyrightHolder": "Copyright holder",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Software license",
-	"settings.openSourceLicenses": "Open-source licences",
+	"settings.openSourceLicenses": "Third-party licences",
+	"settings.thirdPartyLicensesDescription": "Licences of the libraries used",
 	"settings.licenseNotice":
 		"No warranty is provided. You may use, modify, and redistribute this software under the terms of AGPL-3.0-only.",
 	"settings.backupCreated": "Library backup created.",

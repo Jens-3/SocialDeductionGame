@@ -180,8 +180,10 @@ export const tamilGuiMessages = {
 		"இது ஒரு சுருக்கம் மட்டுமே, முழுமையான உரிம உரைக்கு மாற்றாக இல்லை. முழு உரிம உரை நிர்வகிக்கிறது.",
 	"settings.viewLicense": "மென்பொருள் உரிமத்தைத் திறக்கவும்",
 	"settings.copyrightHolder": "காப்புரிமை வைத்திருப்பவர்",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "மென்பொருள் உரிமம்",
 	"settings.openSourceLicenses": "திறந்த மூல உரிமங்கள்",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"எந்த உத்தரவாதமும் வழங்கப்படவில்லை. AGPL-3.0-only விதிமுறைகளின் கீழ் இந்த மென்பொருளை நீங்கள் பயன்படுத்தலாம், மாற்றலாம் மற்றும் மறுவிநியோகம் செய்யலாம்.",
 	"settings.backupCreated": "நூலக காப்புப்பிரதி உருவாக்கப்பட்டது.",

@@ -186,8 +186,10 @@ export const polishGuiMessages = {
 		"Niniejsza informacja stanowi jedynie podsumowanie i nie zastępuje pełnego tekstu licencji. Tylko pełny tekst licencji jest miarodajny.",
 	"settings.viewLicense": "Zobacz licencję",
 	"settings.copyrightHolder": "Właściciel praw autorskich",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Licencja na oprogramowanie",
-	"settings.openSourceLicenses": "Licencje open source",
+	"settings.openSourceLicenses": "Licencje stron trzecich",
+	"settings.thirdPartyLicensesDescription": "Licencje używanych bibliotek",
 	"settings.licenseNotice":
 		"Nie udziela się żadnej gwarancji. Możesz używać, modyfikować i rozpowszechniać to oprogramowanie zgodnie z warunkami AGPL-3.0-only.",
 	"settings.backupCreated": "Utworzono kopię zapasową biblioteki.",

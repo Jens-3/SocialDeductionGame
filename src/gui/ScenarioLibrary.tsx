@@ -1043,8 +1043,8 @@ function ScenarioDetailScreen(props: ScenarioDetailScreenProps) {
 	const t = useMemo(() => createGuiTranslator(language), [language]);
 	const isCurrentGame = props.isCurrentGame === true;
 	const isRestored = (scenario.restoredIndex ?? 0) > 0;
-	const [editor] = useState(() =>
-		isCurrentGame
+	const [editor] = useState(() => {
+		const session = isCurrentGame
 			? requireEditorFactory(editorFactory).fromGame(
 					data as GameState,
 					language,
@@ -1057,9 +1057,10 @@ function ScenarioDetailScreen(props: ScenarioDetailScreenProps) {
 				: requireEditorFactory(editorFactory).fromTemplate(
 						data as GameState,
 						language,
-					),
-	);
-	if (isNew && !editor.isDirty()) editor.markChanged();
+					);
+		if (isNew) session.markChanged();
+		return session;
+	});
 	const [section, setSection] = useState<ScenarioEditorSection>("teams");
 	const [selectedId, setSelectedId] = useState<string>();
 	const [revision, setRevision] = useState(0);
@@ -1091,6 +1092,7 @@ function ScenarioDetailScreen(props: ScenarioDetailScreenProps) {
 	};
 	const save = async (asCopy: boolean): Promise<boolean> => {
 		if (!editor) return false;
+		if (selected && !(objectFormRef.current?.apply() ?? true)) return false;
 		setEditorError(undefined);
 		try {
 			if (props.isCurrentGame) {
@@ -1135,6 +1137,16 @@ function ScenarioDetailScreen(props: ScenarioDetailScreenProps) {
 					...(asCopy ? { restoredIndex: undefined } : {}),
 					name: name.trim(),
 					names: { [language]: name.trim() },
+					metadata: isGameState(document)
+						? t("scenarios.templateMetadata", {
+								count: document.seatOrder.length,
+								ruleSet: document.ruleSetSnapshot.name,
+							})
+						: t("scenarios.ruleSetMetadata", {
+								version: document.version,
+								teams: document.teams.length,
+								roles: document.roles.length,
+							}),
 					detail: t("scenarios.justSaved"),
 				},
 				document,
@@ -1663,9 +1675,11 @@ function ScenarioObjectForm({
 		applyStatusEffect: [...applyStatusEffect],
 		defaultDuration,
 	});
+	const [initialValues] = useState(() => JSON.stringify(values()));
 	const apply = (): boolean => {
 		if (formRef.current && !formRef.current.reportValidity()) return false;
-		return onSubmit(values());
+		const nextValues = values();
+		return JSON.stringify(nextValues) === initialValues || onSubmit(nextValues);
 	};
 	useImperativeHandle(controllerRef, () => ({ apply }));
 	return (
@@ -1674,7 +1688,7 @@ function ScenarioObjectForm({
 			className="scenario-object-form"
 			onSubmit={(event) => {
 				event.preventDefault();
-				onSubmit(values());
+				apply();
 			}}
 		>
 			<header className="scenario-object-form__header">

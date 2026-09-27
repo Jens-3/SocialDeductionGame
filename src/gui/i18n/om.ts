@@ -180,8 +180,10 @@ export const oromoGuiMessages = {
 		"Kun gabaabduu qofa malee barreeffama hayyamaa guutuu bakka bu'aa miti. Barreeffamni hayyamaa guutuun ni bulcha.",
 	"settings.viewLicense": "Hayyama sooftiweerii banaa",
 	"settings.copyrightHolder": "Abbaa mirga waraabbii",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Hayyama sooftiweerii",
 	"settings.openSourceLicenses": "Hayyama open-source",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Wabii tokkollee hin kennamu. Software kana haala AGPL-3.0-only jalatti fayyadamuu, fooyyessuu fi irra deebitee raabsuu dandeessa.",
 	"settings.backupCreated": "Garagalchi eegumsaa kuusaa uumame.",

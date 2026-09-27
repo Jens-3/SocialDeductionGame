@@ -42,7 +42,7 @@ android {
         applicationId "io.github.jens_3.socialdeductiongame"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
+        versionCode packageMetadata.buildNumber.toInteger()
 		versionName packageMetadata.version
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
@@ -87,8 +87,17 @@ def validateReleaseSigning = tasks.register('validateReleaseSigning') {
     }
 }
 
+// Guard the artifact-producing tasks themselves, including direct invocations.
+// Debug keeps AGP's debug key; F-Droid releases deliberately remain unsigned.
+def signedReleaseTaskNames = [
+    'packageRelease',
+    'packageReleaseBundle',
+    'signReleaseBundle',
+    'assembleRelease',
+    'bundleRelease',
+] as Set
 tasks.matching { task ->
-    !fdroidBuild && (task.name == 'bundleRelease' || task.name == 'assembleRelease')
+    !fdroidBuild && task.name in signedReleaseTaskNames
 }.configureEach {
     dependsOn validateReleaseSigning
 }

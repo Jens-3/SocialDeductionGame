@@ -1,0 +1,13 @@
+Ajouts :
+
+* Les licences open source proposent désormais un aperçu HTML dépliable, disponible hors ligne.
+
+Modifications :
+
+* Localisation mise à jour.
+
+Corrections :
+
+* Les fiches de règles affichent désormais immédiatement le nombre actualisé d'équipes et de rôles.
+* Les noms de modèles utilisent désormais la langue actuelle de l'interface.
+* Les champs de détail enregistrés ne déclenchent plus à tort un avertissement concernant des modifications non enregistrées.

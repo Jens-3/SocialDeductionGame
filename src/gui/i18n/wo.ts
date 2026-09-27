@@ -176,8 +176,10 @@ export const wolofGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Ubbi lisence losisel bi",
 	"settings.copyrightHolder": "Boroom yelleefu moomeel",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Liseñsu losisel",
 	"settings.openSourceLicenses": "Sañ-sañi xelalin bu ubbeeku",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Amul benn gaaraati. Mën nga jëfandikoo, soppali, ak séddalewaat losisel bii ci sàrti AGPL-3.0-only.",
 	"settings.backupCreated": "Sos nañu sàmmukaayu dencukaay bi.",

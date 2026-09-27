@@ -24,6 +24,7 @@ import {
 } from "./gui/i18n/translate";
 import { createObjectPersistence } from "./persistence/objectPersistence";
 import { trackDataFileStorageWrites } from "./persistence/trackedDataFileStorage";
+import { observeAndroidSystemBars } from "./platform/androidSystemBars";
 import { createBrowserPreferenceAdapters } from "./platform/browserPreferenceAdapters";
 import { CapacitorApplicationLifecycleAdapter } from "./platform/capacitorApplicationLifecycleAdapter";
 import { CapacitorHapticFeedbackAdapter } from "./platform/capacitorHapticFeedbackAdapter";
@@ -129,6 +130,8 @@ export async function bootstrapApplication(
 }
 
 export function createProductionBootstrapServices(): BootstrapApplicationServices {
+	const stopObservingSystemBars = observeAndroidSystemBars();
+	if (import.meta.hot) import.meta.hot.dispose(stopObservingSystemBars);
 	const applicationLifecycle = new CapacitorApplicationLifecycleAdapter();
 	const isNative = applicationLifecycle.isNativePlatform();
 	const hapticFeedback = new CapacitorHapticFeedbackAdapter();

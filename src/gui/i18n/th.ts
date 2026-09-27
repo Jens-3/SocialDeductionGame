@@ -172,8 +172,10 @@ export const thaiGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "ดูใบอนุญาต",
 	"settings.copyrightHolder": "เจ้าของลิขสิทธิ์",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "ใบอนุญาตซอฟต์แวร์",
 	"settings.openSourceLicenses": "สัญญาอนุญาตโอเพนซอร์ส",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"ไม่มีการรับประกัน คุณสามารถใช้ แก้ไข และแจกจ่ายซอฟต์แวร์นี้อีกครั้งภายใต้เงื่อนไขของ AGPL-3.0-only",
 	"settings.backupCreated": "สร้างข้อมูลสำรองของคลังแล้ว",

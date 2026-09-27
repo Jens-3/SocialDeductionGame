@@ -172,8 +172,10 @@ export const khmerGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "មើលអាជ្ញាប័ណ្ណ",
 	"settings.copyrightHolder": "Copyright holder", // This value isn't accurate translated, yet.
+	"settings.feedback": "មតិកែលម្អ",
 	"settings.softwareLicense": "អាជ្ញាប័ណ្ណកម្មវិធី",
 	"settings.openSourceLicenses": "អាជ្ញាបណ្ណប្រភពបើកចំហ",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"គ្មានការធានាត្រូវបានផ្តល់ជូនទេ។ អ្នកអាចប្រើ កែប្រែ និងចែកចាយកម្មវិធីនេះឡើងវិញក្រោមលក្ខខណ្ឌនៃ AGPL-3.0-only ។",
 	"settings.backupCreated": "បានបង្កើតច្បាប់ចម្លងបម្រុងបណ្ណាល័យ។",

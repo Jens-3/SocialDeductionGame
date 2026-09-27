@@ -177,8 +177,10 @@ export const urduGuiMessages = {
 		"یہ نوٹس صرف ایک خلاصہ ہے اور لائسنس کے مکمل متن کو تبدیل نہیں کرتا ہے۔ صرف لائسنس کا مکمل متن مستند ہے۔",
 	"settings.viewLicense": "سافٹ ویئر لائسنس کھولیں۔",
 	"settings.copyrightHolder": "کاپی رائٹ ہولڈر",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "سافٹ ویئر لائسنس",
 	"settings.openSourceLicenses": "اوپن سورس لائسنس",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"کوئی وارنٹی فراہم نہیں کی جاتی ہے۔ آپ AGPL-3.0-only کی شرائط کے تحت اس سافٹ ویئر کو استعمال، ترمیم اور دوبارہ تقسیم کر سکتے ہیں۔",
 	"settings.backupCreated": "لائبریری بیک اپ بنا دیا گیا۔",

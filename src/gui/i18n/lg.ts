@@ -178,8 +178,10 @@ export const lugandaGuiMessages = {
 		"Kino kifunze kyokka, so si kifo kya kiwandiiko kya layisinsi ekijjuvu. Ekiwandiiko kya layisinsi ekijjuvu kye kifuga.",
 	"settings.viewLicense": "Ggulawo layisinsi ya pulogulaamu",
 	"settings.copyrightHolder": "Omukwasi w’obuyinza bw’okuwandiika",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Layisinsi ya pulogulaamu",
 	"settings.openSourceLicenses": "Layisinsi eziggule",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Tewali ggaranti eweebwa. Oyinza okukozesa, okukyusa, n'okuddamu okusaasaanya pulogulaamu eno wansi w'ebiragiro bya AGPL-3.0-only.",
 	"settings.backupCreated": "Library backup ekoleddwa.",

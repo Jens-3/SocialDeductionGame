@@ -178,8 +178,10 @@ export const nepaliGuiMessages = {
 		"यो केवल सारांश हो, पूर्ण इजाजतपत्र पाठको विकल्प होइन। पूर्ण इजाजतपत्र पाठ शासित छ।",
 	"settings.viewLicense": "सफ्टवेयर लाइसेन्स खोल्नुहोस्",
 	"settings.copyrightHolder": "प्रतिलिपि अधिकार धारक",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "सफ्टवेयर लाइसेन्स",
 	"settings.openSourceLicenses": "ओपन-सोर्स इजाजतपत्रहरू",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"कुनै वारेन्टी प्रदान गरिएको छैन। तपाईंले AGPL-3.0-only को सर्तहरू अन्तर्गत यो सफ्टवेयर प्रयोग गर्न, परिमार्जन गर्न र पुन: वितरण गर्न सक्नुहुन्छ।",
 	"settings.backupCreated": "लाइब्रेरी ब्याकअप सिर्जना गरियो।",

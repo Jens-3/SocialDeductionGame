@@ -182,8 +182,10 @@ export const serbianGuiMessages = {
 		"Ово обавештење је само резиме и не замењује цео текст лиценце. Само цео текст лиценце је меродаван.",
 	"settings.viewLicense": "Погледајте лиценцу",
 	"settings.copyrightHolder": "Носилац ауторских права",
+	"settings.feedback": "Повратне информације",
 	"settings.softwareLicense": "Софтверска лиценца",
 	"settings.openSourceLicenses": "Лиценце отвореног кода",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Гаранција није дата. Овај софтвер можете користити, модификовати и редистрибуирати под условима AGPL-3.0-only.",
 	"settings.backupCreated": "Безбедносна копија библиотеке је креирана.",

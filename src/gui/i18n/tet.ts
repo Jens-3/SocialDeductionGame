@@ -180,8 +180,10 @@ export const tetumGuiMessages = {
 		"Avizu ida-ne'e hanesan de'it sumáriu ida no la troka testu lisensa nian kompletu. Só testu lisensa kompletu maka iha autoridade.",
 	"settings.viewLicense": "Haree lisensa",
 	"settings.copyrightHolder": "Titulár direitu autór nian",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Lisensa ba software",
 	"settings.openSourceLicenses": "Lisensa sira ho kódigu nakloke",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Laiha garantia ne'ebé fornese. Ita-boot bele uza, modifika, no redistribui software ida-ne'e tuir termu sira AGPL-3.0-only nian.",
 	"settings.backupCreated": "Kria ona backup biblioteka nian.",

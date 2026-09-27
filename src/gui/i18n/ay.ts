@@ -178,8 +178,10 @@ export const aymaraGuiMessages = {
 		"Aka yatiyawix mä jisk’a arukiwa ukatx janiw licencia phuqhat qillqat lantikiti. Licencian taqpach qillqatapakiw autoridadaxa.",
 	"settings.viewLicense": "Software ukan licenciap jist’arañamawa",
 	"settings.copyrightHolder": "Ukax derechos de autor ukan dueñopawa",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Software ukan licenciapa",
 	"settings.openSourceLicenses": "Licencias de Fuente Abierta",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Janiw kuna garantias utjkiti. Aka software ukaxa AGPL-3.0-only ukan kamachinakaparjamawa apnaqasispa, mayjt’ayatarakispa, ukhamaraki mayampi jaljatarakispa.",
 	"settings.backupCreated": "Biblioteca ukax mä copia de seguridad ukankiwa.",

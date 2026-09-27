@@ -1,6 +1,5 @@
 import { useId, useRef, useState } from "react";
 import agplLicenseText from "../../LICENSE?raw";
-import thirdPartyLicenseText from "../../THIRD_PARTY_LICENSES.txt?raw";
 import { appMetadata } from "../application/appMetadata";
 import type {
 	AppSettings,
@@ -16,6 +15,8 @@ import { applicationObjectSuccessText } from "./applicationSuccessPresentation";
 import { supportedGuiLanguageTags } from "./i18n/registry";
 import { createGuiTranslator } from "./i18n/translate";
 import { ModalDialog } from "./ModalDialog";
+import { ThirdPartyLicenseViews } from "./ThirdPartyLicenseViews";
+import { thirdPartyLicenseSubtitle } from "./thirdPartyLicenseSubtitle";
 
 export type SettingsScreenProps = {
 	onBack: () => void;
@@ -112,6 +113,13 @@ const languageDisplayNameOverrides: Readonly<Record<string, string>> = {
 	yo: "Yoruba",
 	ynk: "Naukan-Yupik",
 	zgh: "Standard Moroccan Tamazight",
+};
+
+const feedbackAddress = (x: string) => {
+	const a = "\x40";
+	const b = "de";
+
+	return `${x}${a}web.${b}`;
 };
 
 export function SettingsScreen({
@@ -639,7 +647,17 @@ export function SettingsScreen({
 						onClick={() => setIsThirdPartyLicensesOpen(true)}
 					>
 						<span>{t("settings.openSourceLicenses")}</span>
-						<small>THIRD_PARTY_LICENSES.txt</small>
+						<small>{thirdPartyLicenseSubtitle(translationLanguage)}</small>
+					</button>
+					<button
+						type="button"
+						className="setting-row setting-action-button"
+						onClick={() => {
+							window.location.href = `mailto:${feedbackAddress("SocialDeductionGame")}`;
+						}}
+					>
+						<span>{t("settings.feedback")}</span>
+						<small>{feedbackAddress("SocialDeductionGame")}</small>
 					</button>
 				</SettingsGroup>
 				{isLicenseOpen ? (
@@ -688,7 +706,7 @@ export function SettingsScreen({
 								<span className="visually-hidden">{t("common.close")}</span>
 							</button>
 						</header>
-						<pre className="license-dialog__text">{thirdPartyLicenseText}</pre>
+						<ThirdPartyLicenseViews />
 					</ModalDialog>
 				) : null}
 			</section>

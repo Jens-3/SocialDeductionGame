@@ -172,8 +172,10 @@ export const sindhiGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "سافٽ ويئر لائسنس کوليو",
 	"settings.copyrightHolder": "ڪاپي رائيٽ رکندڙ",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "سافٽ ويئر لائسنس",
 	"settings.openSourceLicenses": "اوپن سورس لائسنس",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"ڪابه وارنٽي فراهم نه ڪئي وئي آهي. توهان AGPL-3.0-only جي شرطن جي تحت هن سافٽ ويئر کي استعمال، تبديل، ۽ ٻيهر ورهائي سگهو ٿا.",
 	"settings.backupCreated": "لائبريري جو بيڪ اپ ٺاهيو ويو.",

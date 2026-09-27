@@ -172,8 +172,10 @@ export const teluguGuiMessages = {
 		"ఇది సారాంశం మాత్రమే, పూర్తి లైసెన్స్ టెక్స్ట్‌కు ప్రత్యామ్నాయం కాదు. పూర్తి లైసెన్స్ టెక్స్ట్ నియంత్రిస్తుంది.",
 	"settings.viewLicense": "సాఫ్ట్‌వేర్ లైసెన్స్‌ని తెరవండి",
 	"settings.copyrightHolder": "కాపీరైట్ హోల్డర్",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "సాఫ్ట్‌వేర్ లైసెన్స్",
 	"settings.openSourceLicenses": "ఓపెన్ సోర్స్ లైసెన్స్‌లు",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"ఎటువంటి వారంటీ అందించబడలేదు. మీరు AGPL-3.0-only నిబంధనల ప్రకారం ఈ సాఫ్ట్‌వేర్‌ను ఉపయోగించవచ్చు, సవరించవచ్చు మరియు పునఃపంపిణీ చేయవచ్చు.",
 	"settings.backupCreated": "లైబ్రరీ బ్యాకప్ సృష్టించబడింది.",

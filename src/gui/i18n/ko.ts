@@ -175,8 +175,10 @@ export const koreanGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "라이선스 보기",
 	"settings.copyrightHolder": "저작권 보유자",
+	"settings.feedback": "피드백",
 	"settings.softwareLicense": "소프트웨어 라이센스",
-	"settings.openSourceLicenses": "오픈 소스 라이선스",
+	"settings.openSourceLicenses": "타사 라이선스",
+	"settings.thirdPartyLicensesDescription": "사용된 라이브러리의 라이선스",
 	"settings.licenseNotice":
 		"보증은 제공되지 않습니다. 귀하는 AGPL-3.0-only의 조건에 따라 이 소프트웨어를 사용, 수정 및 재배포할 수 있습니다.",
 	"settings.backupCreated": "라이브러리 백업을 만들었습니다.",

@@ -172,8 +172,10 @@ export const assameseGuiMessages = {
 		"এই জাননীখন কেৱল এটা সাৰাংশ আৰু ই সম্পূৰ্ণ অনুজ্ঞাপত্ৰৰ লিখনীৰ ঠাই লোৱা নাই। কেৱল সম্পূৰ্ণ অনুজ্ঞাপত্ৰৰ লিখনীহে কৰ্তৃত্বশীল।",
 	"settings.viewLicense": "চফট্ ৱেৰ অনুজ্ঞাপত্ৰ খোলক",
 	"settings.copyrightHolder": "কপিৰাইট ধাৰী",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "চফ্টৱেৰ অনুজ্ঞাপত্ৰ",
 	"settings.openSourceLicenses": "মুক্ত-উৎস অনুজ্ঞাপত্ৰসমূহ",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"কোনো ৱাৰেণ্টী দিয়া হোৱা নাই। আপুনি এই চফ্টৱেৰ AGPL-3.0-only ৰ চৰ্তসমূহৰ অধীনত ব্যৱহাৰ, পৰিবৰ্তন, আৰু পুনৰ বিতৰণ কৰিব পাৰে।",
 	"settings.backupCreated": "লাইব্ৰেৰী বেকআপ সৃষ্টি কৰা হৈছে।",

@@ -181,8 +181,10 @@ export const luxembourgishGuiMessages = {
 		"Dës Notiz ass nëmmen e Resumé an ersetzt net de komplette Lizenztext. Nëmmen de komplette Lizenztext ass autoritär.",
 	"settings.viewLicense": "View Lizenz",
 	"settings.copyrightHolder": "Copyright Besëtzer",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Software Lizenz",
 	"settings.openSourceLicenses": "Open Source Lizenzen",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Keng Garantie gëtt gëtt. Dir kënnt dës Software ënner de Konditioune vun AGPL-3.0-only benotzen, änneren an ëmverdeelen.",
 	"settings.backupCreated": "Bibliothéik Backupsatellit erstallt.",

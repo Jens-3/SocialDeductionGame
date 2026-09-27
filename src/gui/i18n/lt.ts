@@ -185,8 +185,10 @@ export const lithuanianGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Žiūrėti licenciją",
 	"settings.copyrightHolder": "Autorių teisių turėtojas",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Programinės įrangos licencija",
 	"settings.openSourceLicenses": "Atvirojo kodo licencijos",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Garantija nesuteikiama. Galite naudoti, keisti ir platinti šią programinę įrangą pagal AGPL-3.0-only sąlygas.",
 	"settings.backupCreated": "Bibliotekos atsarginė kopija sukurta.",

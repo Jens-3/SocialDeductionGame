@@ -179,8 +179,11 @@ export const turkishGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Lisansı görüntüle",
 	"settings.copyrightHolder": "Telif hakkı sahibi",
+	"settings.feedback": "Geri bildirim",
 	"settings.softwareLicense": "Yazılım lisansı",
-	"settings.openSourceLicenses": "Açık kaynak lisansları",
+	"settings.openSourceLicenses": "Üçüncü taraf lisansları",
+	"settings.thirdPartyLicensesDescription":
+		"Kullanılan kütüphanelerin lisansları",
 	"settings.licenseNotice":
 		"Hiçbir garanti verilmemektedir. Bu yazılımı AGPL-3.0-only koşulları altında kullanabilir, değiştirebilir ve yeniden dağıtabilirsiniz.",
 	"settings.backupCreated": "Kütüphane yedeği oluşturuldu.",

@@ -177,8 +177,10 @@ export const tokPisinGuiMessages = {
 		"Dispela em i wanpela samari tasol, i no senisim ful laisens teks. Olgeta rait bilong laisens i bosim.",
 	"settings.viewLicense": "Lukim laisens",
 	"settings.copyrightHolder": "Man i holim kopirait",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Laisens bilong sofwet",
 	"settings.openSourceLicenses": "Open-sos laisens",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Nogat waranti i stap. Yu ken yusim, senisim, na tilim gen dispela sofwet aninit long ol tok bilong AGPL-3.0-only.",
 	"settings.backupCreated": "Laibreri bekap i kamap.",

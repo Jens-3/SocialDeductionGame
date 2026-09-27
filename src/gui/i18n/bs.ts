@@ -183,8 +183,10 @@ export const bosnianGuiMessages = {
 		"Ovo je samo sažetak, a ne zamjena za kompletan tekst licence. Kompletan tekst licence reguliše.",
 	"settings.viewLicense": "Pogledajte licencu",
 	"settings.copyrightHolder": "Nosilac autorskog prava",
+	"settings.feedback": "Povratne informacije",
 	"settings.softwareLicense": "Softverska licenca",
 	"settings.openSourceLicenses": "Licence otvorenog koda",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Garancija nije data. Ovaj softver možete koristiti, modifikovati i redistribuirati pod uslovima AGPL-3.0-only.",
 	"settings.backupCreated": "Sigurnosna kopija biblioteke je napravljena.",

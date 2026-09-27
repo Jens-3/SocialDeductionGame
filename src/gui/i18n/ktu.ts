@@ -179,8 +179,10 @@ export const kitubaGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Tala nswa",
 	"settings.copyrightHolder": "Muntu ya kele ti nswa ya bansoniki",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Nswa ya kusadila logiciel",
 	"settings.openSourceLicenses": "Mikanda ya kukangula",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Logiciel yayi ke kwisaka kukonda garanti. AGPL-3.0-only ke pesa nge nswa ya kusadila, kusoba mpi kukabula yo diaka.",
 	"settings.backupCreated": "Bo me sala sauvegarde ya biblioteke.",

@@ -177,8 +177,11 @@ export const vietnameseGuiMessages = {
 		"Đây chỉ là bản tóm tắt, không thay thế cho văn bản giấy phép hoàn chỉnh. Văn bản giấy phép đầy đủ chi phối.",
 	"settings.viewLicense": "Mở giấy phép phần mềm",
 	"settings.copyrightHolder": "Người giữ bản quyền",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Giấy phép phần mềm",
-	"settings.openSourceLicenses": "Giấy phép nguồn mở",
+	"settings.openSourceLicenses": "Giấy phép của bên thứ ba",
+	"settings.thirdPartyLicensesDescription":
+		"Giấy phép của các thư viện được sử dụng",
 	"settings.licenseNotice":
 		"Không có bảo hành được cung cấp. Bạn có thể sử dụng, sửa đổi và phân phối lại phần mềm này theo các điều khoản của AGPL-3.0-only.",
 	"settings.backupCreated": "Đã tạo bản sao lưu thư viện.",

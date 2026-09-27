@@ -150,7 +150,7 @@ export interface GamePersistenceService {
 		resolution: "overwrite" | "keepBoth" | "repair" | "cancel",
 	): Promise<SavedGameImportResult | undefined>;
 	deleteSavedGame(storageKey: string): Promise<void>;
-	suggestLoadedGameTemplateName(): Promise<string>;
+	suggestLoadedGameTemplateName(templateLabel: string): Promise<string>;
 	saveLoadedGameAsTemplate(
 		name: string,
 	): Promise<SaveLoadedGameAsTemplateResult>;

@@ -172,8 +172,10 @@ export const sundaneseGuiMessages = {
 		"Bewara ieu ngan ukur ringkesan sareng henteu ngagentos téks lisénsi lengkep. Ngan téks lisénsi lengkep anu otoritatif.",
 	"settings.viewLicense": "Témbongkeun lisénsi",
 	"settings.copyrightHolder": "Panyekel hak cipta",
+	"settings.feedback": "Eupan balik",
 	"settings.softwareLicense": "lisénsi software",
 	"settings.openSourceLicenses": "Lisensi open source",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Taya jaminan disadiakeun. Anjeun tiasa nganggo, ngarobih, sareng nyebarkeun deui parangkat lunak ieu dina kaayaan AGPL-3.0-only.",
 	"settings.backupCreated": "Cadangan perpustakaan dijieun.",

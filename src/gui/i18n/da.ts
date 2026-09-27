@@ -181,8 +181,11 @@ export const danishGuiMessages = {
 		"Denne meddelelse er kun et resumé og erstatter ikke den fulde licenstekst. Kun den fulde licenstekst er autoritativ.",
 	"settings.viewLicense": "Åbn softwarelicensen",
 	"settings.copyrightHolder": "Ophavsretsindehaver",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Softwarelicens",
-	"settings.openSourceLicenses": "Open source-licenser",
+	"settings.openSourceLicenses": "Tredjepartslicenser",
+	"settings.thirdPartyLicensesDescription":
+		"Licenser for de anvendte biblioteker",
 	"settings.licenseNotice":
 		"Der ydes ingen garanti. Du må bruge, ændre og videredistribuere denne software i henhold til vilkårene i AGPL-3.0-only.",
 	"settings.backupCreated": "Sikkerhedskopi af biblioteket oprettet.",

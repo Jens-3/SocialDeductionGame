@@ -2038,6 +2038,94 @@ describe("mobile Startseite", () => {
 });
 
 describe("Szenarioverwaltung", () => {
+	it.each([false, true])(
+		"aktualisiert die Karte nach dem Speichern (neues Regelwerk: %s)",
+		async (isNew) => {
+			const ruleSet = createTestRuleSet();
+			const saveRuleSet = vi.fn<(document: RuleSet) => Promise<void>>(() =>
+				Promise.resolve(),
+			);
+			const service = {
+				listObjects: () => loadedList([toRuleSetSummary(ruleSet)]),
+				loadRuleSet: () => Promise.resolve(ruleSet),
+				saveRuleSet,
+			};
+			render(
+				<ScenarioLibrary
+					onBack={vi.fn()}
+					libraryBrowseService={service as unknown as LibraryBrowseService}
+					scenarioManagementService={
+						service as unknown as ScenarioManagementService
+					}
+				/>,
+			);
+			const card = await screen.findByRole("button", {
+				name: /Test Rules.*Version 1/,
+			});
+			fireEvent.click(
+				isNew ? screen.getByRole("button", { name: "Erstellen" }) : card,
+			);
+			fireEvent.click(await screen.findByTestId("scenario-object-create"));
+			fireEvent.click(screen.getByTestId("scenario-object-apply"));
+			fireEvent.click(screen.getByTestId("scenario-object-close"));
+			fireEvent.click(screen.getByTestId("scenario-save"));
+			await screen.findByText("Änderungen gespeichert.");
+			fireEvent.click(screen.getByRole("button", { name: "Zurück" }));
+			const saved = saveRuleSet.mock.calls[0]?.[0];
+			if (!saved) throw new Error("Regelwerk wurde nicht gespeichert");
+			expect(
+				await screen.findByRole("button", {
+					name: new RegExp(
+						`${saved.name}.*Version ${saved.version} · ${saved.teams.length} Teams · ${saved.roles.length} Rollen`,
+					),
+				}),
+			).toBeDefined();
+		},
+	);
+
+	it.each([false, true])(
+		"speichert offene Detailfelder ohne erneute Änderungswarnung (vorher übernommen: %s)",
+		async (applyBeforeSave) => {
+			const ruleSet = createTestRuleSet();
+			const saveRuleSet = vi.fn<(document: RuleSet) => Promise<void>>(() =>
+				Promise.resolve(),
+			);
+			const service = {
+				listObjects: () => loadedList([toRuleSetSummary(ruleSet)]),
+				loadRuleSet: () => Promise.resolve(ruleSet),
+				saveRuleSet,
+			};
+			render(
+				<ScenarioLibrary
+					onBack={vi.fn()}
+					libraryBrowseService={service as unknown as LibraryBrowseService}
+					scenarioManagementService={
+						service as unknown as ScenarioManagementService
+					}
+				/>,
+			);
+			fireEvent.click(
+				await screen.findByRole("button", { name: /Test Rules.*Version 1/ }),
+			);
+			fireEvent.click(await screen.findByTestId("scenario-object-create"));
+			fireEvent.change(screen.getByTestId("scenario-object-name"), {
+				target: { value: "Audit Team" },
+			});
+			if (applyBeforeSave)
+				fireEvent.click(screen.getByTestId("scenario-object-apply"));
+			fireEvent.click(screen.getByTestId("scenario-save"));
+			await screen.findByText("Änderungen gespeichert.");
+			expect(
+				saveRuleSet.mock.calls[0]?.[0].teams.some(
+					(team) => team.name === "Audit Team",
+				),
+			).toBe(true);
+			fireEvent.click(screen.getByRole("button", { name: "Zurück" }));
+			expect(screen.queryByRole("alertdialog")).toBeNull();
+			expect(await screen.findByTestId("scenarios-back")).toBeDefined();
+		},
+	);
+
 	it("sichert ein geändertes Regelwerk auf Wunsch vor dem Spielstart", async () => {
 		const ruleSet = createTestRuleSet();
 		const saveRuleSet = vi.fn<(document: RuleSet) => Promise<void>>(() =>

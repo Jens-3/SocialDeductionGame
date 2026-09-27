@@ -178,8 +178,10 @@ export const bambaraGuiMessages = {
 		"Nin kunnafoni in ye kuma kuncɛlen dɔrɔn de ye, wa a tɛ lase sɛbɛn dafalen bila a nɔ na. Lase sɛbɛn dafalen dɔrɔn de ye fanga ye.",
 	"settings.viewLicense": "Porozɛw ka lase da wuli",
 	"settings.copyrightHolder": "O ye sɛbɛnnikɛla ka josariyaw tigi ye",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Porozɛw ka lase",
 	"settings.openSourceLicenses": "Open-source licenses",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Garanti si tɛ di. I bɛ se ka baara kɛ ni nin porogaramu ye, k’a sɛmɛntiya, k’a tila-tila kokura AGPL-3.0-only sariyaw kɔnɔ.",
 	"settings.backupCreated": "Bibliothèque backup dabɔra.",

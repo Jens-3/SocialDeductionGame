@@ -183,8 +183,10 @@ export const romanianGuiMessages = {
 		"Acesta este doar un rezumat, nu un substitut pentru textul complet al licenței. Textul complet al licenței guvernează.",
 	"settings.viewLicense": "Deschideți licența software",
 	"settings.copyrightHolder": "Deținătorul drepturilor de autor",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Licență software",
-	"settings.openSourceLicenses": "Licențe open-source",
+	"settings.openSourceLicenses": "Licențe ale terților",
+	"settings.thirdPartyLicensesDescription": "Licențele bibliotecilor utilizate",
 	"settings.licenseNotice":
 		"Nu se oferă nicio garanție. Puteți utiliza, modifica și redistribui acest software în condițiile AGPL-3.0-only.",
 	"settings.backupCreated": "A fost creată copia de siguranță a bibliotecii.",

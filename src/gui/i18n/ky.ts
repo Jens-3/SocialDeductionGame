@@ -179,8 +179,10 @@ export const kyrgyzGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Лицензияны көрүү",
 	"settings.copyrightHolder": "Автордук укуктун ээси",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Программалык камсыздоо лицензиясы",
 	"settings.openSourceLicenses": "Ачык булак лицензиялары",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Эч кандай кепилдик берилбейт. Сиз AGPL-3.0-only шарттарына ылайык бул программаны колдонуп, өзгөртүп жана кайра тарата аласыз.",
 	"settings.backupCreated": "Китепкананын камдык көчүрмөсү түзүлдү.",

@@ -172,8 +172,10 @@ export const odiaGuiMessages = {
 		"|\nଏହା କେବଳ ଏକ ସାରାଂଶ, ସଂପୂର୍ଣ୍ଣ ଲାଇସେନ୍ସ ପାଠ୍ୟର ବିକଳ୍ପ ନୁହେଁ | ସଂପୂର୍ଣ୍ଣ ଲାଇସେନ୍ସ ପାଠ୍ୟ ନିୟନ୍ତ୍ରଣ କରେ |",
 	"settings.viewLicense": "|\nଲାଇସେନ୍ସ ଦର୍ଶନ କରନ୍ତୁ |",
 	"settings.copyrightHolder": "|\nକପିରାଇଟ୍ ଧାରକ |",
+	"settings.feedback": "ମତାମତ",
 	"settings.softwareLicense": "|\nସଫ୍ଟୱେର୍ ଲାଇସେନ୍ସ |",
 	"settings.openSourceLicenses": "|\nମୁକ୍ତ ଉତ୍ସ ଲାଇସେନ୍ସ |",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"|\nକ No ଣସି ୱାରେଣ୍ଟି ପ୍ରଦାନ କରାଯାଇ ନାହିଁ | ଆପଣ AGPL-3.0-only ସର୍ତ୍ତାବଳୀ ଅନୁଯାୟୀ ଏହି ସଫ୍ଟୱେର୍ ବ୍ୟବହାର, ରୂପାନ୍ତର ଏବଂ ପୁନ istr ବଣ୍ଟନ କରିପାରିବେ |",
 	"settings.backupCreated": "|\nଲାଇବ୍ରେରୀ ବ୍ୟାକଅପ୍ ସୃଷ୍ଟି ହୋଇଛି |",

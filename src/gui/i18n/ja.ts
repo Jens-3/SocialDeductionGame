@@ -177,8 +177,11 @@ export const japaneseGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "ライセンスを表示する",
 	"settings.copyrightHolder": "著作権者",
+	"settings.feedback": "フィードバック",
 	"settings.softwareLicense": "ソフトウェアライセンス",
-	"settings.openSourceLicenses": "オープンソースライセンス",
+	"settings.openSourceLicenses": "サードパーティのライセンス",
+	"settings.thirdPartyLicensesDescription":
+		"使用しているライブラリのライセンス",
 	"settings.licenseNotice":
 		"No warranty is provided. You may use, modify, and redistribute this software under the terms of AGPL-3.0-only.", // This value isn't accurate translated, yet.
 	"settings.backupCreated": "ライブラリのバックアップを作成しました。",

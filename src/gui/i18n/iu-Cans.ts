@@ -177,8 +177,10 @@ export const inuktitutSyllabicsGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "ᒪᑐᐃᕐᓗᒍ ᖃᕆᑕᐅᔭᒃᑯᑦ ᓚᐃᓴᓐᓯ",
 	"settings.copyrightHolder": "ᑎᑎᕋᖅᑕᐅᓯᒪᔪᓄᑦ ᐱᔪᓐᓇᐅᑎᖃᖅᑎ",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "ᖃᕆᑕᐅᔭᕐᒧᑦ ᓚᐃᓴᓐᓯ",
 	"settings.openSourceLicenses": "ᒪᑐᐃᖓᔪᑦ ᓚᐃᓴᓐᓯᑦ",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"ᑖᓐᓇ ᖃᕋᓴᐅᔭᓕᕆᔾᔪᑎ ᓇᓪᓕᐅᒃᑯᒫᖃᕋᓂ. AGPL-3.0-only ᐱᔪᓐᓇᖅᑎᑦᑎᕗᖅ ᐊᑐᕈᓐᓇᕐᓂᕐᒥᒃ, ᐊᓯᔾᔨᕈᓐᓇᕐᓂᕐᒥᒃ, ᐊᒻᒪᓗ ᑐᓂᐅᖅᑲᐃᒃᑲᓐᓂᕈᓐᓇᕐᓂᕐᒥᒃ.",
 	"settings.backupCreated": "ᐅᖃᓕᒫᒐᖃᕐᕕᒃ ᓇᓪᓕᐅᒃᑯᒫᖅ ᓴᖅᑭᑕᐅᓯᒪᔪᖅ.",

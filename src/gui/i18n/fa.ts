@@ -179,8 +179,10 @@ export const persianGuiMessages = {
 		"این فقط یک خلاصه است، نه جایگزینی برای متن کامل مجوز. متن کامل مجوز حاکم است.",
 	"settings.viewLicense": "مشاهده مجوز",
 	"settings.copyrightHolder": "دارنده حق چاپ",
+	"settings.feedback": "بازخورد",
 	"settings.softwareLicense": "مجوز نرم افزار",
 	"settings.openSourceLicenses": "مجوزهای متن‌باز",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"هیچ گارانتی ارائه نمی شود. شما می توانید این نرم افزار را تحت شرایط AGPL-3.0-only استفاده، اصلاح و توزیع مجدد کنید.",
 	"settings.backupCreated": "نسخه پشتیبان کتابخانه ایجاد شد.",

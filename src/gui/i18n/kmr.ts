@@ -177,8 +177,10 @@ export const kurmanjiKurdishGuiMessages = {
 		"Ev agahdarî tenê kurteyek e û li şûna nivîsa tam lîsansê nagire. Tenê nivîsa lîsansê ya tevahî desthilatdar e.",
 	"settings.viewLicense": "Lîsansa nermalavê vekin",
 	"settings.copyrightHolder": "Xwediyê Copyright",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "License Software",
 	"settings.openSourceLicenses": "Lîsansên çavkaniya vekirî",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Garantî nayê dayîn. Hûn dikarin vê nermalavê di bin şertên AGPL-3.0-only de bikar bînin, biguhezînin û ji nû ve belav bikin.",
 	"settings.backupCreated": "Kopiya ewlehiyê ya pirtûkxaneyê hate çêkirin.",

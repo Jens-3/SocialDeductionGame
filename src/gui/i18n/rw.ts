@@ -180,8 +180,10 @@ export const kinyarwandaGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Fungura uruhushya rwa software",
 	"settings.copyrightHolder": "Nyir'uburenganzira",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Uruhushya rwa software",
 	"settings.openSourceLicenses": "Impushya zo gufungura isoko",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Nta garanti yatanzwe. Urashobora gukoresha, guhindura, no kugabura iyi software ukurikije amategeko ya AGPL-3.0-only.",
 	"settings.backupCreated": "Isomero ryibitabo ryakozwe.",

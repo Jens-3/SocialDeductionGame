@@ -179,8 +179,10 @@ export const sangoGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Bâ licence ni",
 	"settings.copyrightHolder": "Zo so ayeke na droit ti sungo mbeti",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Licence ti logiciel",
 	"settings.openSourceLicenses": "A-licence ti source ouverte",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"A mû mbeni garanti pëpe. Mo lingbi ti sara kua na, ti changé nga ti kiri ti kangbi logiciel so na lege ti andia ti AGPL-3.0-only.",
 	"settings.backupCreated": "A leke sauvegarde ti bibliothèque.",

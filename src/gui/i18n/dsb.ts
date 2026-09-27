@@ -178,8 +178,10 @@ export const lowerSorbianGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "licencu pokazaś",
 	"settings.copyrightHolder": "wobsejźarje awtorskego pšawa",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "softwarelizenca",
 	"settings.openSourceLicenses": "Licence wótwórjonego žrědła",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"No warranty is provided. You may use, modify, and redistribute this software under the terms of AGPL-3.0-only.", // This value isn't accurate translated, yet.
 	"settings.backupCreated": "Backup biblioteki jo napórany.",

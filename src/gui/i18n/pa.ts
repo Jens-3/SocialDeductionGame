@@ -173,8 +173,10 @@ export const punjabiGuiMessages = {
 		"ਇਹ ਸਿਰਫ਼ ਇੱਕ ਸੰਖੇਪ ਹੈ, ਪੂਰੇ ਲਾਇਸੈਂਸ ਟੈਕਸਟ ਦਾ ਬਦਲ ਨਹੀਂ ਹੈ। ਪੂਰਾ ਲਾਇਸੰਸ ਟੈਕਸਟ ਨਿਯੰਤ੍ਰਿਤ ਕਰਦਾ ਹੈ।",
 	"settings.viewLicense": "ਸਾਫਟਵੇਅਰ ਲਾਇਸੰਸ ਖੋਲ੍ਹੋ",
 	"settings.copyrightHolder": "ਕਾਪੀਰਾਈਟ ਧਾਰਕ",
+	"settings.feedback": "ਫੀਡਬੈਕ",
 	"settings.softwareLicense": "ਸਾਫਟਵੇਅਰ ਲਾਇਸੰਸ",
 	"settings.openSourceLicenses": "ਓਪਨ-ਸੋਰਸ ਲਾਇਸੰਸ",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"ਕੋਈ ਵਾਰੰਟੀ ਪ੍ਰਦਾਨ ਨਹੀਂ ਕੀਤੀ ਜਾਂਦੀ. ਤੁਸੀਂ AGPL-3.0-only ਦੀਆਂ ਸ਼ਰਤਾਂ ਦੇ ਤਹਿਤ ਇਸ ਸੌਫਟਵੇਅਰ ਦੀ ਵਰਤੋਂ, ਸੋਧ ਅਤੇ ਮੁੜ ਵੰਡ ਕਰ ਸਕਦੇ ਹੋ।",
 	"settings.backupCreated": "ਲਾਇਬ੍ਰੇਰੀ ਬੈਕਅੱਪ ਬਣਾਇਆ ਗਿਆ।",

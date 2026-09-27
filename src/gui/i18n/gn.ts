@@ -180,8 +180,10 @@ export const guaraniGuiMessages = {
 		"Ko marandu ha’e peteĩ ñemombyky añónte ha nomyengoviái licencia jehaipyre henyhẽva. Pe licencia jehaipyre henyhẽva añoite oguereko autoridad.",
 	"settings.viewLicense": "Eipe’a software licencia rehegua",
 	"settings.copyrightHolder": "Derecho de autor jára",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Software licencia rehegua",
 	"settings.openSourceLicenses": "Licencias de Fuente Abierta",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Ndaipóri garantía oñeme'êva. Ikatu reipuru, remoambue ha remosarambi jey ko software AGPL-3.0-only ñe’ẽme’ẽ rupive.",
 	"settings.backupCreated": "Ojejapo peteĩ jekopytyjoja aranduka’i.",

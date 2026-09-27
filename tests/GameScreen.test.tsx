@@ -54,6 +54,44 @@ const requiredGameScreenActions = {
 	onOpenSettings: vi.fn(),
 };
 
+it("klappt den Spielnamen über einen zugänglichen Schalter auf und zu", () => {
+	render(
+		<GameScreen
+			{...requiredGameScreenActions}
+			game={createTestLoadedGameDocument(
+				{
+					time: { currentNight: 1, phase: "night" },
+					seatOrder: [],
+					playersById: {},
+					ruleSetSnapshot: { roles: [] },
+					statusDefinitionsById: {},
+				},
+				{ id: "game_title", name: "Titeltest" },
+			)}
+			onBack={vi.fn()}
+			onMoveSeat={vi.fn()}
+			onAdvanceTime={vi.fn()}
+			onRewindTime={vi.fn()}
+		/>,
+	);
+	const toggle = screen.getByRole("button", { name: "Aktuelles Spiel" });
+	expect(toggle.getAttribute("aria-expanded")).toBe("false");
+	expect(
+		document.getElementById(toggle.getAttribute("aria-controls") ?? "")
+			?.textContent,
+	).toContain("Titeltest");
+	fireEvent.click(toggle);
+	expect(toggle.getAttribute("aria-expanded")).toBe("true");
+	expect(
+		toggle.closest("header")?.classList.contains("game-header--title-expanded"),
+	).toBe(true);
+	fireEvent.click(toggle);
+	expect(toggle.getAttribute("aria-expanded")).toBe("false");
+	expect(
+		toggle.closest("header")?.classList.contains("game-header--title-expanded"),
+	).toBe(false);
+});
+
 it("schaltet den unteren Bereich in den Vollbildmodus und wieder zurück", () => {
 	render(
 		<GameScreen

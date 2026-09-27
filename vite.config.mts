@@ -19,7 +19,7 @@ export default defineConfig({
 		host: "127.0.0.1",
 	},
 	build: {
-		chunkSizeWarningLimit: 1024,
+		chunkSizeWarningLimit: 4096,
 	},
 });
 

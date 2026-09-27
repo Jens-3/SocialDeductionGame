@@ -182,8 +182,10 @@ export const southernNdebeleGuiMessages = {
 		"Isaziso lesi sisifinyezo kwaphela begodu asithathi indawo yomtlolo opheleleko welayisense. Umtlolo welayisense opheleleko kwaphela onegunya.",
 	"settings.viewLicense": "Vula ilayisense yesofthiwe",
 	"settings.copyrightHolder": "Umnikazi welungelo lokutlola",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Ilayisensi yesofthiwe",
 	"settings.openSourceLicenses": "Amalayisense womthombo ovulekileko",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Akukho siqinisekiso esinikelwako. Ungasebenzisa, utjhugulule, begodu usabalalise isofthiwe ngaphasi kwemibandela ye-AGPL-3.0-only.",
 	"settings.backupCreated": "Isipele selayibhrari senziwe.",

@@ -183,8 +183,10 @@ export const tshilubaGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Tangila bukenji",
 	"settings.copyrightHolder": "Muena bukenji bwa mufundi",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Software license", // This value isn't accurate translated, yet.
 	"settings.openSourceLicenses": "Open-source licenses",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Programe eu udi ulua kayi ne tshijadiki. AGPL-3.0-only udi ukuanyishila bua kuenza nende mudimu, kushintulula, ne kuabanya kabidi.",
 	"settings.backupCreated": "Tshilaminu tshia mikanda tshienza.",

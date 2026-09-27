@@ -180,8 +180,10 @@ export const dariGuiMessages = {
 		"این فقط یک خلاصه است، نه یک جاگزین برای متن کامل جواز. متن کامل جواز حکومت میکند.",
 	"settings.viewLicense": "مشاهده جواز",
 	"settings.copyrightHolder": "دارنده حق چاپ",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "مجوز نرم افزار",
 	"settings.openSourceLicenses": "مجوزهای متن‌باز",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"هیچ ضمانت ارائه نشده است. شما میتوانید این سافتویر را تحت شرایط AGPL-3.0-only استفاده، اصلاح و توزیع مجدد کنید.",
 	"settings.backupCreated": "نسخه پشتیبان کتابخانه ایجاد شد.",

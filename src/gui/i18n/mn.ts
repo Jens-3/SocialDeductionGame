@@ -178,8 +178,10 @@ export const mongolianGuiMessages = {
 		"Энэхүү мэдэгдэл нь зөвхөн хураангуй мэдээлэл бөгөөд лицензийн бүрэн текстийг орлохгүй. Зөвхөн лицензийн бүрэн текст нь эрх мэдэлтэй.",
 	"settings.viewLicense": "Лицензийг харах",
 	"settings.copyrightHolder": "Зохиогчийн эрх эзэмшигч",
+	"settings.feedback": "Санал хүсэлт",
 	"settings.softwareLicense": "Програм хангамжийн лиценз",
 	"settings.openSourceLicenses": "Нээлттэй эхийн лицензүүд",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Ямар ч баталгаа өгөхгүй. Та AGPL-3.0-only-ийн нөхцлийн дагуу энэ програм хангамжийг ашиглах, өөрчлөх, дахин түгээх боломжтой.",
 	"settings.backupCreated": "Сангийн нөөц хуулбарыг үүсгэлээ.",

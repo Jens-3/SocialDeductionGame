@@ -1170,9 +1170,15 @@ describe("GameReadService", () => {
 			name: "Nacht",
 		});
 
-		await expect(service.suggestLoadedGameTemplateName()).resolves.toBe(
-			"Nacht Vorlage (2)",
-		);
+		await expect(
+			service.suggestLoadedGameTemplateName("Vorlage"),
+		).resolves.toBe("Nacht Vorlage (2)");
+		await expect(
+			service.suggestLoadedGameTemplateName("Template"),
+		).resolves.toBe("Nacht Template");
+		await expect(
+			service.suggestLoadedGameTemplateName("Vorlage"),
+		).resolves.toBe("Nacht Vorlage (2)");
 	});
 
 	it("speichert eine unabhängige Vorlage und behält das Spiel als aktuelles Dokument", async () => {

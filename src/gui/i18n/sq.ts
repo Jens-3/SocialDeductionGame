@@ -183,8 +183,10 @@ export const albanianGuiMessages = {
 		"Ky njoftim është vetëm një përmbledhje dhe nuk zëvendëson tekstin e plotë të licencës. Vetëm teksti i plotë i licencës është autoritar.",
 	"settings.viewLicense": "Shiko licencën",
 	"settings.copyrightHolder": "Mbajtësi i së drejtës së autorit",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Licenca e softuerit",
 	"settings.openSourceLicenses": "Licencat me burim të hapur",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Nuk jepet garanci. Ju mund ta përdorni, modifikoni dhe rishpërndani këtë softuer sipas kushteve të AGPL-3.0-only.",
 	"settings.backupCreated": "U krijua një kopje rezervë e bibliotekës.",

@@ -2,12 +2,39 @@
 	font-family: Inter, system-ui, sans-serif;
 	font-synthesis: none;
 	--home-background-image: none;
-	--seat-text-dark: #25221e;
-	--seat-text-light: #f6f1e7;
 }
 
 :root:not([data-theme]),
 [data-theme="dark"] {
+	color-scheme: dark;
+	--system-bars-background: #15171c;
+	--seat-text-dark: #25221e;
+	--seat-text-light: #f6f1e7;
+	--solid-accent-text: #21170e;
+	--solid-accent-background: #e7ad5b;
+	--floating-shadow-color: rgb(0 0 0 / 35%);
+	--selection-background: rgb(231 173 91 / 10%);
+	--drag-shadow-color: rgb(0 0 0 / 28%);
+	--zoom-shadow-color: rgb(0 0 0 / 12%);
+	--selection-ring: rgb(231 173 91 / 22%);
+	--night-source-color: #efbd59;
+	--night-source-ring: rgb(239 189 89 / 75%);
+	--night-target-color: #8ed8ff;
+	--night-target-ring: rgb(142 216 255 / 82%);
+	--night-target-outer-ring: rgb(142 216 255 / 28%);
+	--night-self-color: #f5d487;
+	--night-self-ring: rgb(239 189 89 / 82%);
+	--night-self-outer-ring: rgb(142 216 255 / 55%);
+	--night-marker-background: #17120d;
+	--night-target-pulse-ring: rgb(142 216 255 / 95%);
+	--night-target-pulse-outer-ring: rgb(142 216 255 / 18%);
+	--time-badge-ring: rgb(231 173 91 / 18%);
+	--overview-selection-background: rgb(231 173 91 / 12%);
+	--overview-target-background: rgb(142 216 255 / 12%);
+	--accent-text: #e7ad5b;
+	--warning-text: #f0c47f;
+	--surface-hover: rgb(255 255 255 / 7%);
+	--warning-border: rgb(240 196 127 / 35%);
 	color: #f6f1e7;
 	background: #15171c;
 	--interactive-border-highlight: #e7ad5b;
@@ -94,6 +121,35 @@
 }
 
 [data-theme="light"] {
+	color-scheme: light;
+	--system-bars-background: #f3efe8;
+	--seat-text-dark: #25221e;
+	--seat-text-light: #f6f1e7;
+	--solid-accent-text: #21170e;
+	--solid-accent-background: #e7ad5b;
+	--floating-shadow-color: rgb(0 0 0 / 35%);
+	--selection-background: rgb(231 173 91 / 10%);
+	--drag-shadow-color: rgb(0 0 0 / 28%);
+	--zoom-shadow-color: rgb(0 0 0 / 12%);
+	--selection-ring: rgb(231 173 91 / 22%);
+	--night-source-color: #efbd59;
+	--night-source-ring: rgb(239 189 89 / 75%);
+	--night-target-color: #8ed8ff;
+	--night-target-ring: rgb(142 216 255 / 82%);
+	--night-target-outer-ring: rgb(142 216 255 / 28%);
+	--night-self-color: #f5d487;
+	--night-self-ring: rgb(239 189 89 / 82%);
+	--night-self-outer-ring: rgb(142 216 255 / 55%);
+	--night-marker-background: #17120d;
+	--night-target-pulse-ring: rgb(142 216 255 / 95%);
+	--night-target-pulse-outer-ring: rgb(142 216 255 / 18%);
+	--time-badge-ring: rgb(231 173 91 / 18%);
+	--overview-selection-background: rgb(231 173 91 / 12%);
+	--overview-target-background: rgb(142 216 255 / 12%);
+	--accent-text: #7b4617;
+	--warning-text: #7b4617;
+	--surface-hover: #ddd2c4;
+	--warning-border: rgb(123 70 23 / 35%);
 	color: #25221e;
 	background: #f3efe8;
 	--interactive-border-highlight: #a96722;
@@ -177,6 +233,12 @@
 	--sheet-close-hover-background: #d5cbbf;
 }
 
+@supports (accent-color: auto) {
+	:root {
+		accent-color: var(--accent-text);
+	}
+}
+
 .text-secondary {
 	color: var(--text-secondary);
 }
@@ -199,7 +261,7 @@
 
 body {
 	margin: 0;
-	min-width: 20rem;
+	min-width: 0;
 	min-height: 100vh;
 }
 
@@ -434,7 +496,7 @@ button {
 
 .text-button {
 	padding: 0.75rem 0;
-	color: #e7ad5b;
+	color: var(--accent-text);
 	font-weight: 750;
 }
 
@@ -473,8 +535,8 @@ button {
 }
 
 .filter-button[aria-pressed="true"] {
-	color: #21170e;
-	background: #e7ad5b;
+	color: var(--solid-accent-text);
+	background: var(--solid-accent-background);
 }
 
 .scenario-list {
@@ -769,7 +831,6 @@ button {
 .scenario-checkbox-field {
 	display: flex;
 	align-items: center;
-	grid-template-columns: auto 1fr;
 }
 
 .scenario-checkbox-field input {
@@ -928,13 +989,13 @@ button {
 .create-button {
 	position: fixed;
 	right: max(1.25rem, calc((100vw - 42rem) / 2));
-	bottom: 1.5rem;
+	bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px));
 	padding: 0.9rem 1.2rem;
 	border-radius: 999px;
-	color: #21170e;
+	color: var(--solid-accent-text);
 	font-weight: 800;
-	background: #e7ad5b;
-	box-shadow: 0 1rem 2.5rem rgb(0 0 0 / 35%);
+	background: var(--solid-accent-background);
+	box-shadow: 0 1rem 2.5rem var(--floating-shadow-color);
 }
 
 .visually-hidden {
@@ -955,6 +1016,7 @@ button {
 	width: min(100%, 42rem);
 	margin: 0 auto;
 	padding: 1.1rem 1.25rem 1.5rem;
+	padding-bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px));
 	border: 1px solid var(--surface-border);
 	border-bottom: 0;
 	border-radius: 1.35rem 1.35rem 0 0;
@@ -1103,15 +1165,6 @@ button {
 	font-size: 18px;
 }
 
-[data-reduce-motion="true"] *,
-[data-reduce-motion="true"] *::before,
-[data-reduce-motion="true"] *::after {
-	scroll-behavior: auto;
-	transition-duration: 0.01ms;
-	animation-duration: 0.01ms;
-	animation-iteration-count: 1;
-}
-
 .settings-screen {
 	width: min(100%, 42rem);
 	margin: 0 auto;
@@ -1139,7 +1192,7 @@ button {
 
 .settings-group h2 {
 	margin: 0 0 0.55rem 0.5rem;
-	color: #e7ad5b;
+	color: var(--accent-text);
 	font-size: 0.75rem;
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
@@ -1359,6 +1412,84 @@ button {
 	white-space: pre-wrap;
 }
 
+.license-dialog__formats {
+	display: flex;
+	gap: 0.5rem;
+	margin-bottom: 0.75rem;
+}
+
+.license-dialog__formats button {
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--surface-border);
+	border-radius: 0.5rem;
+	color: inherit;
+	background: var(--form-input-background);
+}
+
+.license-dialog__formats button[aria-pressed="true"] {
+	outline: 2px solid currentColor;
+	outline-offset: -2px;
+	font-weight: 700;
+}
+
+.license-dialog__html {
+	max-height: min(62dvh, 36rem);
+	overflow: auto;
+	padding: 0.9rem;
+	border: 1px solid var(--surface-border);
+	border-radius: 0.75rem;
+	background: var(--form-input-background);
+	font-size: 0.85rem;
+	line-height: 1.5;
+	overflow-wrap: anywhere;
+}
+
+.license-dialog__html h1 {
+	font-size: 1.2em;
+}
+
+.license-dialog__html h2 {
+	margin: 1.25rem 0 0.75rem;
+	font-size: 1.1em;
+}
+
+.license-dialog__html h3 {
+	font-size: 1em;
+}
+
+.license-dialog__html details {
+	margin: 0.75rem 0;
+	border: 1px solid var(--surface-border);
+	border-radius: 0.5rem;
+}
+
+.license-dialog__html summary {
+	padding: 0.75rem;
+	cursor: pointer;
+	font-weight: 700;
+}
+
+.license-dialog__html :where(summary) span {
+	display: block;
+	color: var(--text-secondary);
+	font-weight: 400;
+}
+
+.license-dialog__html summary:focus-visible {
+	outline: 2px solid currentColor;
+	outline-offset: -2px;
+}
+
+.license-dialog__html .content {
+	padding: 0 0.75rem 0.75rem;
+}
+
+.license-dialog__html pre {
+	font-size: 0.95em;
+	white-space: pre-wrap;
+	overflow-wrap: anywhere;
+}
+
 .library-restore-dialog {
 	display: grid;
 	gap: 0.85rem;
@@ -1402,7 +1533,7 @@ button {
 
 .choice-group legend {
 	margin-bottom: 0.65rem;
-	color: #e7ad5b;
+	color: var(--accent-text);
 	font-size: 0.75rem;
 	font-weight: 800;
 	letter-spacing: 0.08em;
@@ -1422,8 +1553,8 @@ button {
 }
 
 .choice-card:has(input:checked) {
-	border-color: #e7ad5b;
-	background: rgb(231 173 91 / 10%);
+	border-color: var(--solid-accent-background);
+	background: var(--selection-background);
 }
 
 .choice-card input {
@@ -1477,7 +1608,7 @@ button {
 	min-height: 3.25rem;
 	padding: 0.55rem 0.7rem;
 	border-radius: 0.75rem;
-	background: rgb(255 255 255 / 5%);
+	background: var(--surface-subtle);
 }
 
 .count-selection-row > div {
@@ -1493,7 +1624,7 @@ button {
 	border-radius: 0.6rem;
 	color: inherit;
 	font-size: 1.25rem;
-	background: rgb(255 255 255 / 8%);
+	background: var(--control-background);
 }
 
 .free-player-count {
@@ -1534,10 +1665,10 @@ button {
 	margin-top: 1rem;
 	border: 0;
 	border-radius: 0.9rem;
-	color: #21170e;
+	color: var(--solid-accent-text);
 	font: inherit;
 	font-weight: 800;
-	background: #e7ad5b;
+	background: var(--solid-accent-background);
 }
 
 .prototype-note {
@@ -1663,6 +1794,10 @@ button {
 	grid-template-columns: auto minmax(0, 1fr) auto;
 }
 
+.game-header__title-toggle {
+	display: none;
+}
+
 .game-header .eyebrow {
 	margin-bottom: 0.25rem;
 }
@@ -1677,6 +1812,30 @@ button {
 	font-size: 1.25rem;
 }
 
+/* Give long game names the full width on narrow portrait screens. */
+@media (max-width: 30rem) and (orientation: portrait) {
+	.game-header {
+		grid-template-columns: auto minmax(0, 1fr);
+		gap: 0.5rem;
+	}
+
+	.game-header > div:not(.game-header__actions) {
+		grid-column: 1 / -1;
+		grid-row: 2;
+		min-width: 0;
+	}
+
+	.game-header h1 {
+		overflow-wrap: anywhere;
+	}
+
+	.game-header__actions {
+		grid-column: 2;
+		grid-row: 1;
+		justify-self: end;
+	}
+}
+
 .seat-button--draggable {
 	cursor: grab;
 	touch-action: none;
@@ -1686,21 +1845,8 @@ button {
 	cursor: grabbing;
 }
 
-.seat-button--dragging {
-	z-index: 9;
-	cursor: grabbing;
-	filter: drop-shadow(0 0.6rem 0.65rem rgb(0 0 0 / 28%));
-	transition: none;
-	will-change: transform;
-}
-
-.seat-button--drag-returning {
-	z-index: 9;
-	transition: transform 200ms cubic-bezier(0.22, 0.8, 0.35, 1);
-	will-change: transform;
-}
-
 .seat-board {
+	container: seating-board / inline-size;
 	position: relative;
 	width: min(100%, 34rem);
 	aspect-ratio: 1;
@@ -1807,7 +1953,7 @@ button {
 	border: 1px solid var(--seat-button-border);
 	border-radius: 999px;
 	background: var(--seat-button-background);
-	box-shadow: 0 0.3rem 1rem rgb(0 0 0 / 12%);
+	box-shadow: 0 0.3rem 1rem var(--zoom-shadow-color);
 }
 
 .seat-zoom-controls button {
@@ -1858,6 +2004,20 @@ button {
 	transition:
 		border-color 140ms ease,
 		box-shadow 140ms ease;
+	will-change: transform;
+}
+
+.seat-button--dragging {
+	z-index: 9;
+	cursor: grabbing;
+	filter: drop-shadow(0 0.6rem 0.65rem var(--drag-shadow-color));
+	transition: none;
+	will-change: transform;
+}
+
+.seat-button--drag-returning {
+	z-index: 9;
+	transition: transform 200ms cubic-bezier(0.22, 0.8, 0.35, 1);
 	will-change: transform;
 }
 
@@ -1918,9 +2078,16 @@ button {
 	transform: translate(calc(-50% + 1.35rem), calc(-50% + 1.55rem));
 }
 
+/* Small boards use the selected seat's existing detail actions. */
+@container seating-board (max-width: 26rem) {
+	.setup-seat-action {
+		display: none;
+	}
+}
+
 .seat-button[aria-pressed="true"] {
-	border-color: #e7ad5b;
-	box-shadow: 0 0 0 3px rgb(231 173 91 / 22%);
+	border-color: var(--solid-accent-background);
+	box-shadow: 0 0 0 3px var(--selection-ring);
 }
 
 .seat-button--night-source,
@@ -1930,23 +2097,23 @@ button {
 }
 
 .seat-button--night-source {
-	border-color: #efbd59;
-	box-shadow: 0 0 0 4px rgb(239 189 89 / 75%);
+	border-color: var(--night-source-color);
+	box-shadow: 0 0 0 4px var(--night-source-ring);
 }
 
 .seat-button--night-target {
-	border-color: #8ed8ff;
+	border-color: var(--night-target-color);
 	box-shadow:
-		0 0 0 4px rgb(142 216 255 / 82%),
-		0 0 0 8px rgb(142 216 255 / 28%);
+		0 0 0 4px var(--night-target-ring),
+		0 0 0 8px var(--night-target-outer-ring);
 	animation: night-target-pulse 1.4s ease-in-out infinite;
 }
 
 .seat-button--night-self-target {
-	border-color: #f5d487;
+	border-color: var(--night-self-color);
 	box-shadow:
-		0 0 0 4px rgb(239 189 89 / 82%),
-		0 0 0 8px rgb(142 216 255 / 55%);
+		0 0 0 4px var(--night-self-ring),
+		0 0 0 8px var(--night-self-outer-ring);
 }
 
 .seat-button--night-source::after,
@@ -1960,20 +2127,20 @@ button {
 	border-radius: 999px;
 	font-size: 0.72rem;
 	font-weight: 900;
-	background: #17120d;
+	background: var(--night-marker-background);
 	content: attr(data-night-marker);
 }
 
 .seat-button--night-source::after {
-	color: #efbd59;
+	color: var(--night-source-color);
 }
 
 .seat-button--night-target::after {
-	color: #8ed8ff;
+	color: var(--night-target-color);
 }
 
 .seat-button--night-self-target::after {
-	color: #f5d487;
+	color: var(--night-self-color);
 }
 
 .seat-button--night-locked {
@@ -1985,8 +2152,8 @@ button {
 @keyframes night-target-pulse {
 	50% {
 		box-shadow:
-			0 0 0 5px rgb(142 216 255 / 95%),
-			0 0 0 11px rgb(142 216 255 / 18%);
+			0 0 0 5px var(--night-target-pulse-ring),
+			0 0 0 11px var(--night-target-pulse-outer-ring);
 	}
 }
 
@@ -2139,10 +2306,10 @@ button {
 	min-height: 3.75rem;
 	border: 0;
 	border-radius: 1rem;
-	color: #21170e;
+	color: var(--prominent-text);
 	font-weight: 850;
-	background: linear-gradient(135deg, #f0c47f, #db9146);
-	box-shadow: 0 0.8rem 2.5rem rgb(219 145 70 / 20%);
+	background: var(--prominent-background);
+	box-shadow: var(--prominent-shadow);
 	cursor: pointer;
 }
 
@@ -2162,8 +2329,8 @@ button {
 }
 
 .game-time-badge[aria-pressed="true"] {
-	border-color: #e7ad5b;
-	box-shadow: 0 0 0 3px rgb(231 173 91 / 18%);
+	border-color: var(--solid-accent-background);
+	box-shadow: 0 0 0 3px var(--time-badge-ring);
 }
 
 .player-overview-board {
@@ -2213,7 +2380,7 @@ button {
 
 .player-overview-table tbody tr:hover,
 .player-overview-table tbody tr:focus-within {
-	background: rgb(255 255 255 / 7%);
+	background: var(--surface-hover);
 }
 
 .player-overview-table :where(td > small),
@@ -2247,23 +2414,23 @@ button {
 }
 
 .player-overview-row--selected {
-	background: rgb(231 173 91 / 12%);
-	box-shadow: inset 3px 0 #e7ad5b;
+	background: var(--overview-selection-background);
+	box-shadow: inset 3px 0 var(--solid-accent-background);
 }
 
 .player-overview-row--night-source {
-	box-shadow: inset 3px 0 #efbd59;
+	box-shadow: inset 3px 0 var(--night-source-color);
 }
 
 .player-overview-row--night-target {
-	background: rgb(142 216 255 / 12%);
-	box-shadow: inset -3px 0 #8ed8ff;
+	background: var(--overview-target-background);
+	box-shadow: inset -3px 0 var(--night-target-color);
 }
 
 .player-overview-row--night-source.player-overview-row--night-target {
 	box-shadow:
-		inset 3px 0 #efbd59,
-		inset -3px 0 #8ed8ff;
+		inset 3px 0 var(--night-source-color),
+		inset -3px 0 var(--night-target-color);
 }
 
 .player-overview-row--night-locked {
@@ -2287,7 +2454,7 @@ button {
 	min-height: 2.8rem;
 	padding: 0.55rem 0.7rem;
 	border-radius: 0.7rem;
-	background: rgb(255 255 255 / 5%);
+	background: var(--surface-subtle);
 }
 
 .night-list-container,
@@ -2298,9 +2465,9 @@ button {
 
 .night-action {
 	padding: 0.85rem;
-	border: 1px solid rgb(240 196 127 / 35%);
+	border: 1px solid var(--warning-border);
 	border-radius: 0.8rem;
-	background: rgb(255 255 255 / 7%);
+	background: var(--surface-subtle);
 }
 
 .night-action__fields,
@@ -2313,7 +2480,7 @@ button {
 
 .night-action__warning {
 	margin: 0;
-	color: #f0c47f;
+	color: var(--warning-text);
 }
 
 .night-list__role-button {
@@ -2487,7 +2654,7 @@ button {
 	position: relative;
 	z-index: 9;
 	cursor: grabbing;
-	filter: drop-shadow(0 0.6rem 0.65rem rgb(0 0 0 / 28%));
+	filter: drop-shadow(0 0.6rem 0.65rem var(--drag-shadow-color));
 	transition: none;
 	will-change: transform;
 }
@@ -2775,6 +2942,48 @@ button.prominent-button-active {
 	transform: translateY(1px);
 }
 
+/* Auch hohe Smartphones brauchen den Platz für das Spiel statt den Namen. */
+@media (max-height: 800px), (max-width: 600px) and (orientation: portrait) {
+	.game-header {
+		grid-template-areas: "back toggle actions";
+		grid-template-columns: auto minmax(0, 1fr) auto;
+		gap: 0.5rem;
+	}
+
+	.game-header > .icon-button {
+		grid-area: back;
+	}
+
+	.game-header > .game-header__title-toggle {
+		display: grid;
+		grid-area: toggle;
+		justify-self: center;
+	}
+
+	.game-header > div:not(.game-header__actions) {
+		display: none;
+		grid-area: name;
+		min-width: 0;
+	}
+
+	.game-header__actions {
+		grid-area: actions;
+	}
+
+	.game-header--title-expanded {
+		grid-template-areas: "back toggle actions" "name name name";
+	}
+
+	.game-header--title-expanded > div:not(.game-header__actions) {
+		display: block;
+	}
+
+	.game-header h1 {
+		white-space: normal;
+		overflow-wrap: anywhere;
+	}
+}
+
 button.danger-action,
 button.danger-action:not(:disabled):hover,
 button.danger-action:not(:disabled):focus-visible {
@@ -2795,4 +3004,13 @@ button.button-disabled:disabled:focus-visible {
 	box-shadow: none;
 	cursor: not-allowed;
 	transform: none;
+}
+
+/* Die Bewegungseinstellung muss auch spätere Komponenten-Kurzschreibweisen übersteuern. */
+[data-reduce-motion="true"] *,
+[data-reduce-motion="true"] *::before,
+[data-reduce-motion="true"] *::after {
+	scroll-behavior: auto;
+	transition: none;
+	animation: none;
 }

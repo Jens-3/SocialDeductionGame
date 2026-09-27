@@ -190,8 +190,10 @@ export const fijianGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Raica na laiseni",
 	"settings.copyrightHolder": "Taukena na dodonu ni taukeni",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Laiseni ni parokaramu ni komipiuta",
 	"settings.openSourceLicenses": "Laiseni ni ivurevure dolavi",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"E sega ni vakarautaki na warranty. E rawa ni o vakayagataka, veisautaka, ka veisoliyaka tale na parokaramu ni komipiuta oqo ena ruku ni veivakadonui ni AGPL-3.0-only.",
 	"settings.backupCreated": "Sa buli na veivakabulabulataki ni valenivolavola.",

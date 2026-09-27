@@ -182,8 +182,10 @@ export const xhosaGuiMessages = {
 		"Esi sisishwankathelo kuphela, asiyondawo yombhalo welayisensi opheleleyo. Isiqendu esipheleleyo selayisensi siyalawula.",
 	"settings.viewLicense": "Jonga ilayisenisi",
 	"settings.copyrightHolder": "Umnini welungelo lokushicilela",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Ilayisensi yeSoftware",
 	"settings.openSourceLicenses": "Iilayisensi ezivulelekileyo",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Akukho siqinisekiso sinikezelwayo. Unokusebenzisa, uguqule, kwaye uphinde usasaze le software phantsi kwemiqathango ye-AGPL-3.0-only.",
 	"settings.backupCreated": "Ugcino lwethala leencwadi lwenziwe.",

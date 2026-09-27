@@ -176,8 +176,10 @@ export const eweGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Ʋu kɔmpiutadziɖoɖoa ƒe mɔɖegbalẽa",
 	"settings.copyrightHolder": "Nutata ƒe gomenɔamesi tɔ",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Kɔmpiutadziɖoɖowo ƒe mɔɖegbalẽ",
 	"settings.openSourceLicenses": "Mɔɖegbalẽ siwo woate ŋu azã le mɔ gbadza nu",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Kɔmpiutadziɖoɖo sia vaa mɔɖegbalẽ aɖeke manɔmee. AGPL-3.0-only ɖe mɔ na wò be nàzãe, atrɔe, eye nàgbugbɔe ama.",
 	"settings.backupCreated": "Agbalẽdzraɖoƒe ƒe backup si wowɔ.",

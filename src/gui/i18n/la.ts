@@ -181,8 +181,10 @@ export const latinGuiMessages = {
 		"Hoc solum summarium est, non pro plena licentia textus substitutum. Totam licentiam textus regit.",
 	"settings.viewLicense": "Visum licentia",
 	"settings.copyrightHolder": "Copyright possessor",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Software licentia",
 	"settings.openSourceLicenses": "Licentiae fontis aperti",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Hic luctus sine warantia venit. The AGPL-3.0-only permittit tibi uti, muta, et redistribuere.",
 	"settings.backupCreated": "Copia subsidiaria bibliothecae creata est.",

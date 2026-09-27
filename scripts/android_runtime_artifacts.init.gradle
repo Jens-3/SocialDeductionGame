@@ -53,7 +53,7 @@ gradle.projectsEvaluated {
                 componentFilter { identifier ->
                     identifier instanceof ModuleComponentIdentifier
                 }
-                lenient = true
+                lenient = !gradle.startParameter.projectProperties.containsKey("licenseAuditStrict")
             }.artifacts.artifacts
             artifacts
                 .sort { left, right ->

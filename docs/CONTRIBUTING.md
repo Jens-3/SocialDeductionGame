@@ -23,8 +23,8 @@ agree that your contribution may be distributed under this license.
 
 The supported runtime versions are:
 
-- Node.js `^22.22.2`, `^24.15.0`, or `>=26.0.0`;
-- pnpm `11.24.0`.
+- Node.js `^24.19.0` or `>=26.0.0`;
+- pnpm `12.6.0`.
 
 Install dependencies and start the development server:
 

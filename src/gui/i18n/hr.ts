@@ -182,8 +182,10 @@ export const croatianGuiMessages = {
 		"Ovo je samo sažetak, a ne zamjena za cijeli tekst licence. Cijeli tekst licence je mjerodavan.",
 	"settings.viewLicense": "Otvorite softversku licencu",
 	"settings.copyrightHolder": "Nositelj autorskih prava",
+	"settings.feedback": "Povratne informacije",
 	"settings.softwareLicense": "Licenca softvera",
-	"settings.openSourceLicenses": "Licence otvorenog koda",
+	"settings.openSourceLicenses": "Licence trećih strana",
+	"settings.thirdPartyLicensesDescription": "Licence korištenih biblioteka",
 	"settings.licenseNotice":
 		"Nema jamstva. Ovaj softver možete koristiti, mijenjati i dalje distribuirati pod uvjetima AGPL-3.0-only.",
 	"settings.backupCreated": "Sigurnosna kopija biblioteke je stvorena.",

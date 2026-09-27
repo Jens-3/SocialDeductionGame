@@ -180,8 +180,10 @@ export const somaliGuiMessages = {
 		"Tani waa soo koobid kaliya, maaha bedelka qoraalka shatiga oo dhamaystiran. The complete license text governs.",
 	"settings.viewLicense": "Fur shatiga software",
 	"settings.copyrightHolder": "Haystaha xuquuqda daabacaada",
+	"settings.feedback": "Jawaab celin",
 	"settings.softwareLicense": "Shatiga software",
 	"settings.openSourceLicenses": "Ruqsadaha isha furan",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Wax dammaanad ah lama bixin Waxaad isticmaali kartaa, wax ka beddeli kartaa, oo dib u qaybin kartaa software-kan hoos yimaada shuruudaha AGPL-3.0-only.",
 	"settings.backupCreated": "Kaydinta maktabadda ayaa la sameeyay.",

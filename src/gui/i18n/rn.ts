@@ -182,8 +182,10 @@ export const kirundiGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Reba uruhusha",
 	"settings.copyrightHolder": "Uwufise uburenganzira",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Uruhusha rwa porogaramu",
 	"settings.openSourceLicenses": "Uruhusha rw'inkomoko yuguruye",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Nta garanti itangwa. Ushobora gukoresha, guhindura no gusubira gukwiragiza iyi porogarama hakurikijwe amabwirizwa ya AGPL-3.0-only.",
 	"settings.backupCreated": "Ububiko bw'ibitabo bwaremwe.",

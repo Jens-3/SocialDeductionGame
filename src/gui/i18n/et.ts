@@ -180,8 +180,10 @@ export const estonianGuiMessages = {
 		"See teade on ainult kokkuvõte ja ei asenda litsentsi täisteksti. Ainult täielik litsentsi tekst on autoriteetne.",
 	"settings.viewLicense": "Avage tarkvaralitsents",
 	"settings.copyrightHolder": "Autoriõiguse omanik",
+	"settings.feedback": "Tagasiside",
 	"settings.softwareLicense": "Tarkvara litsents",
-	"settings.openSourceLicenses": "Avatud lähtekoodi litsentsid",
+	"settings.openSourceLicenses": "Kolmandate osapoolte litsentsid",
+	"settings.thirdPartyLicensesDescription": "Kasutatavate teekide litsentsid",
 	"settings.licenseNotice":
 		"Garantii ei anta. Võite seda tarkvara kasutada, muuta ja edasi levitada AGPL-3.0-only tingimuste alusel.",
 	"settings.backupCreated": "Teegi varukoopia loodi.",

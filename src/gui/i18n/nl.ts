@@ -180,8 +180,11 @@ export const dutchGuiMessages = {
 		"Deze mededeling is slechts een samenvatting en vervangt niet de volledige licentietekst. Alleen de volledige licentietekst is gezaghebbend.",
 	"settings.viewLicense": "Licentie bekijken",
 	"settings.copyrightHolder": "Houder van auteursrecht",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Softwarelicentie",
-	"settings.openSourceLicenses": "Opensourcelicenties",
+	"settings.openSourceLicenses": "Licenties van derden",
+	"settings.thirdPartyLicensesDescription":
+		"Licenties van de gebruikte bibliotheken",
 	"settings.licenseNotice":
 		"Er wordt geen garantie gegeven. U mag deze software gebruiken, wijzigen en opnieuw distribueren onder de voorwaarden van AGPL-3.0-only.",
 	"settings.backupCreated": "Back-up van de bibliotheek gemaakt.",

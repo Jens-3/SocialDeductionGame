@@ -179,8 +179,10 @@ export const finnishGuiMessages = {
 		"This notice is only a summary and does not replace the full license text. Only the full license text is authoritative.", // This value isn't accurate translated, yet.
 	"settings.viewLicense": "Näytä lisenssi",
 	"settings.copyrightHolder": "Tekijänoikeuden haltija",
+	"settings.feedback": "Palaute",
 	"settings.softwareLicense": "Ohjelmiston lisenssi",
-	"settings.openSourceLicenses": "Avoimen lähdekoodin lisenssit",
+	"settings.openSourceLicenses": "Kolmansien osapuolten lisenssit",
+	"settings.thirdPartyLicensesDescription": "Käytettyjen kirjastojen lisenssit",
 	"settings.licenseNotice":
 		"Takuuta ei anneta. Voit käyttää, muokata ja jakaa tätä ohjelmistoa edelleen AGPL-3.0-only-ehtojen mukaisesti.",
 	"settings.backupCreated": "Kirjaston varmuuskopio luotiin.",

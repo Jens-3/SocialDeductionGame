@@ -180,8 +180,10 @@ export const shonaGuiMessages = {
 		"Iyi ipfupiso chete, kwete inotsiva iyo yakazara rezinesi zvinyorwa. Mavara erezinesi akazara anotonga.",
 	"settings.viewLicense": "Vhura rezinesi resoftware",
 	"settings.copyrightHolder": "Copyright muridzi",
+	"settings.feedback": "Feedback",
 	"settings.softwareLicense": "Software rezinesi",
 	"settings.openSourceLicenses": "Open-source rezinesi",
+	"settings.thirdPartyLicensesDescription": "HTML / TXT",
 	"settings.licenseNotice":
 		"Hapana waranti inopiwa. Unogona kushandisa, kugadzirisa, uye kugovera iyi software pasi pezvibvumirano zveAGPL-3.0-only.",
 	"settings.backupCreated": "Kuchengetedza raibhurari yakagadzirwa.",
