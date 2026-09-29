@@ -42,7 +42,7 @@ android {
         applicationId "io.github.jens_3.socialdeductiongame"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode packageMetadata.buildNumber.toInteger()
+        versionCode 2
 		versionName packageMetadata.version
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
