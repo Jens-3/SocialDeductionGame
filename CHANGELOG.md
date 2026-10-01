@@ -9,6 +9,14 @@ The latest version appears first; empty categories are omitted.
 The format is based on [Keep a Changelog](https://keepachangelog.com)
 and this project follows [Semantic Versioning](https://semver.org).
 
+## [1.0.1] - 2026-10-01
+
+### Changed
+- Updated dependencies and development tooling.
+
+### Fixed
+- Improved F-Droid compatibility by disabling embedded dependency metadata in release builds.
+
 ## [1.0.0] - 2026-09-27
 
 ### Added
@@ -39,5 +47,6 @@ and this project follows [Semantic Versioning](https://semver.org).
 - Seating circle, role display, and night list
 - Localized and accessible interface
 
+[1.0.1]: https://github.com/Jens-3/SocialDeductionGame/releases/tag/v1.0.1
 [1.0.0]: https://github.com/Jens-3/SocialDeductionGame/releases/tag/v1.0.0
 [0.9.0]: https://github.com/Jens-3/SocialDeductionGame/releases/tag/v0.9.0

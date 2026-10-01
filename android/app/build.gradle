@@ -27,6 +27,10 @@ def releaseStoreFile = releaseSigningConfigured
 android {
     namespace = "io.github.jens_3.socialdeductiongame"
     compileSdk = rootProject.ext.compileSdkVersion
+    dependenciesInfo {
+        includeInApk = false
+        includeInBundle = false
+    }
     testBuildType = "releaseSmoke"
     signingConfigs {
         if (releaseSigningConfigured) {
@@ -35,6 +39,9 @@ android {
                 storePassword releaseSigningProperties.socialDeductionUploadStorePassword
                 keyAlias releaseSigningProperties.socialDeductionUploadKeyAlias
                 keyPassword releaseSigningProperties.socialDeductionUploadKeyPassword
+                enableV1Signing = false
+                enableV2Signing = true
+                enableV3Signing = true
             }
         }
     }
@@ -42,7 +49,7 @@ android {
         applicationId "io.github.jens_3.socialdeductiongame"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 2
+        versionCode 3
 		versionName packageMetadata.version
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {

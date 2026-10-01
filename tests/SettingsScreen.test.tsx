@@ -76,7 +76,7 @@ it.each(licenseLocales)(
 			/>,
 		);
 
-		expect(screen.getByText("1.0.0")).toBeDefined();
+		expect(screen.getByText("1.0.1")).toBeDefined();
 		expect(screen.getByText("GNU AGPL v3.0 only")).toBeDefined();
 		expect(screen.getByText("Jens Aßmus")).toBeDefined();
 		expect(screen.getByText(licenseNotice)).toBeDefined();
